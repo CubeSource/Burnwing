@@ -1,0 +1,203 @@
+(footprint "INDUCTOR_4X4MM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "4x4mm Inductor\n\nThis footprint may be acceptable for many 4x4mm inductors.  It was produced from the datasheet http://www.vishay.com/docs/34295/sc15ah01.pdf here, for the Vishay Dale IFSC1515AHER2R2M01.")
+	(property "Reference" "REF**"
+		(at 2.7755 -1.388 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5c2f8edf-632c-4616-860d-e3a533cf9374")
+		(effects
+			(font
+				(size 0.512064 0.512064)
+				(thickness 0.097536)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "4.7uH"
+		(at 0 2.413 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0576055a-5fed-4ce2-8412-d820d8ab5211")
+		(effects
+			(font
+				(size 0.512064 0.512064)
+				(thickness 0.097536)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e34215e7-661a-4a57-8185-f4cd3a828f98")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7d02ef5-f663-46b3-b216-9f30016b48d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part" "ASPI-0628-3R9M-T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f31fbef1-fe77-4655-b785-95190f457485")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.024062 -0.674687)
+		(end -2.024062 0.674687)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af4a5786-bf54-4d64-9452-45595e46b87a")
+	)
+	(fp_line
+		(start 2.024062 -0.674687)
+		(end 2.024062 0.674687)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "460f9fe4-cc81-434a-b510-cb8d38c00997")
+	)
+	(fp_line
+		(start -2.2479 -2.2479)
+		(end 2.2479 -2.2479)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "df2b580c-f525-47b1-bfa3-4e18b0dfbf22")
+	)
+	(fp_line
+		(start -2.2479 2.2479)
+		(end -2.2479 -2.2479)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e775d8df-e9f8-47f2-9e35-0ab6d189f0ab")
+	)
+	(fp_line
+		(start 2.2479 -2.2479)
+		(end 2.2479 2.2479)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "72f847e7-8757-472f-a49c-346487428ef1")
+	)
+	(fp_line
+		(start 2.2479 2.2479)
+		(end -2.2479 2.2479)
+		(stroke
+			(width 0.0508)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eecfd8bf-ae7e-4462-aff3-98e5bce3e8c0")
+	)
+	(fp_line
+		(start -1.9939 -1.9939)
+		(end -1.9939 1.9939)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24e6e438-e89f-4bf1-a9a8-7df3a512edd6")
+	)
+	(fp_line
+		(start -1.9939 1.9939)
+		(end 1.9939 1.9939)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56e3537a-bf6a-4fa5-b9a9-b49cf4dbd933")
+	)
+	(fp_line
+		(start 1.9939 -1.9939)
+		(end -1.9939 -1.9939)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "264f17e1-efc7-48d5-8669-22dd9edcb2c2")
+	)
+	(fp_line
+		(start 1.9939 1.9939)
+		(end 1.9939 -1.9939)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd0b5c2e-62cb-48bf-ab3d-e19e1aa61be3")
+	)
+	(pad "P$1" smd roundrect
+		(at 0 -1.4732)
+		(size 4.0894 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04444444444)
+		(solder_mask_margin 0.0635)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "de1b7d1b-a879-4f9b-9758-d814f7734de4")
+	)
+	(pad "P$2" smd roundrect
+		(at 0 1.4732)
+		(size 4.0894 1.143)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.04444444444)
+		(solder_mask_margin 0.0635)
+		(zone_connect 2)
+		(thermal_bridge_angle 0)
+		(uuid "7f8b8403-d287-4ad3-b831-56212890c07e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD_Wurth.3dshapes/L_Wurth_WE-LQSH-4020.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)

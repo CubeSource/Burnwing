@@ -1,0 +1,112 @@
+(footprint "MountingHole_2.2mm_M2_Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 2.2mm, M2")
+	(tags "mounting hole 2.2mm m2")
+	(property "Reference" "REF**"
+		(at 0 -3.2 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1498790b-0b55-4a43-9e2c-c509c03a4b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_Pad"
+		(at 0 3.2 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1829e9d6-6381-4ef2-98e9-49f451f0c263")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "946df3e3-166b-4766-8cf1-fe66100356c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole with connection"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86f44726-f9a6-42f9-9f72-e359166e73d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "f909affe-8012-46b9-b5d9-2639c243a656")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.45 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9cbbbfb3-bb58-4bea-9fe1-574bd8480307")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "2135ba44-ea38-448c-9f5d-f109539e05b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 3.5 3.5)
+		(drill 2.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1d348c10-970f-410f-a863-2afa05e715b5")
+	)
+	(embedded_fonts no)
+)
