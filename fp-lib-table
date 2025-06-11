@@ -4,4 +4,5 @@
   (lib (name "NCV8402ADDR2G")(type "KiCad")(uri "C:/Users/BrettMuir/Downloads/NCV8402ADDR2G")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
   (lib (name "footprints")(type "KiCad")(uri "C:/Users/BrettMuir/Downloads/2383941_2/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "DS3231MZ_TRL")(type "KiCad")(uri "C:/Users/BrettMuir/Downloads/DS3231MZ_TRL")(options "")(descr ""))
 )
