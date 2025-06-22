@@ -2337,145 +2337,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2808,135 +2669,22 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDC"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDC"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDC\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDC_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDC_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(rectangle
-		(start 201.93 76.2)
-		(end 259.08 132.08)
+		(start 20.32 17.78)
+		(end 182.88 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04ab5247-69e0-413c-9dde-fd6e98e79aef)
+	)
+	(rectangle
+		(start 193.04 17.78)
+		(end 259.08 85.09)
 		(stroke
 			(width 0)
 			(type default)
@@ -2947,20 +2695,8 @@
 		(uuid 7f445418-0ebb-4669-8b9a-f794d676132e)
 	)
 	(rectangle
-		(start 198.12 31.75)
-		(end 241.3 64.77)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid be869e1c-c2c5-4a57-8700-fc4126a1e96a)
-	)
-	(rectangle
-		(start 86.36 17.78)
-		(end 190.5 64.77)
+		(start 78.74 95.25)
+		(end 182.88 142.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -2970,19 +2706,45 @@
 		)
 		(uuid fe87cf17-a46d-4a22-8855-9cb9c8865242)
 	)
-	(text "Burn Circuit"
+	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 133.858 21.59 0)
+		(at 226.06 23.622 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "12d5a586-2c70-4703-9d41-bb7b01c53eb0")
+	)
+	(text "Adjustable USB C Power Delivery"
+		(exclude_from_sim no)
+		(at 85.344 23.876 0)
 		(effects
 			(font
 				(size 2.5 2.5)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "25266134-8389-4d75-9946-2900f949e371")
+	)
+	(text "Burn Circuit"
+		(exclude_from_sim no)
+		(at 124.968 100.33 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
 			)
 		)
 		(uuid "425f342d-d13b-403f-8613-e078c978c500")
 	)
 	(text "Burn Resistors"
 		(exclude_from_sim no)
-		(at 176.784 34.544 0)
+		(at 169.164 110.744 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2991,138 +2753,146 @@
 		(uuid "6f637829-3d38-4bb3-ad98-ca36af5ac957")
 	)
 	(junction
-		(at 158.75 44.45)
+		(at 151.13 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00b67f69-647b-4200-b6bb-cc9ff5b98372")
 	)
 	(junction
-		(at 140.97 148.59)
+		(at 142.24 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0c00855a-f7a8-4dc3-b8a6-46d481f9c1dc")
+		(uuid "03fa32ce-a83c-4173-82eb-5cb15779f19d")
 	)
 	(junction
-		(at 161.29 133.35)
+		(at 168.91 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d8349e1-b34c-4030-8969-72ff557355c2")
 	)
 	(junction
-		(at 135.89 153.67)
+		(at 74.93 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1500b585-648d-45c9-8189-9133323a55d4")
+		(uuid "115e07e9-1288-4135-b6f3-f1243865c97f")
 	)
 	(junction
-		(at 115.57 148.59)
+		(at 74.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a9910a3-dd42-4a48-b025-24e7e9eb5a62")
+		(uuid "137d1bf8-7cba-49e1-b92a-6a62f838f681")
 	)
 	(junction
-		(at 140.97 140.97)
+		(at 168.91 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e2c5617-57c5-4657-93e9-029770963413")
+		(uuid "1ba7d807-16ad-4022-a9e7-ad67377a0e02")
 	)
 	(junction
-		(at 161.29 156.21)
+		(at 74.93 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5397f660-fb5e-4e1c-a138-142dfa91506b")
+		(uuid "54ce0ba0-10e0-437c-a287-ec42257b26ea")
 	)
 	(junction
-		(at 140.97 133.35)
+		(at 148.59 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "566b1295-4ce4-4e38-9bbc-e01ba8995c42")
 	)
 	(junction
-		(at 130.81 95.25)
+		(at 125.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "60ad1943-032e-4c0e-b5f2-0b97174a8c5b")
+		(uuid "6a4e8688-c587-40f9-8ea5-ccd571f5167e")
 	)
 	(junction
-		(at 205.74 40.64)
+		(at 62.23 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6ede3fcb-fe38-41ec-880c-3208c74965c4")
+		(uuid "6f7d7a5a-ff74-46d8-8d6d-3d95aae7c63f")
 	)
 	(junction
-		(at 72.39 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ae89f2-cdae-4089-8792-f8d83194740c")
-	)
-	(junction
-		(at 158.75 52.07)
+		(at 151.13 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89224db1-bdfb-4092-ba67-800e4e125695")
 	)
 	(junction
-		(at 72.39 118.11)
+		(at 111.76 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ec2ff54-4920-488a-a7a7-9dd9c70d4ecb")
+		(uuid "ad58393f-6005-4b07-9396-2d85219998dc")
 	)
 	(junction
-		(at 105.41 95.25)
+		(at 74.93 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aadf2231-2e75-4703-b5b2-b70298129f47")
+		(uuid "b41ae9e2-fbf2-404e-9ea8-2f4aabfa2009")
 	)
 	(junction
-		(at 138.43 102.87)
+		(at 148.59 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6228cc5-6e27-4641-91f8-d4751a594df7")
+	)
+	(junction
+		(at 133.35 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb449c43-8154-4fed-907d-2a7d4a85ac79")
 	)
 	(junction
-		(at 161.29 148.59)
+		(at 168.91 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6a102ee-9b05-4b0b-9046-ab9988ca080f")
 	)
 	(junction
-		(at 205.74 53.34)
+		(at 118.11 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d2a3a090-4e51-4a1f-bc52-fa024f088abc")
+		(uuid "cc1029f2-60f5-4df5-ac16-777f34902a88")
 	)
 	(junction
-		(at 161.29 140.97)
+		(at 148.59 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddc242fc-66c9-43b0-8240-4c89cda1822f")
+		(uuid "e1c42d0c-0351-4591-b31a-0b27f3813af4")
 	)
 	(junction
-		(at 138.43 95.25)
+		(at 133.35 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e41467e2-9359-459b-9791-9360a808831b")
 	)
 	(junction
-		(at 115.57 105.41)
+		(at 148.59 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "efe29f9e-2a2c-4849-9e27-e3bda0d3414d")
+		(uuid "ec0378c4-10e7-4c37-bb0e-382c268c2779")
+	)
+	(junction
+		(at 102.87 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef2c15eb-e416-493f-814c-936f8d6696db")
+	)
+	(junction
+		(at 62.23 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f22fd1d8-4e39-4a8c-b110-2ab3d3803d60")
+	)
+	(junction
+		(at 168.91 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4123e52-dc84-46a6-b069-187b1a31b72a")
 	)
 	(wire
 		(pts
-			(xy 220.98 43.18) (xy 220.98 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0019dbaf-133f-4a09-b514-ca028030d740")
-	)
-	(wire
-		(pts
-			(xy 209.55 86.36) (xy 209.55 87.63)
+			(xy 207.01 36.83) (xy 207.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3132,7 +2902,27 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 111.76) (xy 234.95 113.03)
+			(xy 118.11 69.85) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00c3c7b7-381a-4bbe-aa9d-584c6eb8427a")
+	)
+	(wire
+		(pts
+			(xy 102.87 43.18) (xy 111.76 43.18)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "012e59d5-bbab-43c4-a7e3-0fc0e8b8ae9c")
+	)
+	(wire
+		(pts
+			(xy 232.41 62.23) (xy 232.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +2932,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 102.87) (xy 146.05 102.87)
+			(xy 77.47 59.69) (xy 74.93 59.69)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "02f5bbc9-320b-4f5f-9ab0-bdcb2e7d94d5")
+	)
+	(wire
+		(pts
+			(xy 133.35 40.64) (xy 140.97 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -3152,7 +2952,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 95.25) (xy 72.39 95.25)
+			(xy 46.99 33.02) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -3162,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 49.53) (xy 158.75 52.07)
+			(xy 151.13 125.73) (xy 151.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3172,17 +2972,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 153.67) (xy 135.89 163.83)
+			(xy 111.76 43.18) (xy 111.76 41.91)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "0b83c55a-ddc6-475b-a02f-1358c920d38d")
+		(uuid "14687436-e5e2-4336-ba02-813f00086560")
 	)
 	(wire
 		(pts
-			(xy 85.09 133.35) (xy 77.47 133.35)
+			(xy 77.47 67.31) (xy 74.93 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -3192,7 +2992,37 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 105.41) (xy 54.61 105.41)
+			(xy 49.53 53.34) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "21f8f488-bdaa-439e-9ca3-ac781717503d")
+	)
+	(wire
+		(pts
+			(xy 168.91 67.31) (xy 168.91 71.12)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "22075b47-d28e-4fba-a4aa-6b3aed0fd1ef")
+	)
+	(wire
+		(pts
+			(xy 119.38 33.02) (xy 125.73 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24cf19bf-4c3b-4c0f-898f-52491c18d9bc")
+	)
+	(wire
+		(pts
+			(xy 54.61 43.18) (xy 46.99 43.18)
 		)
 		(stroke
 			(width 0.1524)
@@ -3202,27 +3032,27 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 156.21) (xy 161.29 161.29)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "328f60da-45a6-441e-8918-effe181aacae")
-	)
-	(wire
-		(pts
-			(xy 205.74 39.37) (xy 205.74 40.64)
+			(xy 118.11 69.85) (xy 105.41 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3477f45d-ec2f-426a-aba0-854e4c8262ae")
+		(uuid "2f08e658-7e61-41a6-a2e9-09df51918557")
 	)
 	(wire
 		(pts
-			(xy 154.94 52.07) (xy 158.75 52.07)
+			(xy 90.17 81.28) (xy 90.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35813c28-86bb-45e9-81cc-ebdbd51de502")
+	)
+	(wire
+		(pts
+			(xy 147.32 128.27) (xy 151.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3232,7 +3062,17 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 52.07) (xy 107.95 52.07)
+			(xy 148.59 33.02) (xy 148.59 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "372e0101-b21e-4c03-930e-599adaa1cf59")
+	)
+	(wire
+		(pts
+			(xy 92.71 128.27) (xy 100.33 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3242,7 +3082,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 44.45) (xy 171.45 44.45)
+			(xy 151.13 120.65) (xy 163.83 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3252,17 +3092,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 50.8) (xy 205.74 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40d370f5-094f-4aad-b75f-c8efb5a53de0")
-	)
-	(wire
-		(pts
-			(xy 234.95 95.25) (xy 234.95 96.52)
+			(xy 232.41 45.72) (xy 232.41 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3272,17 +3102,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 148.59) (xy 140.97 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "432cc88d-bd13-47bf-a5b4-3a8f485f2446")
-	)
-	(wire
-		(pts
-			(xy 115.57 105.41) (xy 115.57 100.33)
+			(xy 111.76 38.1) (xy 111.76 41.91)
 		)
 		(stroke
 			(width 0.1524)
@@ -3292,7 +3112,27 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 125.73) (xy 140.97 125.73)
+			(xy 77.47 69.85) (xy 74.93 69.85)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4479a031-1b37-4745-8198-1b4068eee2b7")
+	)
+	(wire
+		(pts
+			(xy 111.76 52.07) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "4b1d1614-79ec-4b10-9bc8-8d1b4ef27062")
+	)
+	(wire
+		(pts
+			(xy 158.75 67.31) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0.1524)
@@ -3302,7 +3142,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 120.65) (xy 234.95 121.92)
+			(xy 232.41 71.12) (xy 232.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3312,37 +3152,47 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 135.89) (xy 115.57 148.59)
+			(xy 74.93 59.69) (xy 69.85 59.69)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "55b5fbf4-321d-4710-9b29-5b13dcd696d4")
+		(uuid "5328dc7b-c6b0-48f9-8ddd-5f3160fd26c5")
 	)
 	(wire
 		(pts
-			(xy 54.61 115.57) (xy 59.69 115.57)
+			(xy 49.53 53.34) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "57fa48c6-2aca-4ede-a7a3-6341d736272e")
+		(uuid "5596f2e6-b094-4d80-af82-71ff47f46709")
 	)
 	(wire
 		(pts
-			(xy 140.97 125.73) (xy 140.97 133.35)
+			(xy 62.23 52.07) (xy 62.23 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56f7390a-1bdc-445f-adc7-37245d39530b")
+	)
+	(wire
+		(pts
+			(xy 142.24 80.01) (xy 142.24 81.28)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "5eb34a26-4a5a-4e9e-bd6f-7a9349b76c6b")
+		(uuid "5d864faa-1ad4-49f5-8717-596758d01010")
 	)
 	(wire
 		(pts
-			(xy 209.55 111.76) (xy 209.55 113.03)
+			(xy 207.01 62.23) (xy 207.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3352,7 +3202,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 138.43 95.25)
+			(xy 62.23 48.26) (xy 62.23 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6308332a-105b-49bb-aaa1-472cc41495c0")
+	)
+	(wire
+		(pts
+			(xy 125.73 33.02) (xy 133.35 33.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -3362,7 +3222,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 44.45) (xy 158.75 46.99)
+			(xy 151.13 120.65) (xy 151.13 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3372,27 +3232,37 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 53.34) (xy 205.74 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "678248d9-3060-401b-adeb-75146d7188c9")
-	)
-	(wire
-		(pts
-			(xy 140.97 140.97) (xy 140.97 148.59)
+			(xy 148.59 59.69) (xy 148.59 67.31)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "6d5f5b40-e778-4384-9223-4bcc56c4154b")
+		(uuid "666641ff-47f7-4cd1-b4e7-daf4d156d869")
 	)
 	(wire
 		(pts
-			(xy 115.57 125.73) (xy 125.73 125.73)
+			(xy 168.91 59.69) (xy 168.91 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67d3e750-c57b-4421-b9a4-e78de38b8fe8")
+	)
+	(wire
+		(pts
+			(xy 168.91 33.02) (xy 168.91 41.91)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "6ffd52d5-cf0d-45ce-b832-9c5be0656021")
+	)
+	(wire
+		(pts
+			(xy 105.41 59.69) (xy 118.11 59.69)
 		)
 		(stroke
 			(width 0.1524)
@@ -3402,7 +3272,17 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 95.25) (xy 209.55 96.52)
+			(xy 148.59 67.31) (xy 148.59 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7422b1d5-c50f-4d4a-95c3-dbb861a2acb1")
+	)
+	(wire
+		(pts
+			(xy 207.01 45.72) (xy 207.01 46.99)
 		)
 		(stroke
 			(width 0)
@@ -3412,17 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 148.59) (xy 161.29 140.97)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "77d9c911-fdcf-4570-8359-203953dbc371")
-	)
-	(wire
-		(pts
-			(xy 158.75 52.07) (xy 171.45 52.07)
+			(xy 151.13 128.27) (xy 163.83 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3432,27 +3302,27 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 133.35) (xy 140.97 133.35)
+			(xy 62.23 33.02) (xy 64.77 33.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "7fae076f-271f-4d2d-af24-2d1bd8158e0b")
+		(uuid "813d6723-54fb-412e-94a1-7f58529c44e2")
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 123.19 95.25)
+			(xy 148.59 50.8) (xy 148.59 59.69)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "83a331f2-ce33-4f1b-b3e1-4c059b2144d4")
+		(uuid "82bd36fc-7040-453a-9a3d-e513efc5fcb7")
 	)
 	(wire
 		(pts
-			(xy 100.33 46.99) (xy 107.95 46.99)
+			(xy 92.71 123.19) (xy 100.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3462,47 +3332,27 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 125.73) (xy 77.47 125.73)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "885f2357-222b-4278-ac04-adb23125ec97")
-	)
-	(wire
-		(pts
-			(xy 161.29 148.59) (xy 161.29 156.21)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "8abda7b5-d63c-4d03-835a-4f76c58be452")
-	)
-	(wire
-		(pts
-			(xy 205.74 53.34) (xy 220.98 53.34)
+			(xy 64.77 33.02) (xy 102.87 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fa7b6a4-60ce-4064-8197-99e4f08875e0")
+		(uuid "8e1c11d9-770b-4f1d-b117-e71f113caec4")
 	)
 	(wire
 		(pts
-			(xy 105.41 95.25) (xy 113.03 95.25)
+			(xy 102.87 33.02) (xy 109.22 33.02)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "94e72489-dc69-48b7-9f6c-3dba470c0871")
+		(uuid "8ef2fcb0-0961-4945-add8-05fb9d2664f2")
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 158.75 44.45)
+			(xy 147.32 120.65) (xy 151.13 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3512,17 +3362,37 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 40.64) (xy 220.98 40.64)
+			(xy 77.47 62.23) (xy 74.93 62.23)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97492804-9143-4059-9f7a-6b81b5d6ea61")
+	)
+	(wire
+		(pts
+			(xy 121.92 80.01) (xy 118.11 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9b32d84d-0c40-4639-b9cb-be79206cf232")
+		(uuid "97d07655-3c28-486b-9071-47614802cdfb")
 	)
 	(wire
 		(pts
-			(xy 62.23 100.33) (xy 54.61 100.33)
+			(xy 118.11 80.01) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4a498e-00d2-4c3d-b0c7-a851f5cd418c")
+	)
+	(wire
+		(pts
+			(xy 54.61 38.1) (xy 46.99 38.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -3532,7 +3402,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 120.65) (xy 209.55 121.92)
+			(xy 207.01 71.12) (xy 207.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3542,27 +3412,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 148.59) (xy 115.57 153.67)
+			(xy 168.91 50.8) (xy 168.91 59.69)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "ac1194cd-c0ae-4aac-a35d-88d53d9dee45")
+		(uuid "a62bd49b-66e8-4886-96db-ee6eff6c12b9")
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 140.97 140.97)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ac9500a7-eaa1-4d8a-8fc9-55dfc1c0843c")
-	)
-	(wire
-		(pts
-			(xy 125.73 148.59) (xy 135.89 148.59)
+			(xy 132.08 72.39) (xy 142.24 72.39)
 		)
 		(stroke
 			(width 0.1524)
@@ -3572,17 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 125.73) (xy 161.29 133.35)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b3fefbe4-20da-41ab-93c5-609601919b6a")
-	)
-	(wire
-		(pts
-			(xy 85.09 118.11) (xy 72.39 118.11)
+			(xy 74.93 52.07) (xy 62.23 52.07)
 		)
 		(stroke
 			(width 0.1524)
@@ -3592,27 +3442,37 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 133.35) (xy 161.29 140.97)
+			(xy 121.92 72.39) (xy 118.11 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "badbb13d-9f58-407a-bf7c-5b65a9b1787d")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "bf66678f-f1ab-4382-81d7-ecab7652cd4f")
+		(uuid "bdc3dcc4-ce79-49be-8e3e-1454688e047a")
 	)
 	(wire
 		(pts
-			(xy 105.41 105.41) (xy 115.57 105.41)
+			(xy 74.93 67.31) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "c0935010-189f-413b-8ef4-93f44c7801f4")
+		(uuid "c4c79554-68b1-40a4-a5d7-306b973f178a")
 	)
 	(wire
 		(pts
-			(xy 54.61 102.87) (xy 62.23 102.87)
+			(xy 46.99 40.64) (xy 54.61 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -3622,17 +3482,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 115.57) (xy 115.57 118.11)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "cd640470-cb20-46bb-8874-a376b678e0e8")
-	)
-	(wire
-		(pts
-			(xy 234.95 86.36) (xy 234.95 87.63)
+			(xy 232.41 36.83) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3642,7 +3492,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 135.89) (xy 85.09 135.89)
+			(xy 69.85 69.85) (xy 74.93 69.85)
 		)
 		(stroke
 			(width 0.1524)
@@ -3652,7 +3502,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 102.87) (xy 138.43 102.87)
+			(xy 125.73 40.64) (xy 133.35 40.64)
 		)
 		(stroke
 			(width 0.1524)
@@ -3662,7 +3512,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 95.25) (xy 138.43 95.25)
+			(xy 148.59 41.91) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d714e360-09c6-4620-a38a-cb0f54145fba")
+	)
+	(wire
+		(pts
+			(xy 168.91 41.91) (xy 168.91 50.8)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d9427077-5600-4042-b392-4c16a9b639be")
+	)
+	(wire
+		(pts
+			(xy 140.97 33.02) (xy 133.35 33.02)
 		)
 		(stroke
 			(width 0.1524)
@@ -3672,27 +3542,17 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 50.8) (xy 220.98 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0735748-fac3-48f9-8e79-69fe6e6407c3")
-	)
-	(wire
-		(pts
-			(xy 72.39 95.25) (xy 105.41 95.25)
+			(xy 105.41 62.23) (xy 118.11 62.23)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(uuid "e5a35e60-3201-46fe-82f4-8c4390b46647")
+		(uuid "e589b819-9648-42b4-a36e-1ab151cdda26")
 	)
 	(wire
 		(pts
-			(xy 135.89 148.59) (xy 135.89 153.67)
+			(xy 142.24 72.39) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0.1524)
@@ -3702,17 +3562,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 128.27) (xy 115.57 128.27)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f58fd959-905b-4397-9496-262477e8ee5d")
-	)
-	(wire
-		(pts
-			(xy 77.47 128.27) (xy 85.09 128.27)
+			(xy 69.85 62.23) (xy 74.93 62.23)
 		)
 		(stroke
 			(width 0.1524)
@@ -3722,17 +3572,27 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 40.64) (xy 205.74 43.18)
+			(xy 62.23 62.23) (xy 62.23 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa87d7e2-2ca3-4f4d-9645-eadbdd6b8834")
+		(uuid "f617e7db-e4a7-40bb-b0f3-823b7c882fa3")
 	)
 	(wire
 		(pts
-			(xy 72.39 95.25) (xy 72.39 107.95)
+			(xy 105.41 67.31) (xy 148.59 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6b77ab5-8032-4311-a455-6e5f202760f4")
+	)
+	(wire
+		(pts
+			(xy 62.23 33.02) (xy 62.23 38.1)
 		)
 		(stroke
 			(width 0.1524)
@@ -3742,7 +3602,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 97.79) (xy 62.23 97.79)
+			(xy 46.99 35.56) (xy 54.61 35.56)
 		)
 		(stroke
 			(width 0.1524)
@@ -3751,7 +3611,7 @@
 		(uuid "fc70d36d-bef0-4a0f-afde-3d29db7c99de")
 	)
 	(label "GATE2"
-		(at 100.33 52.07 180)
+		(at 92.71 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3761,7 +3621,7 @@
 		(uuid "08046286-e3b9-45f7-9923-a0378c1e4fdb")
 	)
 	(label "CC1"
-		(at 77.47 125.73 0)
+		(at 69.85 59.69 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3771,7 +3631,7 @@
 		(uuid "163e8344-638a-463d-a7e1-1326cd4e31b1")
 	)
 	(label "D+"
-		(at 59.69 97.79 0)
+		(at 52.07 35.56 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3781,7 +3641,7 @@
 		(uuid "165ad36d-4138-49f5-bdd0-7cdfe64fb8f7")
 	)
 	(label "D+"
-		(at 77.47 133.35 0)
+		(at 69.85 67.31 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3791,7 +3651,7 @@
 		(uuid "18710924-190f-49ab-910e-c81180d71bdd")
 	)
 	(label "CC2"
-		(at 77.47 128.27 0)
+		(at 69.85 62.23 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3801,7 +3661,7 @@
 		(uuid "4f8146da-80d8-4696-9721-0bd41c45561d")
 	)
 	(label "D-"
-		(at 59.69 100.33 0)
+		(at 52.07 38.1 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3811,7 +3671,7 @@
 		(uuid "55f67aff-dbcd-400e-9f77-a5f6f0650e26")
 	)
 	(label "GATE1"
-		(at 100.33 46.99 180)
+		(at 92.71 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3821,7 +3681,7 @@
 		(uuid "601fec06-e685-4659-ada9-b73b229f7f3b")
 	)
 	(label "SCL"
-		(at 120.65 125.73 0)
+		(at 113.03 59.69 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3831,7 +3691,7 @@
 		(uuid "a6e6c7dc-8976-41de-bdaa-cd5a436d591b")
 	)
 	(label "D-"
-		(at 77.47 135.89 0)
+		(at 69.85 69.85 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3841,7 +3701,7 @@
 		(uuid "ade091a3-cc4b-46ab-b8e0-ffdd7d8491a1")
 	)
 	(label "CC1"
-		(at 57.15 102.87 0)
+		(at 49.53 40.64 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3851,7 +3711,7 @@
 		(uuid "b134b2d5-6953-47ee-a53c-30a42a647a48")
 	)
 	(label "VOUT"
-		(at 140.97 95.25 0)
+		(at 135.89 33.02 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3861,7 +3721,7 @@
 		(uuid "cd85c507-6c28-4766-8e57-b5281d05fef3")
 	)
 	(label "CC2"
-		(at 57.15 105.41 0)
+		(at 49.53 43.18 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3871,7 +3731,7 @@
 		(uuid "d259282d-fc68-4eb2-b41a-54edeace870b")
 	)
 	(label "SDA"
-		(at 120.65 128.27 0)
+		(at 113.03 62.23 0)
 		(effects
 			(font
 				(size 1.2446 1.2446)
@@ -3882,7 +3742,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPER")
-		(at 156.21 133.35 0)
+		(at 163.83 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3890,7 +3750,7 @@
 		(dnp no)
 		(uuid "022b7153-2ea3-4c64-81c9-49f86d5a11c4")
 		(property "Reference" "SJ2"
-			(at 153.67 130.81 0)
+			(at 161.29 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -3899,7 +3759,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 153.67 137.16 0)
+			(at 161.29 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -3908,7 +3768,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
-			(at 156.21 133.35 0)
+			(at 163.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 133.35 0)
+			(at 163.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3926,7 +3786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 133.35 0)
+			(at 163.83 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3811,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 91.44 0)
+		(at 207.01 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3960,7 +3820,7 @@
 		(fields_autoplaced yes)
 		(uuid "0334cad0-f079-4d9d-b83a-10530397e5ee")
 		(property "Reference" "R3"
-			(at 212.09 90.1699 0)
+			(at 209.55 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3829,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 212.09 92.7099 0)
+			(at 209.55 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +3838,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.772 91.44 90)
+			(at 205.232 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +3847,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 91.44 0)
+			(at 207.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +3856,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 91.44 0)
+			(at 207.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,7 +3881,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:adafruit_electromech_USB_C")
-		(at 44.45 105.41 0)
+		(at 36.83 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4029,7 +3889,7 @@
 		(dnp no)
 		(uuid "0373271b-1c44-40ce-bd42-f71aa7353e03")
 		(property "Reference" "X1"
-			(at 34.29 91.694 0)
+			(at 26.67 29.464 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4038,7 +3898,7 @@
 			)
 		)
 		(property "Value" "USB Type C"
-			(at 34.29 120.65 0)
+			(at 26.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4047,7 +3907,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:USB_C_CUSB31-CFM2AX-01-X"
-			(at 44.45 105.41 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,7 +3916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 105.41 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4065,7 +3925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 105.41 0)
+			(at 36.83 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +3980,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 121.92 0)
+		(at 207.01 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4129,7 +3989,7 @@
 		(fields_autoplaced yes)
 		(uuid "0eaace25-abda-45b9-86b2-a327eb0ab894")
 		(property "Reference" "#PWR08"
-			(at 209.55 128.27 0)
+			(at 207.01 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +3998,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 127 0)
+			(at 207.01 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4146,7 +4006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 121.92 0)
+			(at 207.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4155,7 +4015,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 121.92 0)
+			(at 207.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4164,7 +4024,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 121.92 0)
+			(at 207.01 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4186,7 +4046,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
-		(at 72.39 123.19 0)
+		(at 62.23 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4194,7 +4054,7 @@
 		(dnp no)
 		(uuid "191f948f-8504-42ad-8c4c-a2abcf8dd540")
 		(property "Reference" "C3"
-			(at 70.1 121.94 90)
+			(at 59.94 58.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4202,7 +4062,7 @@
 			)
 		)
 		(property "Value" "1uF/50V"
-			(at 74.69 121.94 90)
+			(at 64.53 58.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4210,7 +4070,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0805-NO"
-			(at 72.39 123.19 0)
+			(at 62.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4219,7 +4079,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 123.19 0)
+			(at 62.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4088,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 123.19 0)
+			(at 62.23 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4252,78 +4112,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 205.74 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ce1c064-1af0-41cd-bbf6-28b6988b3cef")
-		(property "Reference" "C1"
-			(at 209.55 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 209.55 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 206.7052 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 205.74 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1d238e7f-dcf5-4caf-8eb7-79ff0998a0a0")
-		)
-		(pin "1"
-			(uuid "4b493ff8-db8d-49f9-850b-34198a0c4d5d")
-		)
-		(instances
-			(project ""
-				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_GND")
-		(at 138.43 105.41 0)
+		(at 133.35 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4331,7 +4121,7 @@
 		(dnp no)
 		(uuid "234c6e3f-dd17-4621-8664-f53f97a29e4c")
 		(property "Reference" "#U$011"
-			(at 138.43 105.41 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,7 +4130,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 136.906 107.95 0)
+			(at 131.826 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4349,7 +4139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 105.41 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4358,7 +4148,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 105.41 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,7 +4157,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 105.41 0)
+			(at 133.35 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +4179,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 72.39 113.03 90)
+		(at 62.23 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4397,7 +4187,7 @@
 		(dnp no)
 		(uuid "4527d61a-8582-4dee-bbe9-36069eb90b55")
 		(property "Reference" "R7"
-			(at 69.85 113.03 0)
+			(at 59.69 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4195,7 @@
 			)
 		)
 		(property "Value" "10 ohm"
-			(at 72.39 113.03 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4415,7 +4205,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 72.39 113.03 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +4214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 113.03 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +4223,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 113.03 0)
+			(at 62.23 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4248,7 @@
 	)
 	(symbol
 		(lib_id "2025-03-27_04-56-48:NCV8402ADDR2G")
-		(at 107.95 44.45 0)
+		(at 100.33 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4467,7 +4257,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e9a86cd-2af2-45f8-abd0-23304e394684")
 		(property "Reference" "U1"
-			(at 133.35 34.29 0)
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4475,7 +4265,7 @@
 			)
 		)
 		(property "Value" "NCV8402ADDR2G"
-			(at 133.35 36.83 0)
+			(at 125.73 113.03 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4483,7 +4273,7 @@
 			)
 		)
 		(property "Footprint" "NCV8402ADDR2G:SOIC8_ONS"
-			(at 107.95 44.45 0)
+			(at 100.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4283,7 @@
 			)
 		)
 		(property "Datasheet" "NCV8402ADDR2G"
-			(at 107.95 44.45 0)
+			(at 100.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,7 +4293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 44.45 0)
+			(at 100.33 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4336,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 115.57 110.49 90)
+		(at 111.76 46.99 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4554,7 +4344,7 @@
 		(dnp no)
 		(uuid "5bc375af-a125-4324-aceb-a40d701f59bd")
 		(property "Reference" "R9"
-			(at 113.03 110.49 0)
+			(at 109.22 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4352,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 115.57 110.49 0)
+			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4572,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 115.57 110.49 0)
+			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 110.49 0)
+			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,7 +4380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 110.49 0)
+			(at 111.76 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4405,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_GND")
-		(at 100.33 146.05 0)
+		(at 90.17 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4623,7 +4413,7 @@
 		(dnp no)
 		(uuid "5dfb5d96-f3e3-46e4-b678-b789a17c6171")
 		(property "Reference" "#U$015"
-			(at 100.33 146.05 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4422,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 98.806 148.59 0)
+			(at 88.646 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -4641,7 +4431,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 146.05 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 146.05 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 146.05 0)
+			(at 90.17 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4471,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 146.05 133.35 180)
+		(at 153.67 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4689,7 +4479,7 @@
 		(dnp no)
 		(uuid "5e0c23b0-adab-437d-8836-dbcfc2227e46")
 		(property "Reference" "R11"
-			(at 146.05 135.89 0)
+			(at 153.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4697,7 +4487,7 @@
 			)
 		)
 		(property "Value" "6K"
-			(at 146.05 133.35 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4707,7 +4497,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 146.05 133.35 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,7 +4506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 133.35 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4725,7 +4515,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 133.35 0)
+			(at 153.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4540,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 146.05 156.21 180)
+		(at 153.67 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4758,7 +4548,7 @@
 		(dnp no)
 		(uuid "6292222d-6473-472a-ab86-4c28f3664dc3")
 		(property "Reference" "R14"
-			(at 146.05 158.75 0)
+			(at 153.67 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4556,7 @@
 			)
 		)
 		(property "Value" "18K"
-			(at 146.05 156.21 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4776,7 +4566,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 146.05 156.21 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4785,7 +4575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 156.21 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4794,7 +4584,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 156.21 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +4609,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
-		(at 130.81 100.33 0)
+		(at 125.73 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4827,7 +4617,7 @@
 		(dnp no)
 		(uuid "63dc9a60-1ad8-4cba-8f0f-dfe370b25c9a")
 		(property "Reference" "C4"
-			(at 128.52 99.08 90)
+			(at 123.44 36.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +4625,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 133.11 99.08 90)
+			(at 128.03 36.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4843,7 +4633,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0805-NO"
-			(at 130.81 100.33 0)
+			(at 125.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4852,7 +4642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 100.33 0)
+			(at 125.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4861,7 +4651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 100.33 0)
+			(at 125.73 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,17 +4676,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 52.07 270)
+		(at 167.64 128.27 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66ffc63a-9c27-4403-803a-4deae8bb52c4")
 		(property "Reference" "R2"
-			(at 175.26 58.42 90)
+			(at 167.64 133.858 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4693,7 @@
 			)
 		)
 		(property "Value" "4.7"
-			(at 175.26 55.88 90)
+			(at 167.64 131.318 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,7 +4701,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 53.848 90)
+			(at 167.64 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4921,7 +4710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 52.07 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,7 +4719,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 52.07 0)
+			(at 167.64 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +4744,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 105.41 100.33 270)
+		(at 102.87 38.1 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4963,7 +4752,7 @@
 		(dnp no)
 		(uuid "78621a94-cdb0-4293-8d3c-66fe37d7b550")
 		(property "Reference" "R8"
-			(at 107.95 100.33 0)
+			(at 105.41 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +4760,7 @@
 			)
 		)
 		(property "Value" "49.9K"
-			(at 105.41 100.33 0)
+			(at 107.442 38.1 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -4981,7 +4770,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 105.41 100.33 0)
+			(at 102.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4990,7 +4779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 100.33 0)
+			(at 102.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4999,7 +4788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 105.41 100.33 0)
+			(at 102.87 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5024,7 +4813,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 209.55 83.82 0)
+		(at 207.01 34.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5033,7 +4822,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d7cbf87-7ac0-40f7-addc-facda913021f")
 		(property "Reference" "H1"
-			(at 212.09 81.2799 0)
+			(at 209.55 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5042,7 +4831,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 212.09 83.8199 0)
+			(at 209.55 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5051,7 +4840,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 209.55 83.82 0)
+			(at 207.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5060,7 +4849,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 83.82 0)
+			(at 207.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5069,7 +4858,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 209.55 83.82 0)
+			(at 207.01 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +4880,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 209.55 109.22 0)
+		(at 207.01 59.69 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5100,7 +4889,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e3ff1a9-654f-42de-adb7-10f912f738ae")
 		(property "Reference" "H2"
-			(at 212.09 106.6799 0)
+			(at 209.55 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5109,7 +4898,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 212.09 109.2199 0)
+			(at 209.55 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5118,7 +4907,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
-			(at 209.55 109.22 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5127,7 +4916,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 109.22 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5136,7 +4925,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 209.55 109.22 0)
+			(at 207.01 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5157,78 +4946,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 220.98 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "822e6f81-bc8c-42e3-9a81-336f9d2c44a3")
-		(property "Reference" "C2"
-			(at 224.79 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 224.79 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 221.9452 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 220.98 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 220.98 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7ed4ceaa-bad2-43a6-a697-73bda43fc7c2")
-		)
-		(pin "1"
-			(uuid "688dfcd6-aa54-4d76-a09d-a1dcf24f83ef")
-		)
-		(instances
-			(project "CTS-SAT-1-Burnwire-PCB"
-				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 234.95 91.44 0)
+		(at 232.41 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5237,7 +4956,7 @@
 		(fields_autoplaced yes)
 		(uuid "8608ccd9-c108-48e2-b588-3d31fc871a84")
 		(property "Reference" "R5"
-			(at 237.49 90.1699 0)
+			(at 234.95 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +4965,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 237.49 92.7099 0)
+			(at 234.95 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +4974,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 233.172 91.44 90)
+			(at 230.632 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +4983,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 91.44 0)
+			(at 232.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +4992,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 91.44 0)
+			(at 232.41 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5017,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 234.95 83.82 0)
+		(at 232.41 34.29 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5307,7 +5026,7 @@
 		(fields_autoplaced yes)
 		(uuid "87476062-12e1-4a11-86f5-43245d903cec")
 		(property "Reference" "H3"
-			(at 237.49 81.2799 0)
+			(at 234.95 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +5035,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 237.49 83.8199 0)
+			(at 234.95 34.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5044,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 234.95 83.82 0)
+			(at 232.41 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 83.82 0)
+			(at 232.41 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5062,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 234.95 83.82 0)
+			(at 232.41 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5365,7 +5084,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 121.92 0)
+		(at 232.41 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5374,7 +5093,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e9bd1e6-17a0-41a4-a3ae-fd8660ecee50")
 		(property "Reference" "#PWR010"
-			(at 234.95 128.27 0)
+			(at 232.41 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5383,7 +5102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 127 0)
+			(at 232.41 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +5110,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 121.92 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +5119,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 121.92 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +5128,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 121.92 0)
+			(at 232.41 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5150,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPERCLOSED")
-		(at 120.65 148.59 180)
+		(at 127 72.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5439,7 +5158,7 @@
 		(dnp no)
 		(uuid "97356065-d979-4b26-abf6-7ca90cb7250e")
 		(property "Reference" "SJ6"
-			(at 123.19 151.13 0)
+			(at 128.524 74.168 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5448,7 +5167,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
-			(at 123.19 144.78 0)
+			(at 141.478 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5457,7 +5176,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_CLOSEDWIRE"
-			(at 120.65 148.59 0)
+			(at 127 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5466,7 +5185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 148.59 0)
+			(at 127 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5475,7 +5194,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 148.59 0)
+			(at 127 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +5219,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 96.52 0)
+		(at 207.01 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5509,7 +5228,7 @@
 		(fields_autoplaced yes)
 		(uuid "9942f836-0dca-4f4f-b9d5-86509bfd6b0e")
 		(property "Reference" "#PWR07"
-			(at 209.55 102.87 0)
+			(at 207.01 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5518,7 +5237,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 209.55 101.6 0)
+			(at 207.01 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5526,7 +5245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 96.52 0)
+			(at 207.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5535,7 +5254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 96.52 0)
+			(at 207.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5544,7 +5263,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 96.52 0)
+			(at 207.01 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5566,7 +5285,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 146.05 148.59 180)
+		(at 153.67 41.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5574,7 +5293,7 @@
 		(dnp no)
 		(uuid "afbd8a51-e659-43f7-9b2c-58e07b836c1e")
 		(property "Reference" "R13"
-			(at 146.05 151.13 0)
+			(at 153.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5582,7 +5301,7 @@
 			)
 		)
 		(property "Value" "14K"
-			(at 146.05 148.59 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5592,7 +5311,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 146.05 148.59 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5320,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 148.59 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5329,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 148.59 0)
+			(at 153.67 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5635,7 +5354,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 120.65 153.67 180)
+		(at 127 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5643,7 +5362,7 @@
 		(dnp no)
 		(uuid "b2afbe05-d6ce-43c7-bf23-42bbd7ac9b3e")
 		(property "Reference" "R10"
-			(at 120.65 156.21 0)
+			(at 127 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5370,7 @@
 			)
 		)
 		(property "Value" "14K"
-			(at 120.65 153.67 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -5661,7 +5380,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 120.65 153.67 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5670,7 +5389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 153.67 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5679,7 +5398,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 153.67 0)
+			(at 127 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5704,7 +5423,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 116.84 0)
+		(at 207.01 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5713,7 +5432,7 @@
 		(fields_autoplaced yes)
 		(uuid "b60f3c83-7799-4996-ba3b-24e7bb38c9e5")
 		(property "Reference" "R4"
-			(at 212.09 115.5699 0)
+			(at 209.55 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5441,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 212.09 118.1099 0)
+			(at 209.55 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +5450,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.772 116.84 90)
+			(at 205.232 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5459,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 116.84 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5468,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 116.84 0)
+			(at 207.01 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5774,7 +5493,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 234.95 109.22 0)
+		(at 232.41 59.69 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -5783,7 +5502,7 @@
 		(fields_autoplaced yes)
 		(uuid "b68cec5f-16c5-4bbe-a60c-5ca8ba08c8d1")
 		(property "Reference" "H4"
-			(at 237.49 106.6799 0)
+			(at 234.95 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5792,7 +5511,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 237.49 109.2199 0)
+			(at 234.95 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5801,7 +5520,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_Pad"
-			(at 234.95 109.22 0)
+			(at 232.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5810,7 +5529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 109.22 0)
+			(at 232.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5819,7 +5538,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 234.95 109.22 0)
+			(at 232.41 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5560,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 175.26 44.45 270)
+		(at 167.64 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5850,7 +5569,7 @@
 		(fields_autoplaced yes)
 		(uuid "b78c9fff-cd41-400f-a916-7374b186c2b5")
 		(property "Reference" "R1"
-			(at 175.26 38.1 90)
+			(at 167.64 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5577,7 @@
 			)
 		)
 		(property "Value" "4.7"
-			(at 175.26 40.64 90)
+			(at 167.64 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +5585,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 42.672 90)
+			(at 167.64 118.872 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +5594,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 44.45 0)
+			(at 167.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +5603,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 175.26 44.45 0)
+			(at 167.64 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5909,7 +5628,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPER")
-		(at 130.81 153.67 180)
+		(at 137.16 80.01 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5917,7 +5636,7 @@
 		(dnp no)
 		(uuid "b8dfe966-b2d8-4565-8166-409c44982d3b")
 		(property "Reference" "SJ7"
-			(at 133.35 156.21 0)
+			(at 138.684 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5926,7 +5645,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 133.35 149.86 0)
+			(at 141.478 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -5935,7 +5654,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
-			(at 130.81 153.67 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5944,7 +5663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 153.67 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5953,7 +5672,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 153.67 0)
+			(at 137.16 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5978,7 +5697,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_RESISTOR_0603_NOOUT")
-		(at 146.05 140.97 180)
+		(at 153.67 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5986,7 +5705,7 @@
 		(dnp no)
 		(uuid "c9ad190b-a638-41e5-9c9c-61831bea8aca")
 		(property "Reference" "R12"
-			(at 146.05 143.51 0)
+			(at 153.67 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5994,7 +5713,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 146.05 140.97 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6004,7 +5723,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0603-NO"
-			(at 146.05 140.97 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6013,7 +5732,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 140.97 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6022,7 +5741,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 140.97 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +5766,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPER")
-		(at 156.21 140.97 0)
+		(at 163.83 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6055,7 +5774,7 @@
 		(dnp no)
 		(uuid "ce4245cd-ca3c-4fde-a805-f7ddfa3e9e77")
 		(property "Reference" "SJ3"
-			(at 153.67 138.43 0)
+			(at 161.29 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6064,7 +5783,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 153.67 144.78 0)
+			(at 161.29 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6073,7 +5792,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
-			(at 156.21 140.97 0)
+			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +5801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 140.97 0)
+			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,7 +5810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 140.97 0)
+			(at 163.83 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +5835,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 234.95 116.84 0)
+		(at 232.41 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6125,7 +5844,7 @@
 		(fields_autoplaced yes)
 		(uuid "d074e820-9d4e-47f8-8b1d-ffcc6a7202d3")
 		(property "Reference" "R6"
-			(at 237.49 115.5699 0)
+			(at 234.95 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +5853,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 237.49 118.1099 0)
+			(at 234.95 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +5862,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 233.172 116.84 90)
+			(at 230.632 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +5871,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 116.84 0)
+			(at 232.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6161,7 +5880,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 234.95 116.84 0)
+			(at 232.41 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,7 +5905,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_GND")
-		(at 161.29 163.83 0)
+		(at 168.91 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6194,7 +5913,7 @@
 		(dnp no)
 		(uuid "d1cdd07d-25b2-48d9-a440-6b69c79f05bc")
 		(property "Reference" "#U$05"
-			(at 161.29 163.83 0)
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +5922,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 159.766 166.37 0)
+			(at 167.386 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6212,7 +5931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 163.83 0)
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +5940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 163.83 0)
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6230,7 +5949,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 163.83 0)
+			(at 168.91 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6252,7 +5971,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 234.95 96.52 0)
+		(at 232.41 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6261,7 +5980,7 @@
 		(fields_autoplaced yes)
 		(uuid "d250d132-81cb-44f1-acd8-505edb686e7b")
 		(property "Reference" "#PWR09"
-			(at 234.95 102.87 0)
+			(at 232.41 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +5989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 101.6 0)
+			(at 232.41 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6278,7 +5997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 96.52 0)
+			(at 232.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6287,7 +6006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 96.52 0)
+			(at 232.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6296,7 +6015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 234.95 96.52 0)
+			(at 232.41 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6318,7 +6037,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPERCLOSED")
-		(at 156.21 125.73 0)
+		(at 163.83 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6326,7 +6045,7 @@
 		(dnp no)
 		(uuid "d2a8493b-9c65-45ac-9af5-5b5612603d7b")
 		(property "Reference" "SJ1"
-			(at 153.67 123.19 0)
+			(at 161.29 65.532 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6335,7 +6054,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPERCLOSED"
-			(at 153.67 129.54 0)
+			(at 161.29 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6344,7 +6063,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_CLOSEDWIRE"
-			(at 156.21 125.73 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6353,7 +6072,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 125.73 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6362,7 +6081,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 125.73 0)
+			(at 163.83 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6106,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_MOSFET-P-POWERDI3333")
-		(at 118.11 95.25 90)
+		(at 114.3 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6395,7 +6114,7 @@
 		(dnp no)
 		(uuid "d51da25f-c3a1-448a-b4c3-c720a9f89ef5")
 		(property "Reference" "Q1"
-			(at 117.729 92.456 0)
+			(at 115.316 36.576 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6404,7 +6123,7 @@
 			)
 		)
 		(property "Value" "AONR21307"
-			(at 120.015 92.456 0)
+			(at 117.602 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6413,7 +6132,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:POWERDI3333"
-			(at 118.11 95.25 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 95.25 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6150,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 95.25 0)
+			(at 114.3 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6464,74 +6183,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 205.74 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6f94ad0-eb2d-4b8e-84a8-41d081513a92")
-		(property "Reference" "#PWR06"
-			(at 205.74 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5e4ab71-c6d1-433c-b3fe-e9ccc1f63272")
-		)
-		(instances
-			(project "CTS-SAT-1-Burnwire-PCB"
-				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
-		(at 138.43 100.33 0)
+		(at 133.35 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6539,7 +6192,7 @@
 		(dnp no)
 		(uuid "daa10a75-29f0-47de-8326-72fdc44bcc2e")
 		(property "Reference" "C5"
-			(at 136.14 99.08 90)
+			(at 131.06 36.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +6200,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 140.73 99.08 90)
+			(at 135.65 36.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6555,7 +6208,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0805-NO"
-			(at 138.43 100.33 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 100.33 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 100.33 0)
+			(at 133.35 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6251,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:adafruit_power_HUSB238")
-		(at 100.33 128.27 0)
+		(at 90.17 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6606,7 +6259,7 @@
 		(dnp no)
 		(uuid "e12d3c6f-1d29-41ec-b60b-87fb188a266b")
 		(property "Reference" "X3"
-			(at 100.33 128.27 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6268,7 @@
 			)
 		)
 		(property "Value" "HUSB238"
-			(at 100.33 128.27 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6277,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:DFN10_3X3MM"
-			(at 100.33 128.27 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 128.27 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 128.27 0)
+			(at 90.17 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6347,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_GND")
-		(at 135.89 166.37 0)
+		(at 142.24 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6702,7 +6355,7 @@
 		(dnp no)
 		(uuid "e37d6a19-86a8-45d3-9d48-8a7205211927")
 		(property "Reference" "#U$06"
-			(at 135.89 166.37 0)
+			(at 142.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6711,7 +6364,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.366 168.91 0)
+			(at 140.716 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6720,7 +6373,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 166.37 0)
+			(at 142.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 166.37 0)
+			(at 142.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 166.37 0)
+			(at 142.24 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6760,7 +6413,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_GND")
-		(at 72.39 128.27 0)
+		(at 62.23 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6768,7 +6421,7 @@
 		(dnp no)
 		(uuid "e75c17eb-67d9-4c15-98d3-f1092b0f6461")
 		(property "Reference" "#U$010"
-			(at 72.39 128.27 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6777,7 +6430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 70.866 130.81 0)
+			(at 60.706 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6786,7 +6439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 128.27 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 128.27 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +6457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 128.27 0)
+			(at 62.23 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6826,7 +6479,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_GND")
-		(at 59.69 118.11 0)
+		(at 49.53 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6834,7 +6487,7 @@
 		(dnp no)
 		(uuid "ebe74db5-fe59-49e4-a048-18ce8810d29a")
 		(property "Reference" "#U$04"
-			(at 59.69 118.11 0)
+			(at 49.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6496,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.166 120.65 0)
+			(at 48.006 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6852,7 +6505,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 118.11 0)
+			(at 49.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 118.11 0)
+			(at 49.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6523,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 118.11 0)
+			(at 49.53 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +6545,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPER")
-		(at 156.21 148.59 0)
+		(at 163.83 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6900,7 +6553,7 @@
 		(dnp no)
 		(uuid "ed36d2cf-cbed-41eb-8fdd-f36e121dfa39")
 		(property "Reference" "SJ4"
-			(at 153.67 146.05 0)
+			(at 161.29 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6909,7 +6562,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 153.67 152.4 0)
+			(at 161.29 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6918,7 +6571,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
-			(at 156.21 148.59 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 148.59 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 148.59 0)
+			(at 163.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +6614,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_SOLDERJUMPER")
-		(at 156.21 156.21 0)
+		(at 163.83 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6969,7 +6622,7 @@
 		(dnp no)
 		(uuid "f6ad8142-3231-407b-bc14-7ed330be3208")
 		(property "Reference" "SJ5"
-			(at 153.67 153.67 0)
+			(at 161.29 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6978,7 +6631,7 @@
 			)
 		)
 		(property "Value" "SOLDERJUMPER"
-			(at 153.67 160.02 0)
+			(at 161.29 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -6987,7 +6640,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
-			(at 156.21 156.21 0)
+			(at 163.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6996,7 +6649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 156.21 0)
+			(at 163.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,7 +6658,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 156.21 0)
+			(at 163.83 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7030,7 +6683,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
-		(at 146.05 100.33 0)
+		(at 140.97 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7038,7 +6691,7 @@
 		(dnp no)
 		(uuid "f7a3b85d-956a-4324-8316-7bd01eae7cf7")
 		(property "Reference" "C6"
-			(at 143.76 99.08 90)
+			(at 138.68 36.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7046,7 +6699,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 148.35 99.08 90)
+			(at 143.27 36.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +6707,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:0805-NO"
-			(at 146.05 100.33 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +6716,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 100.33 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7072,7 +6725,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 100.33 0)
+			(at 140.97 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7090,72 +6743,6 @@
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDC")
-		(at 205.74 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f7f89e8f-f270-4d8c-8319-9e78e9e3cc67")
-		(property "Reference" "#PWR05"
-			(at 205.74 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDC"
-			(at 205.74 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDC\""
-			(at 205.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6572c91b-bbbd-4554-ae56-65ac7ba00310")
-		)
-		(instances
-			(project "CTS-SAT-1-Burnwire-PCB"
-				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
