@@ -1,4 +1,4 @@
-24833485266613058
+24836953974989878
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68907,6 +68907,13 @@ threaded screw
 0
 4
 1
+NCV8402ADDR2G
+SOIC8_ONS
+
+NCV8402ADDR2G 
+0
+8
+8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
@@ -99900,6 +99907,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+footprints
+CONN2_2383941-2_TEC
+
+2383941-2 
 0
 2
 2

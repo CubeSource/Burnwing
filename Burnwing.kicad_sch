@@ -4595,6 +4595,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 115.57) (xy 168.91 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "713e0b2b-425a-4b59-95c4-b5119ad4f4da")
+	)
+	(wire
+		(pts
 			(xy 104.14 59.69) (xy 116.84 59.69)
 		)
 		(stroke
@@ -4882,6 +4892,16 @@
 			(type default)
 		)
 		(uuid "cf846665-8d14-469a-b757-2659001e2ee1")
+	)
+	(wire
+		(pts
+			(xy 176.53 123.19) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf9390c7-4c58-4f6d-ab7f-107a4371e2d0")
 	)
 	(wire
 		(pts
@@ -5888,6 +5908,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDC")
+		(at 176.53 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1793d89b-ef9b-4eb3-8e94-a8d6e01df759")
+		(property "Reference" "#PWR013"
+			(at 176.53 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 176.53 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 176.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9240e23b-b246-464d-b991-f7f7bcc94bef")
+		)
+		(instances
+			(project "Burnwing"
+				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit HUSB238 USB-C PD Breakout-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
 		(at 60.96 59.69 0)
 		(unit 1)
@@ -6015,6 +6100,71 @@
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "#U$011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 176.53 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27553d92-79eb-4c58-849f-a1427a09d04c")
+		(property "Reference" "#PWR012"
+			(at 176.53 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDC"
+			(at 176.53 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 176.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7589be5-020d-42a1-929f-c7e927bb899b")
+		)
+		(instances
+			(project "Burnwing"
+				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
