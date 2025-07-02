@@ -7,7 +7,7 @@
 		(at 2.67 -0.052 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "1b60aa9c-bc51-44ce-85b1-f1a671d36028")
+		(uuid "cfc6fb4c-d1d0-4291-9a6f-fde09814e049")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "fb803af1-27ee-4058-8fc9-946e358a3b0c")
+		(uuid "eb763a62-d1db-498d-b77f-7381ecde258c")
 		(effects
 			(font
 				(size 0.979424 0.979424)
@@ -34,7 +34,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b6db432d-cb92-48d1-ab37-df1167fbf41d")
+		(uuid "f4babaad-5465-477e-b0f6-6e251af78714")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c66131c8-2c4e-41a3-892c-67be6fd224b0")
+		(uuid "104adb7d-6db4-4eee-9910-4fe0126af290")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0b08e3fe-e759-4546-a3d1-ca19f38fd511")
+		(uuid "9e07af98-45cf-4d07-8871-d70bb1b6d126")
 	)
 	(fp_line
 		(start -0.381 -0.66)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "685904ab-a7ea-458e-a85d-931a879b04be")
+		(uuid "61bab55c-688c-482a-afa5-bb02a2a2ef17")
 	)
 	(fp_line
 		(start -0.356 0.66)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b84bc2e7-10f7-4ee3-b1e4-f36a3f5f5ac9")
+		(uuid "437d5775-2ed4-4bae-aebf-a4faf4b589ce")
 	)
 	(fp_poly
 		(pts
@@ -94,7 +94,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "47826da2-95de-47cf-9bdf-bd35afc2ac42")
+		(uuid "95efe851-5e08-4f23-800b-bda1cc8d994d")
 	)
 	(fp_poly
 		(pts
@@ -106,7 +106,7 @@
 		)
 		(fill yes)
 		(layer "F.Fab")
-		(uuid "a437c6b4-b847-43e0-af97-8080020a89b3")
+		(uuid "74569340-65ba-4f3a-a9fe-0b924e9e1647")
 	)
 	(pad "1" smd rect
 		(at -0.95 0)
@@ -126,7 +126,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "407e2a3b-d6df-455b-a4bc-a599b91684ca")
+		(uuid "8e4c8b49-fde9-4f0e-8753-43e2e6615614")
 	)
 	(pad "2" smd rect
 		(at 0.95 0)
@@ -146,7 +146,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "330ca47a-3cda-4fde-92eb-3de7541f1b9f")
+		(uuid "3ec0ddee-bf4e-477c-aa16-8c7bcc6a3e03")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"

@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at -4.925357 1.89 90)
 		(layer "F.SilkS")
-		(uuid "030fbf1a-77f0-4f0f-9da8-11b4877f0638")
+		(uuid "fc032c60-9b53-4b37-aaa5-1e26ee43d7e4")
 		(effects
 			(font
 				(size 1 1)
@@ -18,7 +18,7 @@
 		(at 0 -2.5 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7a8f9aaf-697c-4166-8516-e646ba40cddd")
+		(uuid "bec06160-6185-4777-94e7-4cd1149c9e2c")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "065e1c48-59cf-40ff-8d51-6e0e087ef055")
+		(uuid "91ccbfde-dd56-4c98-ae5d-c07201ee3a65")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2ce335df-1deb-4193-aed1-17fafe754ebb")
+		(uuid "6648b161-e391-4385-81ba-18357b4abdb7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "9a9edb71-2bf4-4c54-a162-8ca53ff1957b")
+		(uuid "ade77dfb-ef77-42d8-a446-8c7c735fa406")
 	)
 	(fp_line
 		(start -7.4 1.85)
@@ -71,7 +71,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f111319f-fb63-48ac-a500-5c551d006a69")
+		(uuid "2c8a648a-4910-4853-b104-f2e164a51187")
 	)
 	(fp_line
 		(start 7.4 -1.85)
@@ -81,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c4df9abc-e3bd-4572-924a-69d9f9f6d61f")
+		(uuid "7b4d48ad-d0f1-470f-8afa-758e8b82e4ae")
 	)
 	(fp_line
 		(start 7.4 1.85)
@@ -91,7 +91,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fdb4186a-d0eb-4cc3-a846-62b4d2fd6b1f")
+		(uuid "0822f0c4-104f-4cae-bf57-b5f0936fa1a6")
 	)
 	(fp_line
 		(start -6.35 0)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a2d8616e-1a39-42fe-a972-ddad82c16a1e")
+		(uuid "55929e2b-02c2-4c9b-88fa-108d5d1c0557")
 	)
 	(fp_line
 		(start 6.35 0)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "bdcea037-7d3f-4342-8b51-18f413806b88")
+		(uuid "ba644afe-ed3e-4278-808d-e91890de3f0f")
 	)
 	(pad "1" thru_hole circle
 		(at -6.35 0)
@@ -130,7 +130,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "c9641867-07d9-4da5-917a-8c2f7a11a3a0")
+		(uuid "139959d8-3e80-4289-b5b7-be1054b7d677")
 	)
 	(pad "1" thru_hole circle
 		(at -3.81 0)
@@ -149,7 +149,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "dc910109-6dd4-4df3-a61f-f3e819c5e910")
+		(uuid "3cad14c6-a713-44db-abdf-fa3ff809e059")
 	)
 	(pad "2" thru_hole oval
 		(at 3.81 0)
@@ -168,7 +168,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "a690d896-5080-48f8-ae54-e69b4f20c4a7")
+		(uuid "3032f9f5-11f4-4e66-9095-d736fd4391a4")
 	)
 	(pad "2" thru_hole oval
 		(at 6.35 0)
@@ -187,7 +187,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "ca7f678a-ce34-412c-9504-e05c483c3a94")
+		(uuid "93d504dc-ed5b-41bf-965e-ee08265271eb")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
