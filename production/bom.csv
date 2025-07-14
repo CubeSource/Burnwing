@@ -1,0 +1,8 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"D1, D2",0603,2,LED,
+J1,Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal,1,Conn_01x06_MountingPin,
+P,Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal,1,Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal,
+Q2,SOIC8_ONS,1,NCV8402ADDR2G,
+"R1, R2",AxialBurnResistor,2,4.7,
+"R11_2, R11, R13, R14",0603,4,0,
+"R16, R17",0603,2,,

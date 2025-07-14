@@ -1,4 +1,4 @@
-24836953974989878
+24796922427128101
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65849,60 +65849,25 @@ Yellow 5381 Series LED
 2
 2
 Library
-0603
-Generic 1608 (0603) package{return}{return}0.2mm courtyard excess rounded to nearest 0.05mm.
+0603-NO
+
 
 0
 2
 2
 Library
-1060_KEY
+0805-NO
 
-1060 
-0
-3
-3
-Library
-1210
-Generic 3225 (1210) package{return}{return}0.2mm courtyard excess rounded to nearest 0.05mm.
 
 0
 2
-1
-Library
-434163025816
-<b> WS-TASV<br></b> J-Bend SMT Tact Switch 4.7x3.5 mm
-
-0
-4
-4
-Library
-AP63203WU-7_DIO
-
-AP63203WU-7 
-0
-6
-6
-Library
-AP63203WU-7_DIO-L
-
-AP63203WU-7 
-0
-6
-6
-Library
-AP63203WU-7_DIO-M
-
-AP63203WU-7 
-0
-6
-6
+2
 Library
 AxialBurnResistor
 
 
 0
-2
+4
 2
 Library
 AxialBurnResistor_No_Cutout
@@ -65912,82 +65877,12 @@ AxialBurnResistor_No_Cutout
 4
 2
 Library
-BAT_106
-
-
-0
-2
-2
-Library
-BAT_1060
-
+DFN10_3X3MM
+10-Lead 3.3mm DFN{return}{return}Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf
 
 0
-2
-2
-Library
-BAT_BH-128A-5_ADM
-
-BH-128A-5 
-0
-2
-2
-Library
-BAT_BHSD-1225-PC
-
-
-0
-3
-3
-Library
-BAT_BHSD-2032-PC
-
-
-0
-3
-3
-Library
-DS3231MZ_TRL
-
-DS3231MZ+TRL 
-0
-8
-8
-Library
-DS3231MZ_TRL-L
-
-DS3231MZ+TRL 
-0
-8
-8
-Library
-DS3231MZ_TRL-M
-
-DS3231MZ+TRL 
-0
-8
-8
-Library
-D_SOD-123F
-D_SOD-123F
-D_SOD-123F
-0
-2
-2
-Library
-INDUCTOR_4X4MM
-4x4mm Inductor{return}{return}This footprint may be acceptable for many 4x4mm inductors.  It was produced from the datasheet http://www.vishay.com/docs/34295/sc15ah01.pdf here, for the Vishay Dale IFSC1515AHER2R2M01.
-
-0
-2
-2
-Library
-IND_B82477P4392M000
-
-
-0
-2
-2
+11
+11
 Library
 LED_0805_2012Metric
 LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -66003,19 +65898,12 @@ LOGO
 0
 0
 Library
-Molex_PicoBlade_53047-0610_1x06_P1.25mm_Vertical
-Molex PicoBlade Connector System, 53047-0610, 6 Pins per row (http://www.molex.com/pdm_docs/sd/530470610_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade side entry
+Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal
+Molex Pico-Lock series connector, 504050-0691 (http://www.molex.com/pdm_docs/sd/5040500891_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-Lock horizontal
 0
-6
-6
-Library
-Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal
-Molex PicoBlade series connector, 53261-0471 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade top entry
-0
-6
-5
+8
+7
 Library
 Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal
 Molex PicoBlade series connector, 53261-0671 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator
@@ -66024,13 +65912,6 @@ connector Molex PicoBlade top entry
 8
 7
 Library
-Molex_PicoBlade_53398-0471_1x04-1MP_P1.25mm_Vertical
-Molex PicoBlade series connector, 53398-0471 (http://www.molex.com/pdm_docs/sd/533980271_sd.pdf), generated with kicad-footprint-generator
-connector Molex PicoBlade side entry
-0
-6
-5
-Library
 MountingHole_2.2mm_M2_Pad
 Mounting Hole 2.2mm, M2
 mounting hole 2.2mm m2
@@ -66038,58 +65919,114 @@ mounting hole 2.2mm m2
 1
 1
 Library
-MountingHole_2.7mm_M2.5
-Mounting Hole 2.7mm, no annular, M2.5
-mounting hole 2.7mm no annular m2.5
-0
-0
-0
-Library
-MountingHole_3.2mm_M3
-Mounting Hole 3.2mm, no annular, M3
-mounting hole 3.2mm no annular m3
-0
-0
-0
-Library
-PG-DSO-8-25_INF
+PLABEL0
 
-BTS3405GXUMA1 
-0
-8
-8
-Library
-PG-DSO-8-25_INF-L
 
-BTS3405GXUMA1 
 0
-8
-8
+0
+0
 Library
-PG-DSO-8-25_INF-M
+PLABEL3
 
-BTS3405GXUMA1 
+
 0
-8
-8
-Library
-PinHeader_1x12_P2.54mm_Vertical
-Through hole straight pin header, 1x12, 2.54mm pitch, single row
-Through hole pin header THT 1x12 2.54mm single row
 0
-12
-12
-Library
-PinHeader_1x16_P2.54mm_Vertical
-Through hole straight pin header, 1x16, 2.54mm pitch, single row
-Through hole pin header THT 1x16 2.54mm single row
 0
-16
-16
 Library
-R_0603_1608Metric
-Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
+PLABEL4
+
+
+0
+0
+0
+Library
+PLABEL5
+
+
+0
+0
+0
+Library
+PLABEL6
+
+
+0
+0
+0
+Library
+PLABEL7
+
+
+0
+0
+0
+Library
+PLABEL8
+
+
+0
+0
+0
+Library
+PLABEL9
+
+
+0
+0
+0
+Library
+PLABEL10
+
+
+0
+0
+0
+Library
+PLABEL11
+
+
+0
+0
+0
+Library
+PLABEL14
+
+
+0
+0
+0
+Library
+PLABEL16
+
+
+0
+0
+0
+Library
+PLABEL17
+
+
+0
+0
+0
+Library
+PLABEL18
+
+
+0
+0
+0
+Library
+POWERDI3333
+
+
+0
+5
+5
+Library
+PinHeader_1x02_P1.00mm_Vertical
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
 0
 2
 2
@@ -66101,68 +66038,12 @@ resistor handsolder
 2
 2
 Library
-R_2512_6332Metric
-Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
-resistor
-0
-2
-2
-Library
 R_2512_6332Metric_Pad1.40x3.35mm_HandSolder
 Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
 resistor handsolder
 0
 2
 2
-Library
-R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
-0
-2
-2
-Library
-R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal
-Resistor, Axial_DIN0309 series, Axial, Horizontal, pin pitch=12.7mm, 0.5W = 1/2W, length*diameter=9*3.2mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
-Resistor Axial_DIN0309 series Axial Horizontal pin pitch 12.7mm 0.5W = 1/2W length 9mm diameter 3.2mm
-0
-2
-2
-Library
-SAMTEC_SSQ-112-03-G-S
-
-
-0
-12
-12
-Library
-SAMTEC_SSQ-116-03-G-S
-
-
-0
-16
-16
-Library
-SO-8_STM
-
-M41T81SM6F 
-0
-8
-8
-Library
-SO-8_STM-L
-
-M41T81SM6F 
-0
-8
-8
-Library
-SO-8_STM-M
-
-M41T81SM6F 
-0
-8
-8
 Library
 SOIC8_ONS
 
@@ -66171,26 +66052,19 @@ NCV8402ADDR2G
 8
 8
 Library
-SOIC_05WU-7_DIO
+SOLDERJUMPER_ARROW_NOPASTE
 
-AP63205WU-7 
+
 0
-6
-6
+2
+2
 Library
-SOIC_05WU-7_DIO-L
+SOLDERJUMPER_CLOSEDWIRE
 
-AP63205WU-7 
-0
-6
-6
-Library
-SOIC_05WU-7_DIO-M
 
-AP63205WU-7 
 0
-6
-6
+3
+3
 Library
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
 SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
@@ -66199,47 +66073,12 @@ SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 4
 4
 Library
-SW_SPST_B3U-1000P
-Ultra-small-sized Tactile Switch with High Contact Reliability, Top-actuated Model, without Ground Terminal, without Boss
-Tactile Switch
-0
-2
-2
-Library
-SolderWirePad_1x01_SMD_1x2mm
-Wire Pad, Square, SMD Pad,  1mm x 2mm,
-MesurementPoint Square SMDPad 1mmx2mm 
-0
-1
-1
-Library
-TACTILE_SWITCH_SMD
+USB_C_CUSB31-CFM2AX-01-X
 
 
 0
-4
-4
-Library
-WCAP-CSGP_0603_R
-<b>WCAP-CSGP MLCCs 0603</b><br>Solder type: Reflow, 1.6 x 0.8 (LxW)
-
-0
-2
-2
-Library
-WCAP-CSGP_0603_W
-<b>WCAP-CSGP MLCCs 0603</b><br>Solder type: Wave, 1.6 x 0.8 (LxW)
-
-0
-2
-2
-Library
-WE-XHMI_6060
-<b>WE-XHMI SMT Power Inductor<br></b><br>Size: </b>6060, SMT, 2pins<br>L X W X H = 6.65mm X 6.45mm X 5.8mm
-
-0
-2
-2
+16
+13
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
