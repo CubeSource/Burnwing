@@ -13,7 +13,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 0.8399999737739563,
-      "zones": 0.28999999165534973
+      "zones": 0.3799999952316284
     },
     "selection_filter": {
       "dimensions": true,
@@ -44,7 +44,6 @@
       "pads",
       "zones",
       "drc_warnings",
-      "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
