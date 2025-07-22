@@ -6,7 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0.0175 0 180)
 		(layer "F.SilkS")
-		(uuid "b8d92d6d-1dcd-4c14-8443-99f38f92c1a9")
+		(uuid "dcacc451-b57b-4b0b-8e30-6833d7b98c77")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -18,7 +18,7 @@
 		(at 0 6.77 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3af189be-a6e6-4156-a021-7d7755e4f859")
+		(uuid "341df064-49d2-403a-9909-97fedbf396b9")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "649137d8-4c21-4ec7-a8e6-8b2de1bbc32f")
+		(uuid "afa5cc69-1228-4dbe-bb5b-efdbd50eca31")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "77880164-fa2e-40aa-9db2-ca69e14ebd05")
+		(uuid "53e7289d-1925-4172-afb3-9df973da8272")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "95c4e23f-3016-4f33-9d5c-7760e5d28625")
+		(uuid "e9c30f70-a50b-4fa8-a207-5e1c9f69b4f7")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "13faee69-6945-4ec6-a3b7-d1aa297bca06")
+		(uuid "670fea9b-8d95-4af4-ab9b-e340c368fff8")
 	)
 	(fp_line
 		(start -2.53 1.52)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2a4e57a5-c078-4226-8f25-e0ca37aeb707")
+		(uuid "05939f14-4163-4ab9-abfc-13b11ee047fc")
 	)
 	(fp_line
 		(start 2.53 -1.52)
@@ -92,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ddcd06b1-a8f6-4505-b255-10f45d93fccd")
+		(uuid "748467ff-34c4-4a64-8aa1-732b87b0a677")
 	)
 	(fp_line
 		(start 2.53 1.52)
@@ -102,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0a87db15-e7b8-4312-a624-13c492f5b788")
+		(uuid "bff8e156-14fb-4f86-82bf-0134c553978d")
 	)
 	(fp_circle
 		(center -1.93 4.41)
@@ -113,7 +113,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "249d418c-1175-4df9-9c99-070d084db731")
+		(uuid "c36e1fcb-84c0-43d5-8aa7-c9f483ea13d6")
 	)
 	(fp_circle
 		(center -1.91 0.77)
@@ -124,7 +124,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bb3d4e91-c512-4e3c-8ced-37b6b7aa83b4")
+		(uuid "66c3756e-87b2-4f3f-8176-60c6f7f30f5a")
 	)
 	(fp_circle
 		(center -1.91 3.4)
@@ -135,7 +135,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "153947f3-4276-4fe7-8ae1-c3eff973c637")
+		(uuid "83ca5070-d073-4f1e-aa28-ac58604ec40d")
 	)
 	(pad "1" smd oval
 		(at -1.91 2.77)
@@ -152,7 +152,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b6efa67d-7a5f-4870-89e2-377619512f00")
+		(uuid "bc0bc736-0195-487b-bdb8-edae53246c67")
 	)
 	(pad "2" smd oval
 		(at -0.63 2.77)
@@ -169,7 +169,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7b28ff21-36ce-4186-a2bf-01b2a30d5913")
+		(uuid "0e359489-dcf2-4d78-860b-5156e563e320")
 	)
 	(pad "3" smd oval
 		(at 0.63 2.77)
@@ -186,7 +186,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d4c7360b-6b89-40dd-9dd8-5f924f9b29a1")
+		(uuid "581a2c61-391f-4bf3-a4e5-37563614f67b")
 	)
 	(pad "4" smd oval
 		(at 1.9 2.77)
@@ -203,7 +203,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1eed51ce-0074-4cb8-a5e9-5771b3350faf")
+		(uuid "fd013fab-f494-406d-94f1-c5c27d173b94")
 	)
 	(pad "5" smd oval
 		(at 1.9 -2.77)
@@ -220,7 +220,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7e6ba6ff-9e4f-4197-bf42-5b8c2e3fb57f")
+		(uuid "b2407cab-afd8-4c25-bcd8-951670afa2b5")
 	)
 	(pad "6" smd oval
 		(at 0.63 -2.77)
@@ -237,7 +237,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8b0c2e96-920e-4de8-b7c3-9b51e35d3173")
+		(uuid "36255174-7552-47c1-bce5-18e47e46c679")
 	)
 	(pad "7" smd oval
 		(at -0.63 -2.77)
@@ -254,7 +254,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "931b078e-2269-47ea-82f0-0cb0a67c5fae")
+		(uuid "ed858efe-fd07-46d3-8162-62bbe6bb67aa")
 	)
 	(pad "8" smd oval
 		(at -1.91 -2.77)
@@ -271,7 +271,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "473c08fb-a58f-4ae9-ae5f-3029c9994274")
+		(uuid "d0d0d70f-fbb9-498d-a4a1-6852a2c37dfc")
 	)
 	(embedded_fonts no)
 	(embedded_files
