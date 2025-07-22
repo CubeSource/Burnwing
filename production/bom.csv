@@ -5,4 +5,5 @@ P,Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal,1,Molex_Pico-Lock_5040
 Q2,SOIC8_ONS,1,NCV8402ADDR2G,
 "R1, R2",AxialBurnResistor,2,4.7,
 "R11_2, R11, R13, R14",0603,4,0,
-"R16, R17",0603,2,,
+"R16, R17",0603,2,750,
+"R3, R4",0603,2,50,

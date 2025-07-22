@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 0.8
+          "height": 0.95,
+          "width": 0.975
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_to_hole|111079707|85149293|8475a716-5159-4d08-9c76-3184820b9b03|91924b76-4b9d-4c88-a6dc-23f93670afe2",
+          ""
+        ],
+        [
+          "hole_to_hole|123790000|97870000|30e2901e-4cb7-41a3-a1dd-c6c3d2e6eee3|a4459a9d-b70f-4d68-af00-e0254c8cf3b2",
+          ""
+        ],
+        [
+          "hole_to_hole|123799000|85150000|17e7b837-5606-4978-9eca-b85ef50d99f9|6651bd8e-a8b8-4a9e-8f82-2cf40a0447cf",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -125,15 +138,15 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.4,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -503,7 +516,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Desktop/Minimal burnwire.step",
+      "step": "../../../Desktop/BurnwingMini",
       "svg": "",
       "vrml": ""
     },
