@@ -5877,7 +5877,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Library:SOLDERJUMPER_ARROW_NOPASTE"
 			(at 157.48 60.96 0)
 			(effects
 				(font
@@ -8880,7 +8880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Library:SOLDERJUMPER_CLOSEDWIRE"
 			(at 109.22 73.66 0)
 			(effects
 				(font
@@ -9423,7 +9423,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Library:SOLDERJUMPER_ARROW_NOPASTE"
 			(at 119.38 81.28 0)
 			(effects
 				(font
@@ -9773,7 +9773,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_ARROW_NOPASTE"
+		(property "Footprint" "Library:SOLDERJUMPER_ARROW_NOPASTE"
 			(at 157.48 52.07 0)
 			(effects
 				(font
@@ -9978,7 +9978,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit HUSB238 USB-C PD Breakout:SOLDERJUMPER_CLOSEDWIRE"
+		(property "Footprint" "Library:SOLDERJUMPER_CLOSEDWIRE"
 			(at 157.48 68.58 0)
 			(effects
 				(font
