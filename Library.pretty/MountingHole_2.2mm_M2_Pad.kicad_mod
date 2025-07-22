@@ -2,6 +2,7 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "Mounting Hole 2.2mm, M2")
 	(tags "mounting hole 2.2mm m2")
@@ -9,7 +10,7 @@
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e8a64803-35e1-407c-b68d-be6927459f7c")
+		(uuid "ff13b32a-9b6d-4f6c-ae48-134e8a16d88e")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +22,7 @@
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3aa67b4a-8566-46d1-b5a7-ac5b3864594c")
+		(uuid "5a3268ce-feb1-4f10-89bc-b85dfc42f5a4")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +35,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "14b08b34-79b2-4cd3-8b13-c4f6e47aa33f")
+		(uuid "9a08349c-c1d6-4239-877e-b92f7ce50e79")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ea72f094-e37b-4a5f-8a80-1247ecc52d9e")
+		(uuid "abff7a86-e0d7-445e-ae5b-788e90738e55")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,7 +66,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "75b832d2-c3bf-4097-a5e3-caad954e6a69")
+		(uuid "97c9f7b6-248b-4d73-acf7-d1eb4433fbdf")
 	)
 	(fp_circle
 		(center 0 0)
@@ -76,12 +77,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "09fcb8e4-8d5b-4f9c-b219-517a2ed7ea7a")
+		(uuid "419eb3be-0d6e-499c-b8c8-ff7cf56146b7")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "d2e78a48-f62c-4874-a8ae-0f1f2a353960")
+		(uuid "51689bda-eeda-4ee9-85cf-28f78823f996")
 		(effects
 			(font
 				(size 1 1)
@@ -106,7 +107,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "25fb0fd6-e504-4432-8461-8473c7c441db")
+		(uuid "c0786cff-f13d-4506-b72e-e6b8d396c699")
 	)
 	(embedded_fonts no)
 )

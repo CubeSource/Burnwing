@@ -5,10 +5,11 @@
 	(layer "F.Cu")
 	(descr "10-Lead 3.3mm DFN\n\nSource: http://ww1.microchip.com/downloads/en/DeviceDoc/22005b.pdf")
 	(property "Reference" "REF**"
-		(at 1.57 0.7215 180)
+		(at 1.67 -0.56 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "19a4ab0a-669e-4f1d-b360-056b10c49713")
+		(hide yes)
+		(uuid "a9c202fe-9c90-4b07-9c8b-bbac7e0da0bf")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -22,7 +23,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "95ef5f04-97ca-4399-8fa4-cb25dd73a525")
+		(uuid "37c33811-cf57-4aec-ade0-d105bc232a84")
 		(effects
 			(font
 				(size 0.979424 0.979424)
@@ -35,7 +36,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7c2e0dfc-fb16-442a-bff8-31d82cd9f922")
+		(uuid "6285c990-b376-4b63-a582-835488d48e49")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +48,19 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b5d742ef-bb59-493f-8cd8-23a2545bd34f")
+		(uuid "75d2dc95-b05a-48b0-bc41-d6abf863b8d5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C7471904"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4b8bcf44-4580-4f81-accc-fd95934eb71c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "4d65b952-1b1d-47c4-bed9-334bd3cb62c5")
+		(uuid "da0fcef6-8945-42ca-b267-84fc181fd185")
 	)
 	(fp_line
 		(start 1.5 -1.5)
@@ -73,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "df9e888d-d7f7-4298-ba25-8815f3bacd6d")
+		(uuid "ead8f740-4fd8-4bf4-a8ea-9e7d3bb6285c")
 	)
 	(fp_circle
 		(center -1.5 1.83)
@@ -84,7 +97,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "239676fa-02af-4075-9567-61e374e177dc")
+		(uuid "69432654-fa07-4f9c-b294-63a98b51a98f")
 	)
 	(fp_poly
 		(pts
@@ -96,7 +109,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "add8ae39-61e8-4dcf-b690-f043f97b9f3d")
+		(uuid "d7c1da6c-f7e3-42eb-a165-deeaa8a037a3")
 	)
 	(fp_poly
 		(pts
@@ -108,7 +121,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "79f865c2-0518-4822-a98b-e7ac5df44bfc")
+		(uuid "f3beb9b3-57f8-4051-a1b5-988ef5b3996d")
 	)
 	(fp_poly
 		(pts
@@ -120,7 +133,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "8b9f4dbe-a0ec-4a14-b65f-f1e214f27c02")
+		(uuid "87a8e0e4-1f8d-44ce-8949-11e7097aa3e4")
 	)
 	(fp_poly
 		(pts
@@ -132,7 +145,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "dd5ffc55-175a-48f9-a619-eaf78bfa734d")
+		(uuid "12d70eaa-6e9a-4ad5-8109-3c882d13df9f")
 	)
 	(fp_poly
 		(pts
@@ -144,7 +157,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "4a3f4e7e-9063-4cde-8d3e-a7b98e522b32")
+		(uuid "fdccccd4-b760-4a19-b1a6-6d8d723a8628")
 	)
 	(fp_line
 		(start -1.5 -1.5)
@@ -154,7 +167,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "78e2dbad-9cb2-42ff-a7f0-ac99e22a3954")
+		(uuid "2db3f309-b597-48f1-9e4c-7a38a6725a5c")
 	)
 	(fp_line
 		(start -1.5 1.5)
@@ -164,7 +177,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6dbf549c-e53f-4352-b593-cbf3d9d6e088")
+		(uuid "3e36089e-5d75-4639-b57c-ee105ae21dc2")
 	)
 	(fp_line
 		(start 1.5 -1.5)
@@ -174,7 +187,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "94e7f04e-537a-44b4-bc3c-ccb44bf99ceb")
+		(uuid "759d4572-a6a1-4534-9fc7-1892ecd89179")
 	)
 	(fp_line
 		(start 1.5 1.5)
@@ -184,7 +197,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "85a19982-c0ce-40e4-8d3a-fcbce4464726")
+		(uuid "9021f68d-19b3-4c39-bd5b-f9bfbfe89fa2")
 	)
 	(pad "1" smd roundrect
 		(at -1 1.5)
@@ -205,7 +218,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "8f0f1fcd-bb7e-4d66-9884-e5718bdb7d70")
+		(uuid "51364f0b-26ea-4269-a3d3-eca0b2376ed7")
 	)
 	(pad "2" smd roundrect
 		(at -0.5 1.5)
@@ -226,7 +239,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "56ce16dd-c415-489e-b69e-7739e1e8e04a")
+		(uuid "0851afa1-fe80-43ef-9619-dbade6fdfb5a")
 	)
 	(pad "3" smd roundrect
 		(at 0 1.5)
@@ -247,7 +260,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "09fcb10e-4a88-46bc-abb1-d17d576119b4")
+		(uuid "3235e6eb-5e36-4b56-8f7f-87431b373bef")
 	)
 	(pad "4" smd roundrect
 		(at 0.5 1.5)
@@ -268,7 +281,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "6ab636f2-c267-411e-bc1c-fba96aa91de3")
+		(uuid "cd0593b3-0122-42fb-ba11-55322922dd56")
 	)
 	(pad "5" smd roundrect
 		(at 1 1.5)
@@ -289,7 +302,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "edc3db04-b74a-471e-a8de-d5210a5e4bd9")
+		(uuid "292209c7-724a-4137-9c94-53232ece9619")
 	)
 	(pad "6" smd roundrect
 		(at 1 -1.5)
@@ -310,7 +323,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "fa05138c-85ec-4125-8a1c-82d598d4ba8f")
+		(uuid "e5aa27ac-f817-41b5-ac73-0f0731b280c8")
 	)
 	(pad "7" smd roundrect
 		(at 0.5 -1.5)
@@ -331,7 +344,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "32bbe00a-cea6-470c-bba2-22c57896de35")
+		(uuid "14eeaa51-29d7-40fc-8a1d-9c20fae89bd7")
 	)
 	(pad "8" smd roundrect
 		(at 0 -1.5)
@@ -352,7 +365,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "88164336-e1b6-4ba3-a015-06daa41c10cc")
+		(uuid "bc1a6b4f-a18a-44c1-a3b5-752f0ee69f6b")
 	)
 	(pad "9" smd roundrect
 		(at -0.5 -1.5)
@@ -373,7 +386,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "f6530644-60cb-4037-861c-ec8a915107e1")
+		(uuid "a64032d9-f751-4fb3-8b85-efaae08f3eed")
 	)
 	(pad "10" smd roundrect
 		(at -1 -1.5)
@@ -394,7 +407,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "5473839e-1279-4a92-af24-654c93a3e4cb")
+		(uuid "9984d55d-54b2-4342-ad50-715b59560ae3")
 	)
 	(pad "GND" smd roundrect
 		(at 0 0)
@@ -415,7 +428,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "a0ef28d1-7fc0-4684-b799-9d1416988956")
+		(uuid "550badcc-a8e9-4503-a364-940f8830e468")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.65x2.38mm.wrl"
@@ -426,7 +439,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )
