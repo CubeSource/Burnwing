@@ -58,20 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "hole_to_hole|111079707|85149293|8475a716-5159-4d08-9c76-3184820b9b03|91924b76-4b9d-4c88-a6dc-23f93670afe2",
-          ""
-        ],
-        [
-          "hole_to_hole|123790000|97870000|30e2901e-4cb7-41a3-a1dd-c6c3d2e6eee3|a4459a9d-b70f-4d68-af00-e0254c8cf3b2",
-          ""
-        ],
-        [
-          "hole_to_hole|123799000|85150000|17e7b837-5606-4978-9eca-b85ef50d99f9|6651bd8e-a8b8-4a9e-8f82-2cf40a0447cf",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -516,7 +503,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../../Desktop/BurnwingMini",
+      "step": "Burnwing_Mini.step",
       "svg": "",
       "vrml": ""
     },

@@ -7559,7 +7559,7 @@
 		(uuid "fd5492aa-94e4-47b2-a925-4044078c89ef")
 	)
 	(gr_text "+"
-		(at 108.68 85.65 0)
+		(at 109.275 86.224866 0)
 		(layer "F.SilkS")
 		(uuid "03ca2f6f-f087-4596-aa98-258c50c85c86")
 		(effects
@@ -7570,8 +7570,52 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "B1"
+		(at 108.42 89.19 90)
+		(layer "F.SilkS")
+		(uuid "072cae98-3320-4caf-b107-f333f8458d27")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 108.325 93.74 90)
+		(layer "F.SilkS")
+		(uuid "0e1d17ae-d4c0-404f-b047-5888400527cd")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(gr_text "B2"
+		(at 108.425 92.355 90)
+		(layer "F.SilkS")
+		(uuid "20910af1-e67a-4f2c-8201-b03f048aa627")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(gr_text "+"
+		(at 108.275 87.775 90)
+		(layer "F.SilkS")
+		(uuid "66cbc4d3-dbb4-4460-86d9-67b0761227da")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
 	(gr_text "-"
-		(at 108.68 88.08 0)
+		(at 109.3 89.3 0)
 		(layer "F.SilkS")
 		(uuid "73fba921-1a9f-45b5-a9e8-f146182eb087")
 		(effects
@@ -7580,6 +7624,28 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 108.345 90.725 90)
+		(layer "F.SilkS")
+		(uuid "794332b9-c98d-46aa-a9c6-ea46096eeef6")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(gr_text "-"
+		(at 108.325 95.25 90)
+		(layer "F.SilkS")
+		(uuid "80f00b21-3254-41b7-8198-4a13c752f6a3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
 		)
 	)
 	(gr_text "Burnwing Mini Flight Rev1\n2025-07-21"
