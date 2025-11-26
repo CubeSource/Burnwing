@@ -10,7 +10,7 @@
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d540df8e-5864-428a-aa80-1ff54c04bdac")
+		(uuid "cc950e61-6ad6-43fa-a108-8834a1598779")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +22,7 @@
 		(at 0 3.2 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "890ef999-a065-4a9f-8874-2cc0993b1da8")
+		(uuid "5acafd0b-4e01-44e5-8bc4-dbec79a1b8af")
 		(effects
 			(font
 				(size 1 1)
@@ -30,12 +30,12 @@
 			)
 		)
 	)
-	(property "Datasheet" "~"
+	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a9bdf8ef-fae8-467f-851b-fb7e57c83d04")
+		(uuid "e6af6be1-c35f-49b9-9498-0f8bf17b0859")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,7 +48,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b9441d78-ae04-467a-b227-8bcebe61492c")
+		(uuid "86704968-b023-4452-91c4-a492f6f6cf31")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "8841665d-610f-4bf5-acd8-b5d99c7b2ffe")
+		(uuid "418d6848-d482-4fcb-94d8-22d61e2bc6cc")
 	)
 	(fp_circle
 		(center 0 0)
@@ -77,12 +77,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "d276f891-96a1-442b-9318-a56d9c59a7fd")
+		(uuid "17e86a8f-3d03-49ca-82f5-05d4fc7aeaa9")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "febc437a-1820-4500-9141-5e50140ab0d4")
+		(uuid "18e1c0b3-ca83-402f-83b8-66d4ac8cb70f")
 		(effects
 			(font
 				(size 1 1)
@@ -107,7 +107,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1203fe53-eccb-4bf3-9fdd-4ddaa8a237ed")
+		(uuid "cad20b55-fafc-4eb6-b837-43d575d6557c")
 	)
 	(embedded_fonts no)
 )

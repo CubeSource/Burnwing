@@ -2,7 +2,6 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
-	(locked yes)
 	(layer "F.Cu")
 	(descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor handsolder")
@@ -10,7 +9,7 @@
 		(at 0 -2.62 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "c2a38c4f-13bf-41cc-b551-450a02259d98")
+		(uuid "99a57085-00ce-44d6-984f-5258e0d79b6a")
 		(effects
 			(font
 				(size 1 1)
@@ -22,7 +21,7 @@
 		(at 0 2.62 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "de203b98-a634-45f1-b2e1-09126e861d07")
+		(uuid "720693a8-06c8-42c3-8380-a1fd051e9170")
 		(effects
 			(font
 				(size 1 1)
@@ -35,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f00bd0d9-5e2a-4311-8a04-2cfa01924492")
+		(uuid "6e0dc56d-63ad-4eec-a944-f0eaee9f424e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48,7 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "185eaa1d-2065-4303-8d2c-55bbf70003b6")
+		(uuid "1264d035-a6d7-4101-bd4f-4b09e0507b7a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,7 +64,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9dcc2438-3126-46c9-bbe2-a19b7f4bfde1")
+		(uuid "95a9f348-e534-41f1-b29c-ff9336d3d36d")
 	)
 	(fp_line
 		(start -2.177064 1.71)
@@ -75,7 +74,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "19f24649-9ad6-4234-8a8b-04ec3c9c0258")
+		(uuid "b2396624-1acc-40a1-bb8b-0309348c60ae")
 	)
 	(fp_line
 		(start -4 -1.92)
@@ -85,7 +84,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "e797bf7b-6bb5-4be5-aee0-c75bde8d4551")
+		(uuid "5da995d5-b0a7-4045-b3cb-650a43bcbf8e")
 	)
 	(fp_line
 		(start -4 1.92)
@@ -95,7 +94,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "578c586a-c66c-4aa5-8f2c-651dc8768d9e")
+		(uuid "78b844fd-9593-46a7-8441-978f46cdbd80")
 	)
 	(fp_line
 		(start 4 -1.92)
@@ -105,7 +104,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c877adfc-0dfe-45f3-b58e-b6317d59c6a8")
+		(uuid "1f50415b-21e0-4fc7-8505-2e969488a054")
 	)
 	(fp_line
 		(start 4 1.92)
@@ -115,7 +114,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c14862cf-9833-4512-9fb9-22064a5cbb98")
+		(uuid "06751b2e-99df-445f-a8e8-38400be664d1")
 	)
 	(fp_line
 		(start -3.15 -1.6)
@@ -125,7 +124,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "f646df5f-5dc9-4051-bb7e-2ef08badb847")
+		(uuid "53d03b0e-e8f1-425f-873c-dc9a2bed5f8f")
 	)
 	(fp_line
 		(start -3.15 1.6)
@@ -135,7 +134,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "570a5af3-eef3-4d8f-98d1-53342e427ca2")
+		(uuid "ba25cb9a-09a3-4095-9ea4-dc03ba85a2a4")
 	)
 	(fp_line
 		(start 3.15 -1.6)
@@ -145,7 +144,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e0cc6b99-5a06-4aa7-a5b9-168ad08f7f92")
+		(uuid "330bdca4-e427-4b70-8467-a65fe1977371")
 	)
 	(fp_line
 		(start 3.15 1.6)
@@ -155,7 +154,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c1eaba9f-17f9-40b4-91a4-b638afb9e075")
+		(uuid "3813803d-4917-4bb2-9715-80af4b4e181b")
 	)
 	(pad "1" smd roundrect
 		(at -3.05 0)
@@ -173,7 +172,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "f0720df2-3511-46ad-ae9a-fa8d84f63175")
+		(uuid "4ac61056-c123-45fc-94fa-8ff2529a8fd2")
 	)
 	(pad "2" smd roundrect
 		(at 3.05 0)
@@ -191,11 +190,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "9430494c-a90d-4ef7-9ff0-3a80424208f4")
+		(uuid "2acd4809-1285-4e83-8295-c9ad4b1504a4")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.wrl"
-		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)

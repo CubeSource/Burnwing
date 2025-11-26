@@ -1,4 +1,4 @@
-25005925790509405
+24997103365653814
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57281,13 +57281,6 @@ KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR
 4
 4
 EasyEDA
-PG-TSDSO-14_L4.9-W3.9-P0.65-LS6.0-BL-EP
-
-
-0
-15
-15
-EasyEDA
 SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 
 
@@ -57301,34 +57294,6 @@ SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4
 0
 8
 8
-EasyEDA
-SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5
-
-
-0
-8
-8
-EasyEDA
-SW-SMD_HX-1.27-2PBJ-TPPT
-
-
-0
-4
-4
-EasyEDA
-SW-SMD_MST22D18G2
-
-
-0
-6
-6
-EasyEDA
-SW-SMD_NIDEC_CL-SB-22A-01T
-
-
-0
-6
-6
 EasyEDA
 TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL
 
@@ -65989,13 +65954,6 @@ DFN10_3X3MM
 11
 11
 Library
-KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR
-
-
-0
-4
-4
-Library
 LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED handsolder
@@ -66009,6 +65967,13 @@ LOGO
 0
 0
 0
+Library
+Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal
+Molex Pico-Lock series connector, 504050-0691 (http://www.molex.com/pdm_docs/sd/5040500891_sd.pdf), generated with kicad-footprint-generator
+connector Molex Pico-Lock horizontal
+0
+8
+7
 Library
 Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal
 Molex PicoBlade series connector, 53261-0671 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator
@@ -66024,19 +65989,19 @@ mounting hole 2.2mm m2
 1
 1
 Library
-PG-TSDSO-14_L4.9-W3.9-P0.65-LS6.0-BL-EP
-
-
-0
-15
-15
-Library
 POWERDI3333
 
 
 0
 5
 5
+Library
+PinHeader_1x02_P1.00mm_Vertical
+Through hole straight pin header, 1x02, 1.00mm pitch, single row
+Through hole pin header THT 1x02 1.00mm single row
+0
+2
+2
 Library
 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -66052,9 +66017,30 @@ resistor handsolder
 2
 2
 Library
-SW-SMD_HX-1.27-2PBJ-TPPT
+SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 
 
+0
+8
+8
+Library
+SOLDERJUMPER_ARROW_NOPASTE
+
+
+0
+2
+2
+Library
+SOLDERJUMPER_CLOSEDWIRE
+
+
+0
+3
+3
+Library
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
+SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 0
 4
 4
@@ -100568,24 +100554,3 @@ Varistor VF
 0
 2
 2
-footprints
-218-4LPSTJR_CTS
-
-218-4LPSTJR 
-0
-8
-8
-footprints
-218-4LPSTJR_CTS-L
-
-218-4LPSTJR 
-0
-8
-8
-footprints
-218-4LPSTJR_CTS-M
-
-218-4LPSTJR 
-0
-8
-8
