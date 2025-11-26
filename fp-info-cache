@@ -1,4 +1,4 @@
-25005656517179306
+25005925790509405
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57253,40 +57253,26 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EasyEDA
-CONN-TH_2P-P2.54_JILN_JL308-25402G01
+BAT-TH_KEYSTONE-1028
+
+
+0
+3
+2
+EasyEDA
+CONN-TH_D3080-46
 
 
 0
 2
 2
 EasyEDA
-CONN-TH_2P-P3.50_930-DS-02
+CRYSTAL-SMD_4P-L1.2-W1.0-BL
 
 
 0
-2
-2
-EasyEDA
-CONN-TH_2P-P3.81_DB125-3.81-2P-BK-S
-
-
-0
-2
-2
-EasyEDA
-CONN-TH_DB125-3.81-2P-RD
-
-
-0
-2
-2
-EasyEDA
-KEY-SMD_4P-L3.1-W3.1-P2.00-LS4.0
-
-
-0
-6
-6
+4
+4
 EasyEDA
 KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR
 
@@ -57309,19 +57295,75 @@ SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
 8
 8
 EasyEDA
-SW-SMD_4P-L6.0-W6.0-P4.50-LS8.0-EH
+SW-SMD_8P-L6.7-W5.4-P1.27-LS8.4
+
+
+0
+8
+8
+EasyEDA
+SW-SMD_8P-L6.7-W5.4-P1.27-LS8.5
+
+
+0
+8
+8
+EasyEDA
+SW-SMD_HX-1.27-2PBJ-TPPT
+
+
+0
+4
+4
+EasyEDA
+SW-SMD_MST22D18G2
 
 
 0
 6
-4
+6
 EasyEDA
-SW-SMD_4P-L6.5-W6.5-P4.00-LS6.8
+SW-SMD_NIDEC_CL-SB-22A-01T
 
 
 0
-4
-4
+6
+6
+EasyEDA
+TQFP-32_L7.0-W7.0-P0.80-LS9.0-BL
+
+
+0
+32
+32
+EasyEDA
+TSOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR
+
+
+0
+5
+5
+EasyEDA
+TSSOP-8_L3.0-W3.0-P0.65-LS4.0-BL
+
+
+0
+8
+8
+EasyEDA
+USB-C-SMD_G-SWITCH_GT-USB-7010ASV
+
+
+0
+18
+16
+EasyEDA
+VSSOP-8_L2.4-W2.1-P0.50-LS3.2-BR
+
+
+0
+8
+8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -65947,6 +65989,13 @@ DFN10_3X3MM
 11
 11
 Library
+KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR
+
+
+0
+4
+4
+Library
 LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder
 LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
 LED handsolder
@@ -65960,13 +66009,6 @@ LOGO
 0
 0
 0
-Library
-Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal
-Molex Pico-Lock series connector, 504050-0691 (http://www.molex.com/pdm_docs/sd/5040500891_sd.pdf), generated with kicad-footprint-generator
-connector Molex Pico-Lock horizontal
-0
-8
-7
 Library
 Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal
 Molex PicoBlade series connector, 53261-0671 (http://www.molex.com/pdm_docs/sd/532610271_sd.pdf), generated with kicad-footprint-generator
@@ -65982,19 +66024,19 @@ mounting hole 2.2mm m2
 1
 1
 Library
+PG-TSDSO-14_L4.9-W3.9-P0.65-LS6.0-BL-EP
+
+
+0
+15
+15
+Library
 POWERDI3333
 
 
 0
 5
 5
-Library
-PinHeader_1x02_P1.00mm_Vertical
-Through hole straight pin header, 1x02, 1.00mm pitch, single row
-Through hole pin header THT 1x02 1.00mm single row
-0
-2
-2
 Library
 R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
@@ -66010,30 +66052,9 @@ resistor handsolder
 2
 2
 Library
-SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL
+SW-SMD_HX-1.27-2PBJ-TPPT
 
 
-0
-8
-8
-Library
-SOLDERJUMPER_ARROW_NOPASTE
-
-
-0
-2
-2
-Library
-SOLDERJUMPER_CLOSEDWIRE
-
-
-0
-3
-3
-Library
-SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2
-SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint
-SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2 footprint C318884
 0
 4
 4
@@ -92784,41 +92805,6 @@ LEM Hall Effect Voltage transducer
 0
 5
 5
-Snapeda
-LED_SML-H1_ROM
-
-SML-H12U8TT86C 
-0
-2
-2
-Snapeda
-PCM_JLCPCB_SOIC-16_3.9x9.9mm_P1.27mm
-SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint
-SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BL footprint C242517
-0
-5
-5
-Snapeda
-SOIC8_ONS
-
-NCV8402ADDR2G 
-0
-8
-8
-Snapeda
-SOT-223_NCV8402ASTT3G_ONS
-
-NCV8402ASTT3G 
-0
-3
-3
-Snapeda
-SOT223-4_ONS
-
-NCV8402ASTT1G 
-0
-3
-3
 Socket
 3M_Textool_240-1288-00-0602J_2x20_P2.54mm
 3M 40-pin zero insertion force socket, though-hole, row spacing 25.4 mm (1000 mils)
@@ -100582,3 +100568,24 @@ Varistor VF
 0
 2
 2
+footprints
+218-4LPSTJR_CTS
+
+218-4LPSTJR 
+0
+8
+8
+footprints
+218-4LPSTJR_CTS-L
+
+218-4LPSTJR 
+0
+8
+8
+footprints
+218-4LPSTJR_CTS-M
+
+218-4LPSTJR 
+0
+8
+8
