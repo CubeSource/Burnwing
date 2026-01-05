@@ -6612,6 +6612,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 46.99) (xy 127 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd4e1d0-c092-42a6-a62f-3844787ed896")
+	)
+	(wire
+		(pts
 			(xy 228.6 119.38) (xy 250.19 119.38)
 		)
 		(stroke
@@ -9556,6 +9566,72 @@
 			(project "CTS-SAT-1-Burnwire-PCB"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85db2eed-9f24-48b1-b00d-18d160d23245")
+		(property "Reference" "#PWR024"
+			(at 127 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f39be766-450d-41c2-908f-fb0a7b0dca05")
+		)
+		(instances
+			(project "Burnwing"
+				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
