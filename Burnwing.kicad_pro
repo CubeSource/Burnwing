@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.35
         }
       },
       "diff_pair_dimensions": [
@@ -486,7 +486,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -503,6 +503,14 @@
         "wire_width": 6
       },
       {
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.6,
+        "via_diameter": 0.8
+      },
+      {
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -510,7 +518,7 @@
         "microvia_drill": 0.1,
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
@@ -524,7 +532,7 @@
         "microvia_drill": 0.1,
         "name": "VDC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
@@ -552,6 +560,10 @@
       {
         "netclass": "VDC",
         "pattern": "R2 - Pad2"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },

@@ -2,11 +2,12 @@
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
+	(locked yes)
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 4.83 1.719433 90)
+		(at 4.89 1.719433 90)
 		(layer "F.SilkS")
-		(uuid "a1540ac2-eca3-4f0c-be7c-4088737e2fbf")
+		(uuid "e35f99b9-ed0e-4faf-a2c4-e344e13dbfdf")
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -18,7 +19,7 @@
 		(at 0 -2.5 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f63f747d-8b35-4795-9ef6-76b6d5e96e27")
+		(uuid "370218fd-ab81-4fef-a1e6-7c58105b128e")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3f226626-3ed3-47d3-a878-3e4300189bf1")
+		(uuid "4a523f1d-fdfb-41d4-bf6c-916e938c89b7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "514cacc1-8324-454d-9c74-c4b86cc3a407")
+		(uuid "233ec1b2-252f-4d2b-b47f-e8b5579b0b88")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -61,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8fd2cf7b-a93c-46c2-a138-f0ea6d802978")
+		(uuid "dcfe22e9-a49e-485b-b09d-36081b7cbe6d")
 	)
 	(fp_line
 		(start -7.4 1.85)
@@ -71,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8e48d3c4-1be8-4aaf-9403-c4d8cb674cc2")
+		(uuid "843ba6f5-6e38-4510-9591-8d1cde8f0ca1")
 	)
 	(fp_line
 		(start 7.4 -1.85)
@@ -81,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "fef764c6-364a-457e-a178-bc651a1f9a15")
+		(uuid "2b7064ae-03f4-465b-911a-0470a9e70a6b")
 	)
 	(fp_line
 		(start 7.4 1.85)
@@ -91,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "87e7b9ff-477a-4329-9c7f-30577336319f")
+		(uuid "9ebbba25-e95f-457c-b1c6-a4c755557dd0")
 	)
 	(fp_line
 		(start -6.35 0)
@@ -101,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e3d1e05b-9fd7-4abf-aad7-42ef2ce29b14")
+		(uuid "e1a10300-ef2b-4443-95fc-ba4c08056998")
 	)
 	(fp_line
 		(start 6.35 0)
@@ -111,14 +112,15 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6f3645c4-1b60-4d3e-81cf-5f478892616c")
+		(uuid "69739bb6-5e27-4efe-a345-3127c542d8e2")
 	)
 	(pad "1" thru_hole circle
 		(at -6.35 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -130,14 +132,15 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "4deb49de-592e-4796-9337-dfc3edfdd592")
+		(uuid "61e7b57b-ed45-4d2a-aecb-3ebc678183c0")
 	)
 	(pad "1" thru_hole circle
-		(at -3.81 0)
+		(at -4.5 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(remove_unused_layers yes)
+		(keep_end_layers yes)
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -149,10 +152,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "99b3158d-13e4-4adf-96e4-d400d8c7ebce")
+		(uuid "0de4e816-c7c5-434f-b78f-2f1f58b3c83a")
 	)
 	(pad "2" thru_hole oval
-		(at 3.81 0)
+		(at 4.5 0)
 		(size 1.6 1.6)
 		(drill 0.8)
 		(layers "*.Cu" "*.Mask")
@@ -168,7 +171,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "27b86321-dcf2-4090-bff8-f84ff041bf07")
+		(uuid "ff455e1b-3915-4fbf-afb9-af1dbf03f455")
 	)
 	(pad "2" thru_hole oval
 		(at 6.35 0)
@@ -187,7 +190,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7c210448-9713-49b0-970b-b89a9f71f1a1")
+		(uuid "944272c1-c628-470f-bb71-70ad12c23806")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.wrl"
