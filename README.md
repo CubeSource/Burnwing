@@ -1,7 +1,8 @@
 Burnwing is a burnwire development PCB. It is a engineering model to assist in the development of thermal knife release mechanisms and testing of deployables.
 
-<img width="1575" height="818" alt="imagea" src="https://github.com/user-attachments/assets/fc16b0ed-1780-4b73-ba64-ba7f67a21b38" />
-<img width="1467" height="735" alt="image2a" src="https://github.com/user-attachments/assets/76c13fdc-d1a1-43c1-aae6-02a655b18b61" />
+<img width="1512" height="825" alt="image" src="https://github.com/user-attachments/assets/4210d90c-8d0d-483b-850a-d51665409923" />
+
+<img width="1442" height="743" alt="image" src="https://github.com/user-attachments/assets/68037be3-0482-4976-8a8a-dfc6e53500b9" />
 
 Powered by USB C with selectable current and voltage limits for easy testing or by picoblade/picolock connectors.
 Default 5V, 1A 
