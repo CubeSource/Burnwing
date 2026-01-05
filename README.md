@@ -4,6 +4,7 @@ Burnwing is a burnwire development PCB. It is a engineering model to assist in t
 
 <img width="1442" height="743" alt="image" src="https://github.com/user-attachments/assets/68037be3-0482-4976-8a8a-dfc6e53500b9" />
 
+
 Powered by USB C with selectable current and voltage limits for easy testing or by picoblade/picolock connectors.
 Default 5V, 1A 
 
