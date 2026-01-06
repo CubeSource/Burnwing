@@ -60,12 +60,20 @@
       ],
       "drc_exclusions": [
         [
-          "copper_edge_clearance|114830598|89043979|cab6ee35-b60e-4871-a55a-4f7576acc08a|a8b6b03f-b6ef-4932-a766-28f9bd52b365",
-          "We want resistor close to edge"
+          "copper_edge_clearance|115411914|93845947|ba31a762-e922-44e1-b28a-0021a9c5aa24|dec58a97-fe35-4e04-b745-53651cc2d777",
+          "We want it close to the edge"
         ],
         [
-          "copper_edge_clearance|114835162|93871246|ba31a762-e922-44e1-b28a-0021a9c5aa24|dec58a97-fe35-4e04-b745-53651cc2d777",
-          "we want resistor close to edge"
+          "copper_edge_clearance|115412938|89016073|cab6ee35-b60e-4871-a55a-4f7576acc08a|a8b6b03f-b6ef-4932-a766-28f9bd52b365",
+          "We want it close to the edge"
+        ],
+        [
+          "starved_thermal|117210000|88390000|a90aeb27-9c74-44cb-98d1-3d3fe439650f|a8b6b03f-b6ef-4932-a766-28f9bd52b365|F.Cu",
+          "Have a trace instead"
+        ],
+        [
+          "starved_thermal|98595000|86350000|a90aeb27-9c74-44cb-98d1-3d3fe439650f|ae42b25b-51a9-4745-80c4-e22c623c2697|F.Cu",
+          "has a trace instead"
         ]
       ],
       "meta": {

@@ -6,9 +6,9 @@
 	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at 1.6125 1.15 0)
+		(at -2.3075 0.05 0)
 		(layer "F.SilkS")
-		(uuid "ac1fe98b-9322-4456-9e7d-bb34e6004bd9")
+		(uuid "068fb1a0-9b0b-4b3e-adf9-fcc76e153149")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +20,7 @@
 		(at 0 1.43 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "05d7f3a2-7ddd-406c-8d9d-d86699b80311")
+		(uuid "3d4be990-448a-4c99-8d9e-34dd43abb695")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "12eaade1-da2c-4251-acfc-051224b65ce8")
+		(uuid "28550c0b-7867-4f91-95de-6b46924b0e22")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e73392a4-7928-4197-be50-77bb46c92c70")
+		(uuid "352ba304-641f-4a6c-b0ce-7f1f561fc988")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(at 0 0 270)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "82099305-cb75-483f-91f8-97a38869179d")
+		(uuid "3ff1b21c-5765-42bc-aa3c-ede1a941f22c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -75,7 +75,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "34fe42cf-8836-4e62-87b9-2949c1259ad9")
+		(uuid "a0fdd6a8-7b1e-4d2e-adee-9304af757f2b")
 	)
 	(fp_line
 		(start -0.254724 0.5225)
@@ -85,7 +85,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d11c7fe0-4c04-483c-ba70-aee5d8fd7ed4")
+		(uuid "ff0d5768-16c2-4e79-9fcf-a52d781f8427")
 	)
 	(fp_line
 		(start -1.65 -0.73)
@@ -95,7 +95,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "d44aaac3-aa5a-4415-b071-8642e15bb756")
+		(uuid "18de9555-f601-4303-8f3b-ee6e0c1e6915")
 	)
 	(fp_line
 		(start -1.65 0.73)
@@ -105,7 +105,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "3c621de5-1dfb-4d7b-9916-5001ce131d14")
+		(uuid "788a257c-2add-4830-88fe-dd2b6f485393")
 	)
 	(fp_line
 		(start 1.65 -0.73)
@@ -115,7 +115,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "ddd26643-dbe2-4247-9c15-38f7fe0a5ee9")
+		(uuid "3fe7ffbf-288b-478d-b8f0-9e40f07afa67")
 	)
 	(fp_line
 		(start 1.65 0.73)
@@ -125,7 +125,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "923cc08c-b728-4f44-84f2-b84d5142ba2d")
+		(uuid "a784e6d6-0546-49d4-a63c-ef2172aae295")
 	)
 	(fp_line
 		(start -0.8 -0.4125)
@@ -135,7 +135,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3fdc2dcf-c30d-4611-8ebd-87d485988773")
+		(uuid "d7acd2ba-c9f6-405a-840b-96be7ba307da")
 	)
 	(fp_line
 		(start -0.8 0.4125)
@@ -145,7 +145,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cd7e31d3-4fb5-4a1c-bd57-f519a516da6b")
+		(uuid "41b6babd-c006-40d4-b4e5-e4826ae3b346")
 	)
 	(fp_line
 		(start 0.8 -0.4125)
@@ -155,7 +155,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2ad358ae-c6dd-4a37-b382-f81d80c777e1")
+		(uuid "c60e837e-6095-47d2-ba4e-7ffcdd411fd4")
 	)
 	(fp_line
 		(start 0.8 0.4125)
@@ -165,12 +165,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "0c41f473-3a6d-4757-9979-dc00cb7456c5")
+		(uuid "70600951-dacc-4949-ab93-d19dae611198")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "a804ae66-74c7-4fb0-8d19-218665d56269")
+		(uuid "6d89875a-4e6d-4f39-8159-10267025146f")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -194,7 +194,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "aee53e65-8b42-47f7-a5d1-bafcf87f637c")
+		(uuid "e082077b-e932-4aaf-81c9-5fdf38ff571a")
 	)
 	(pad "2" smd roundrect
 		(at 0.9125 0)
@@ -212,10 +212,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "edf11953-ccb4-43f8-9f6b-14174d670e80")
+		(uuid "2518af9b-b30c-48b4-ab57-c6cf475b4123")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
+	(model "${KIPRJMOD}/packages3D/R_0603_1608Metric.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
