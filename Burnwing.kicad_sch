@@ -5,9 +5,9 @@
 	(uuid "668c3a07-3236-4b27-b3a6-03c249258f7f")
 	(paper "USLetter")
 	(title_block
-		(title "Burnwing")
-		(date "2025-07-02")
-		(rev "1")
+		(title "Burnwing Eng.")
+		(date "2026-01-06")
+		(rev "3")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
