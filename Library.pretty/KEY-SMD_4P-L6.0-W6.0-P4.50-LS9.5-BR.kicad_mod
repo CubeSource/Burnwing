@@ -1,13 +1,13 @@
 (footprint "KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6.25 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8abde719-1bd1-4b06-b249-556c9b857262")
+		(uuid "38f98c7d-d610-4c44-8498-1346b5424c46")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 6.25 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0914b30-bc87-4e51-9210-1a923344d304")
+		(uuid "9b231d67-8bd0-4777-a76f-1678919f1d0e")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f26f9124-f1cc-4401-a0ed-a377c5192d5e")
+		(uuid "d6bcafb5-e900-49c4-a830-ae0cabca6c41")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ec4ff268-c1a8-49be-b849-506455b044d1")
+		(uuid "56360b47-d294-434d-97a5-6b7b83b74915")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,7 +51,10 @@
 			)
 		)
 	)
+	(sheetname "/")
+	(sheetfile "Burnwing.kicad_sch")
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3 -3)
 		(end 3 -3)
@@ -60,7 +63,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1cf75864-b043-4da8-8ff1-1eebc2602225")
+		(uuid "86507b7c-7ec2-4599-a1bb-bbdbdb0d5c68")
 	)
 	(fp_line
 		(start -3 3)
@@ -70,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ee71a514-833a-42c3-944d-635609b9fc29")
+		(uuid "dce99a3d-56b8-4f08-9fc8-e5490e78df2e")
 	)
 	(fp_line
 		(start 3 -3)
@@ -80,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "2adb446b-8220-4b1b-85c6-c975c737718b")
+		(uuid "42859ee5-fe9a-464a-8147-4392c0aeb992")
 	)
 	(fp_line
 		(start 3 3)
@@ -90,7 +93,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "659e6149-e05d-4846-a800-1e9e756ba64d")
+		(uuid "a580bde7-af3d-4b91-9132-6c35a393ddb6")
 	)
 	(fp_circle
 		(center -2.03 -2.03)
@@ -101,7 +104,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "8f8506ff-fefd-4784-bfba-b3b98787319b")
+		(uuid "576af89b-393c-420a-a6cc-e094120027d5")
 	)
 	(fp_circle
 		(center -2.03 2.03)
@@ -112,7 +115,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "13078f1e-1efc-4a0c-a37b-e233b4bde061")
+		(uuid "b20f1576-14c9-42d8-857a-23c8b97af39f")
 	)
 	(fp_circle
 		(center 0 0)
@@ -123,7 +126,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "45395208-093f-4000-bbf5-bff166b1fa38")
+		(uuid "ae983c95-bfea-4aa6-8bc2-d53d3dd99e31")
 	)
 	(fp_circle
 		(center 2.03 -2.03)
@@ -134,7 +137,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "3f3b7330-5e9e-414c-a0a4-c8e8a38771dd")
+		(uuid "7599b556-63b8-4a31-915e-3555e0b3843e")
 	)
 	(fp_circle
 		(center 2.03 2.03)
@@ -145,7 +148,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "bf1859f3-fc5f-425d-9241-598c9ec954b8")
+		(uuid "b58fd3f8-4a4e-424a-9228-1753f992f69c")
 	)
 	(fp_circle
 		(center 4.75 3)
@@ -156,12 +159,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "48afe659-1564-4924-a8f4-a2f3f42dc1b9")
+		(uuid "8626fa1c-306e-4f59-aa47-0eccaa10aaf5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "58bab51e-3444-4d90-afdb-9a955abe1e1b")
+		(uuid "f89c85f7-24a1-497c-b8eb-c0457b03cec5")
 		(effects
 			(font
 				(size 1 1)
@@ -184,7 +187,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "af6444da-6fa7-4a38-bbd7-4ea644341b2e")
+		(uuid "a859eb20-2366-484e-911e-f4c79384d978")
 	)
 	(pad "2" smd rect
 		(at -4.47 2.25)
@@ -201,7 +204,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "3a837667-4f9a-4bd0-a460-a2951268cf4c")
+		(uuid "c34a5e0f-f74e-4b9b-85ec-a72eae70c112")
 	)
 	(pad "3" smd rect
 		(at 4.47 -2.25)
@@ -218,7 +221,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b5fc4268-7725-4b18-99ca-60423dabba61")
+		(uuid "c489110d-67e2-468f-9fe4-4d9ffcf05c0b")
 	)
 	(pad "4" smd rect
 		(at -4.47 -2.25)
@@ -235,7 +238,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "33cc3f28-d95a-46c4-bfbd-ae3fbe377efc")
+		(uuid "207f6be7-910b-411d-ad57-d6c8d6c32d80")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3D/SMD_4P-L6.0-W6.0-H5.0-LS10.0-P4.5.wrl"

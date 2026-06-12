@@ -1,13 +1,13 @@
 (footprint "POWERDI3333"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at -0.5235 -1.704161 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "8148db49-6e88-4c7f-bb78-47e8f354108e")
+		(uuid "c6337d7c-3561-462f-9d09-cb13c99c4af4")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "15f9eece-7367-4a2a-9dd5-31c737cf4001")
+		(uuid "077d1fcf-97bd-4936-9c17-c65de6f8570c")
 		(effects
 			(font
 				(size 0.951626 0.951626)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a7530130-94aa-4a6c-bd04-05a353060de5")
+		(uuid "ce07d177-eaf4-469c-8e5b-0a8a3697b13e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7dfbbdf7-8714-482a-8ba6-07db21dea05e")
+		(uuid "2f12c0ad-f5bd-4fe9-8992-1ff227049a53")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(at 0 0 270)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e86a7a44-acb9-42cb-9745-1d356a71129e")
+		(uuid "5809fb92-acb4-4b49-9659-41548f2dd1d4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -67,6 +67,9 @@
 			)
 		)
 	)
+	(sheetname "/")
+	(sheetfile "Burnwing.kicad_sch")
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.421 -1.675)
 		(end 1.929 -1.675)
@@ -75,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d65201de-cf9c-4f7d-9cec-aa2bdff5af75")
+		(uuid "267aa16b-2b70-4ba1-8fe7-814439061569")
 	)
 	(fp_line
 		(start -1.421 1.675)
@@ -85,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5f8c0b31-b31a-480b-b014-39fe6a10502a")
+		(uuid "02fedacd-a479-41d4-8f13-220bd34b5276")
 	)
 	(fp_line
 		(start 1.929 -1.675)
@@ -95,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d2971d62-a323-42f7-aca5-f3ed9dbf11a1")
+		(uuid "8350a128-3789-4ad5-88b8-30f06077bce7")
 	)
 	(fp_line
 		(start 1.929 1.675)
@@ -105,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "dba42d85-ea66-4f75-ae19-88459f18b92b")
+		(uuid "dcdd63d7-3d8e-4d9c-b656-a8be7848e31c")
 	)
 	(fp_circle
 		(center -1.4224 -1.651)
@@ -116,7 +119,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7cd8a20f-3a0b-44c2-b47f-aab93d17bba4")
+		(uuid "435087e3-1314-4af2-aed1-d3f3e6ffb6af")
 	)
 	(fp_poly
 		(pts
@@ -128,7 +131,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "1e56c4dd-a95d-4945-bb9d-6cf416892cdb")
+		(uuid "8fa9f471-53e0-4fa1-b49f-47337f0e4616")
 	)
 	(fp_poly
 		(pts
@@ -140,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "102c7514-93f4-4ceb-8e49-55a88c491209")
+		(uuid "36e9fabd-b5a6-4fb6-9dca-4943583d685c")
 	)
 	(fp_poly
 		(pts
@@ -152,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "720a1297-f9a8-4c34-bf20-7cadcbd8d8ae")
+		(uuid "93a21f37-06cd-4926-8af3-f3a5a36c6f1d")
 	)
 	(fp_poly
 		(pts
@@ -164,7 +167,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "d6e23fb8-3d53-40bd-a9e8-2c0aeb9943f4")
+		(uuid "0df66fee-ecf4-483d-ab35-6bd72b79aa7e")
 	)
 	(pad "1" smd rect
 		(at -1.446 -0.975)
@@ -184,7 +187,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7451b847-6fe6-4937-ab75-7c1cbbe43724")
+		(uuid "68dce6e3-247c-4f53-a4b5-3685669f8080")
 	)
 	(pad "2" smd rect
 		(at -1.446 -0.325)
@@ -204,7 +207,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "4479fac1-cbe1-4232-a9f8-8f440c81189e")
+		(uuid "94b31dbb-af10-4fdc-a5c3-4a8b77a14db1")
 	)
 	(pad "3" smd rect
 		(at -1.446 0.325)
@@ -224,7 +227,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7226dbfb-d757-409f-a3cf-9d30e410d40f")
+		(uuid "69c4c482-0f13-44e1-b7a6-f3268b0c01f0")
 	)
 	(pad "4" smd rect
 		(at -1.446 0.975)
@@ -244,7 +247,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "160de732-23bc-4823-af5c-0f39bb6b1808")
+		(uuid "fdc62119-37e6-4d15-bb93-139901f32f2b")
 	)
 	(pad "5678" smd rect
 		(at 1.004 0 270)
@@ -264,7 +267,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7bc47b41-c1af-451a-b99f-8f5cea7bcc6f")
+		(uuid "e9aa9d93-8f48-4a49-901a-0467ffe3ceca")
 	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/packages3D/VSON-8_3.3x3.3mm_P0.65mm_NexFET.wrl"
