@@ -161,7 +161,7 @@
 			(outputdirectory "")
 		)
 	)
-	(footprint "Library:MountingHole_2.2mm_M2_Pad"
+	(footprint "burnwing-library:MountingHole_2.2mm_M2_Pad"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "013cf2e4-49fc-4e88-bf21-ed341cc10c4c")
@@ -281,7 +281,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "burnwing-library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "050aac61-40cc-423a-a4e4-565b44acf050")
 		(at 92.05 82.9625 90)
@@ -519,7 +519,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0562d44d-ce9b-418d-8f5d-db87d8ce6c19")
 		(at 110.5125 88.15 180)
@@ -745,7 +745,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "089e8bb0-abf0-4047-9a5e-d3cf5c14002d")
@@ -983,7 +983,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_2.2mm_M2_Pad"
+	(footprint "burnwing-library:MountingHole_2.2mm_M2_Pad"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "0911852f-b3f9-4c12-a664-c733a4f4eb7c")
@@ -1103,7 +1103,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+	(footprint "burnwing-library:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1b88ddb5-f3d1-4542-a793-4376141d9641")
 		(at 116.75 87.3)
@@ -1322,7 +1322,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1f5d57fe-b383-4607-b1c7-4ef41e78ffe7")
 		(at 86.0975 95.65)
@@ -1561,7 +1561,7 @@
 			)
 		)
 	)
-	(footprint "Library:USB_C_CUSB31-CFM2AX-01-X"
+	(footprint "burnwing-library:USB_C_CUSB31-CFM2AX-01-X"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "262a27c1-5dd5-4e34-87dd-a8817f432639")
@@ -2242,7 +2242,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "36d87c7e-b12d-42cd-bc41-407905e21dba")
 		(at 86.961252 87.883293 180)
@@ -2480,7 +2480,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x03_P1.27mm_Vertical"
+	(footprint "burnwing-library:PinHeader_1x03_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "38e891d6-5243-44a4-ab83-209e9f1e70c3")
 		(at 107.8 85.66)
@@ -2800,7 +2800,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x02_P2.54mm_Vertical"
+	(footprint "burnwing-library:PinHeader_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3b67ac83-3476-4711-9e24-dee8cf6cac54")
 		(at 96.51 81.35 90)
@@ -3081,7 +3081,7 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:D_0603_1608Metric"
+	(footprint "burnwing-library:D_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5082a067-f97f-4f59-bfc4-bc2a2706983b")
 		(at 122.05 89.0375 -90)
@@ -3275,7 +3275,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+	(footprint "burnwing-library:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "50dd2b18-1b81-4463-888e-6cdf8bb9c9ee")
 		(at 116.85 95.5 180)
@@ -3494,7 +3494,7 @@
 			)
 		)
 	)
-	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_2h_Trace"
+	(footprint "burnwing-library:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_2h_Trace"
 		(layer "F.Cu")
 		(uuid "5325af85-c016-4fa3-93dc-8c9af42fccb2")
 		(at 104.45 91.3 -90)
@@ -3962,7 +3962,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "burnwing-library:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "543bb2aa-1098-49f9-b61c-8e763eb3950c")
 		(at 93.7 87.84 90)
@@ -4234,7 +4234,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "56a1a273-e899-435c-b647-8cb0a50e7694")
 		(at 110.5125 94.75 180)
@@ -4459,7 +4459,7 @@
 			)
 		)
 	)
-	(footprint "Library:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "burnwing-library:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "57dd6b8e-c0f6-447b-998d-cb189baef3de")
 		(at 100.2 87.8 90)
@@ -4732,7 +4732,7 @@
 			)
 		)
 	)
-	(footprint "Library:AxialBurnResistor_No_Cutout"
+	(footprint "burnwing-library:AxialBurnResistor_No_Cutout"
 		(layer "F.Cu")
 		(uuid "6874340c-b909-438f-9100-dcc36511cc55")
 		(at 116.84 96.52 180)
@@ -4956,7 +4956,7 @@
 			)
 		)
 	)
-	(footprint "Library:PG-TSDSO-14_L4.9-W3.9-P0.65-LS6.0-BL-EP"
+	(footprint "burnwing-library:PG-TSDSO-14_L4.9-W3.9-P0.65-LS6.0-BL-EP"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "6f8046e3-4206-4500-aa13-0093ee34da7b")
@@ -5465,7 +5465,7 @@
 			)
 		)
 	)
-	(footprint "Library:KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR"
+	(footprint "burnwing-library:KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR"
 		(layer "F.Cu")
 		(uuid "6ff44988-7774-443e-a9a9-702d81edaff4")
 		(at 94.432431 93.96899 -90)
@@ -5732,7 +5732,7 @@
 			)
 		)
 	)
-	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
+	(footprint "burnwing-library:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
 		(layer "F.Cu")
 		(uuid "7364b96a-a657-4c00-9d7d-fa84a32f225b")
 		(at 104.4625 85.8 -90)
@@ -5876,7 +5876,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:MountingHole_2.2mm_M2_Pad"
+	(footprint "burnwing-library:MountingHole_2.2mm_M2_Pad"
 		(layer "F.Cu")
 		(uuid "7bd2f51c-543b-4ebe-a7da-ddb96102708d")
 		(at 109.040021 82.501754 180)
@@ -5994,7 +5994,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:MountingHole_2.2mm_M2_Pad"
+	(footprint "burnwing-library:MountingHole_2.2mm_M2_Pad"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "7c7cdf4a-eadc-4336-8c08-e8a096d3e4fc")
@@ -6114,7 +6114,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "burnwing-library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "8133ee23-ac7e-4dfd-a1a2-8bc61ea581a2")
 		(at 87.9875 89.95)
@@ -6352,7 +6352,7 @@
 			)
 		)
 	)
-	(footprint "Library:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
+	(footprint "burnwing-library:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "84e08cf7-b893-450f-a6a4-ad7562c59953")
 		(at 128.51 91.535 90)
@@ -6932,7 +6932,7 @@
 			)
 		)
 	)
-	(footprint "Library:Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal"
+	(footprint "burnwing-library:Molex_Pico-Lock_504050-0691_1x06-1MP_P1.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9672e383-4d70-4e7d-b2ad-b294ec9cc6b7")
 		(at 127.675 91.53 90)
@@ -7455,7 +7455,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "9ddb7f93-c2c3-43e4-8879-13e70db4852b")
 		(at 112.4 82.793025 90)
@@ -7680,7 +7680,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a3ce62ee-07fa-47cb-8f19-8fbc167fe0bf")
 		(at 89.5 87.1875 90)
@@ -7918,7 +7918,7 @@
 			)
 		)
 	)
-	(footprint "Diode_SMD:D_0603_1608Metric"
+	(footprint "burnwing-library:D_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "ab694170-308b-4439-b7ab-d67a145d4699")
 		(at 122.1 93.8125 90)
@@ -8112,7 +8112,7 @@
 			)
 		)
 	)
-	(footprint "Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "burnwing-library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "af8d9bc2-8270-479e-9438-461df9db8b33")
 		(at 89.97 82.9625 90)
@@ -8350,7 +8350,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b2b18fe0-3189-46ec-b789-29583690fc9d")
 		(at 121.7125 82.793025 90)
@@ -8576,7 +8576,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "bc676695-ea88-4f6b-9284-395a45e2f626")
@@ -8802,7 +8802,7 @@
 			)
 		)
 	)
-	(footprint "Library:KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR"
+	(footprint "burnwing-library:KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.5-BR"
 		(layer "F.Cu")
 		(uuid "bd613eba-5974-4bb0-980b-51f8e652c9e2")
 		(at 100.882431 93.96899 -90)
@@ -9069,7 +9069,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c1ea5b1e-592c-4d45-88c7-dcd4ec4c508e")
 		(at 95.2375 87.8625 -90)
@@ -9306,7 +9306,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c23e3a58-f8fa-46aa-a1fc-f09c2d2e43ef")
 		(at 102.6125 83.95)
@@ -9544,7 +9544,7 @@
 			)
 		)
 	)
-	(footprint "Library:POWERDI3333"
+	(footprint "burnwing-library:POWERDI3333"
 		(layer "F.Cu")
 		(uuid "c38a1839-4164-41c5-89af-a42ea5ea7e26")
 		(at 85.014161 83.1665 90)
@@ -9843,7 +9843,7 @@
 			)
 		)
 	)
-	(footprint "Library:AxialBurnResistor_No_Cutout"
+	(footprint "burnwing-library:AxialBurnResistor_No_Cutout"
 		(layer "F.Cu")
 		(uuid "ca12139b-53df-44e7-97cf-e6569ace6e1f")
 		(at 116.76 86.28)
@@ -10066,7 +10066,7 @@
 			)
 		)
 	)
-	(footprint "Panelization:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
+	(footprint "burnwing-library:MouseBite-Slot_2.0x2.0mm_outset_D0.5mm_P0.85mm_3h"
 		(layer "F.Cu")
 		(uuid "ceb28785-06bb-485e-9bff-b159beb9487d")
 		(at 104.4625 96.9 -90)
@@ -10210,7 +10210,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:D_SOD-523"
+	(footprint "burnwing-library:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "d03511f6-b761-4854-b5fe-0ebae0934579")
 		(at 99.041188 84.737785 180)
@@ -10532,7 +10532,7 @@
 			)
 		)
 	)
-	(footprint "Library:D_SOD-523"
+	(footprint "burnwing-library:D_SOD-523"
 		(layer "F.Cu")
 		(uuid "d1d0336b-366c-4b45-a552-066a0c8bbeb9")
 		(at 96.515453 84.737785 180)
@@ -10854,7 +10854,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "d350bc02-8387-4dc2-9a2c-4b5eb34aa645")
 		(at 86.9675 86.36)
@@ -11092,7 +11092,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e1ab39b9-fbcc-4ab3-b456-95842c0e81be")
 		(at 121.7125 100.0125 -90)
@@ -11318,7 +11318,7 @@
 			)
 		)
 	)
-	(footprint "Library:MountingHole_2.2mm_M2_Pad"
+	(footprint "burnwing-library:MountingHole_2.2mm_M2_Pad"
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "e1b5a905-db15-4d9b-9570-419b2e5021f7")
@@ -11438,7 +11438,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:MountingHole_2.2mm_M2_Pad"
+	(footprint "burnwing-library:MountingHole_2.2mm_M2_Pad"
 		(layer "F.Cu")
 		(uuid "e6293f2d-4166-4e51-b8e4-ae986d489660")
 		(at 109.032921 100.283054 180)
@@ -11556,7 +11556,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+	(footprint "burnwing-library:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e6d26fc4-8eba-4cb1-9f63-ddb8688ea99c")
 		(at 87.9 82.9625 90)
@@ -11794,7 +11794,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "e83478ed-c8b6-4084-b985-017dfdd69baf")
 		(at 89.4725 95.65)
@@ -12033,7 +12033,7 @@
 			)
 		)
 	)
-	(footprint "Library:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+	(footprint "burnwing-library:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "eb150cf6-86d8-4737-b680-b7bcc4af6a64")
 		(at 102.545 82.3 180)
@@ -12306,7 +12306,7 @@
 			)
 		)
 	)
-	(footprint "Library:LOGO"
+	(footprint "burnwing-library:LOGO"
 		(layer "F.Cu")
 		(uuid "ed8a6bb8-ef6d-4467-9981-420859f36071")
 		(at 97.070305 101.113217)
@@ -12712,7 +12712,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:2_Dipswitch"
+	(footprint "burnwing-library:2_Dipswitch"
 		(layer "F.Cu")
 		(uuid "f3282dfb-a70e-45e7-9621-7b561bebb902")
 		(at 86.3 99.5175 90)
@@ -12967,7 +12967,7 @@
 			)
 		)
 	)
-	(footprint "Library:DFN10_3X3MM"
+	(footprint "burnwing-library:DFN10_3X3MM"
 		(layer "F.Cu")
 		(uuid "f57430b2-0656-4398-bc99-01be4be10cc7")
 		(at 88.2 92.7 -90)
@@ -13448,7 +13448,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f6a7515c-d80b-4796-869f-bc098309eb25")
 		(at 112.4 100.0125 -90)
@@ -13673,7 +13673,7 @@
 			)
 		)
 	)
-	(footprint "Library:PinHeader_1x03_P1.27mm_Vertical"
+	(footprint "burnwing-library:PinHeader_1x03_P1.27mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fa7925b4-18bc-44ae-9469-af773a76fabb")
 		(at 107.8 97.09 180)
@@ -14005,7 +14005,7 @@
 			)
 		)
 	)
-	(footprint "Library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+	(footprint "burnwing-library:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "fdcb8d83-c5d2-4978-8ac5-c2ba6a95cb6c")
 		(at 101.7 87.8625 -90)
@@ -14242,7 +14242,7 @@
 			)
 		)
 	)
-	(footprint "Library:LOGO"
+	(footprint "burnwing-library:LOGO"
 		(layer "B.Cu")
 		(uuid "743d44a7-0f06-4a93-8036-03abcb6623a5")
 		(at 102.520645 99.600943 180)
@@ -14753,7 +14753,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Library:LOGO"
+	(footprint "burnwing-library:LOGO"
 		(layer "B.Cu")
 		(uuid "a7a68bf0-078d-454d-8526-cd9a94870e4f")
 		(at 100.315117 91.086459)
