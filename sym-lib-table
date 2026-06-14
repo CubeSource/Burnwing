@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name "burnwing-library")(type "KiCad")(uri "${KIPRJMOD}/burnwing-library.kicad_sym")(options "")(descr "Burnwing project symbols"))
-  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.kicad_sym")(options "")(descr ""))
+	(version 7)
+	(lib (name "EasyEDA") (type "KiCad") (uri "${KIPRJMOD}/EasyEDA.kicad_sym") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.kicad_sym") (options "") (descr ""))
 )

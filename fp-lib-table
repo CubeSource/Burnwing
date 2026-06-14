@@ -1,6 +1,5 @@
 (fp_lib_table
-	(version 7)
-	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/Library.pretty") (options "") (descr ""))
-	(lib (name "EasyEDA") (type "KiCad") (uri "${KIPRJMOD}/EasyEDA.pretty") (options "") (descr ""))
-	(lib (name "burnwing-library") (type "KiCad") (uri "${KIPRJMOD}/burnwing-library.pretty") (options "") (descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "EasyEDA")(type "KiCad")(uri "${KIPRJMOD}/EasyEDA.pretty")(options "")(descr ""))
+  (lib (name "Library.pretty")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty.pretty")(options "")(descr ""))
 )
