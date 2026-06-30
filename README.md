@@ -1,13 +1,6 @@
-Burnwing is a burnwire development PCB. It is a engineering model to assist in the development of thermal knife release mechanisms and testing of deployables.
+Burnwing Mini Flight is a compact thermal knife release mechanisms designed for CubeSat deployables 
 
-![Burnwing_fr1](https://github.com/user-attachments/assets/bf2a3309-81cf-4235-a402-1ac3c0121474)
-![Burnwing_iso1](https://github.com/user-attachments/assets/73a28db4-c925-42c5-b5df-3335ce29f8cb)
+<img width="1920" height="812" alt="Burnwing_Mini_v1_2025-Sep-02_12-23-46AM-000_CustomizedView17060625173" src="https://github.com/user-attachments/assets/96fcb35e-c96e-401e-9a5e-15aff8e28c87" />
+<img width="2048" height="1536" alt="878f923c-1264-478b-821c-087ea653aa0a" src="https://github.com/user-attachments/assets/8f860caf-f7d7-458c-a518-70746867c5fb" />
 
-Powered by USB C with selectable current and voltage limits for easy testing or by picoblade/picolock connectors.
-Default 5V, 1A 
-
-Additional Resources:
-
-https://www.cubesource.space/resources
-
-https://docs.google.com/spreadsheets/d/1-gqduE5_rplaJSyHokB8z7FWwOto8bMK/edit?usp=drive_link&ouid=104061366178972938101&rtpof=true&sd=true
+https://www.cubesource.space/product-page/burnwing-flight
