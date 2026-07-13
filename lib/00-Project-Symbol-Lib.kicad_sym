@@ -463,7 +463,7 @@
 			)
 		)
 		(property "Value" "BTS7030-2EPA"
-			(at 0 -12.7 0)
+			(at 7.874 11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -528,21 +528,10 @@
 					(type background)
 				)
 			)
-			(circle
-				(center -7.62 8.89)
-				(radius 0.38)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 		)
 		(symbol "BTS7030-2EPA_1_1"
 			(pin power_in line
-				(at -11.43 7.62 0)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -560,7 +549,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 5.08 0)
+				(at -11.43 7.62 0)
 				(length 2.54)
 				(name "IN0"
 					(effects
@@ -578,7 +567,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 2.54 0)
+				(at -11.43 0 0)
 				(length 2.54)
 				(name "DEN"
 					(effects
@@ -595,8 +584,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 0 0)
+			(pin output line
+				(at -11.43 -2.54 0)
 				(length 2.54)
 				(name "IS"
 					(effects
@@ -614,7 +603,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -2.54 0)
+				(at -11.43 -5.08 0)
 				(length 2.54)
 				(name "DSEL"
 					(effects
@@ -632,7 +621,7 @@
 				)
 			)
 			(pin input line
-				(at -11.43 -5.08 0)
+				(at -11.43 5.08 0)
 				(length 2.54)
 				(name "IN1"
 					(effects
@@ -650,9 +639,9 @@
 				)
 			)
 			(pin no_connect line
-				(at -11.43 -7.62 0)
+				(at -5.08 -12.7 90)
 				(length 2.54)
-				(name "n.c."
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -722,9 +711,9 @@
 				)
 			)
 			(pin no_connect line
-				(at 11.43 0 180)
+				(at -2.54 -12.7 90)
 				(length 2.54)
-				(name "n.c."
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -796,7 +785,7 @@
 			(pin passive line
 				(at 0 15.24 270)
 				(length 5.08)
-				(name "EP"
+				(name "VS"
 					(effects
 						(font
 							(size 1.27 1.27)
