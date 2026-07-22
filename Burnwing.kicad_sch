@@ -2473,6 +2473,319 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Conn_01x06_MountingPin_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J5"
+				(at -0.254 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_MountingPin"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00-Project-Footprint-Lib:Molex_Pico-Lock_and_PicoBlade"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??-1MP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_MountingPin_1_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 7.112) (xy -1.016 7.112)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "Mounting"
+					(at 0 6.731 0)
+					(effects
+						(font
+							(size 0.381 0.381)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 3.048)
+					(name "MountPin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -5037,6 +5350,12 @@
 		(uuid "0ee9d82b-fb5c-48b6-90b1-8e5de5ccdc64")
 	)
 	(junction
+		(at 30.48 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "112a0250-57b4-4572-97ee-a007f02f300f")
+	)
+	(junction
 		(at 64.77 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5101,6 +5420,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91c5ac68-31ef-4ace-8df0-ef850d9dd8e3")
+	)
+	(junction
+		(at 30.48 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93accf14-ee26-4cb0-a63b-54e4bcd92db9")
 	)
 	(junction
 		(at 142.24 29.21)
@@ -5211,14 +5536,6 @@
 	(no_connect
 		(at 97.79 55.88)
 		(uuid "d63128e5-f369-402a-8a4d-bcb928affe13")
-	)
-	(no_connect
-		(at 20.32 160.02)
-		(uuid "ed76b599-fbb9-4d0f-a36d-3f95ddaba240")
-	)
-	(no_connect
-		(at 20.32 186.69)
-		(uuid "ef7fbb91-0858-475a-a827-9e031a5b42b8")
 	)
 	(wire
 		(pts
@@ -5449,6 +5766,26 @@
 			(type solid)
 		)
 		(uuid "22728676-3b21-4d95-9f2d-47cf336890e0")
+	)
+	(wire
+		(pts
+			(xy 30.48 193.04) (xy 20.32 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272dbbc0-a3af-4392-a950-8ac795656877")
+	)
+	(wire
+		(pts
+			(xy 20.32 160.02) (xy 20.32 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c1d8b62-a3d9-4933-924d-a516e38a79c5")
 	)
 	(wire
 		(pts
@@ -6022,6 +6359,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 166.37) (xy 30.48 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840620dc-dcfe-42d2-8ad0-c451980546e8")
+	)
+	(wire
+		(pts
 			(xy 200.66 135.89) (xy 212.09 135.89)
 		)
 		(stroke
@@ -6082,6 +6429,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 186.69) (xy 30.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0d323e-76c2-40e9-853b-6d5d18ba0456")
+	)
+	(wire
+		(pts
 			(xy 64.77 140.97) (xy 64.77 142.24)
 		)
 		(stroke
@@ -6099,6 +6456,16 @@
 			(type default)
 		)
 		(uuid "901a0553-2370-4c45-aac4-f338cccb1cec")
+	)
+	(wire
+		(pts
+			(xy 20.32 166.37) (xy 30.48 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907e42df-3c03-4971-9ae2-e0d95e11e04c")
 	)
 	(wire
 		(pts
@@ -6339,6 +6706,16 @@
 			(type default)
 		)
 		(uuid "c1ef0420-9541-4019-8f4f-46788467ae97")
+	)
+	(wire
+		(pts
+			(xy 20.32 186.69) (xy 20.32 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3103480-7917-4d25-adbd-f979a04f7f97")
 	)
 	(wire
 		(pts
@@ -10062,6 +10439,103 @@
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x06_MountingPin_1")
+		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
+		(at 91.44 147.32 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "561d620b-ed53-49a7-bb4c-1000469d18be")
+		(property "Reference" "J5"
+			(at 91.186 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06_MountingPin"
+			(at 91.44 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00-Project-Footprint-Lib:Molex_Pico-Lock_and_PicoBlade"
+			(at 91.44 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 91.44 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "MP"
+			(uuid "8123df3c-e6d2-473c-8c8f-7c56ab1283fe")
+		)
+		(pin "4"
+			(uuid "6c2ed0bc-3501-4d2d-af08-633ddd951d0a")
+		)
+		(pin "5"
+			(uuid "cb06bc40-d575-4ccd-ba63-f6ee3534abe4")
+		)
+		(pin "6"
+			(uuid "d66eea0c-73b2-4aca-8865-d4c7c60c9f9d")
+		)
+		(pin "1"
+			(uuid "0ffc9bd6-f832-4195-9def-d42028671a71")
+		)
+		(pin "3"
+			(uuid "06a80670-f99e-4b86-85e3-231c4966b000")
+		)
+		(pin "2"
+			(uuid "0590100c-f71e-4d97-95dc-12836c197431")
+		)
+		(instances
+			(project "Burnwing"
+				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -14376,101 +14850,6 @@
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
-		(at 91.44 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d55ab0f9-1b6b-41b1-a898-24e592d1af94")
-		(property "Reference" "J5"
-			(at 91.44 137.414 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x06_MountingPin"
-			(at 91.44 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "00-Project-Footprint-Lib:Molex_Pico-Lock_and_PicoBlade"
-			(at 91.44 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 91.44 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "MP"
-			(uuid "b416a128-65e3-4557-bdd9-5bf3ac9c3f85")
-		)
-		(pin "4"
-			(uuid "5d64bc3d-44ca-449b-b92c-0c41a977632d")
-		)
-		(pin "5"
-			(uuid "bd65991a-5d68-4015-a02d-8054b8ce88dd")
-		)
-		(pin "6"
-			(uuid "1b9df50a-0c16-456c-828c-cfd79348d9d7")
-		)
-		(pin "1"
-			(uuid "8af816b1-5386-493d-94ea-17fba13ace9f")
-		)
-		(pin "3"
-			(uuid "24aad851-72cf-48bd-b9b1-65a7f26b8653")
-		)
-		(pin "2"
-			(uuid "296ad17c-c59f-4b95-91c8-38f3ffbe04f4")
-		)
-		(instances
-			(project "Burnwing"
-				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
-					(reference "J5")
 					(unit 1)
 				)
 			)
