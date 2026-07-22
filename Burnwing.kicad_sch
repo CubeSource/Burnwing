@@ -4111,6 +4111,502 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Library:CH32X035F8U6_C42442062"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U4"
+				(at 0 20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CH32X035F8U6_C42442062"
+				(at 0 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Library:WQFN-20_L3.0-W3.0-P0.40-TL-EP1.7"
+				(at 0.762 -26.67 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42442062.pdf"
+				(at 0.762 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "WCH(南京沁恒)"
+				(at 0.762 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "CH32X035F8U6"
+				(at 0.762 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C42442062"
+				(at 0.762 -36.83 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CH32X035F8U6_C42442062_0_1"
+				(rectangle
+					(start -41.91 15.24)
+					(end 38.1 -12.7)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -40.64 13.97)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 12.7 0)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 10.16 0)
+					(length 2.54)
+					(name "PA0/T2C1/CTS2/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 7.62 0)
+					(length 2.54)
+					(name "PA1/RTS2/T2C2/O1N2/O2N2/A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 5.08 0)
+					(length 2.54)
+					(name "PA2/TX2/T2C3/O2O1/T2ET_/A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 2.54 0)
+					(length 2.54)
+					(name "PA3/T2C4/O1O0/T3C1_/RX2/A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 0 0)
+					(length 2.54)
+					(name "PA4/CS/O2O0/T3C2_/A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -2.54 0)
+					(length 2.54)
+					(name "PA5/SCK/TX4_/O2N0/A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -5.08 0)
+					(length 2.54)
+					(name "PA6/MISO/T3C1/T1BK_/O1N0/A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -7.62 0)
+					(length 2.54)
+					(name "PA7/MOSI/T3C2/T1C1N_/O2P0/A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -44.45 -10.16 0)
+					(length 2.54)
+					(name "PB0/TX4/T1C2N_/O1P0/A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -10.16 180)
+					(length 2.54)
+					(name "PB1/T1C3N_/RX4/O2N1/A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -7.62 180)
+					(length 2.54)
+					(name "PB3/TX3/T2C3_/T2C3N_/O2P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -5.08 180)
+					(length 2.54)
+					(name "PB11/T1C3/T2C1N_/RX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -2.54 180)
+					(length 2.54)
+					(name "PC18/DIO/TX3_/T2C1N_/T3C2_/I2C_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 2.54)
+					(name "PB12/T1C4_/T2C2N_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 2.54 180)
+					(length 2.54)
+					(name "PC19/DCK/T2C1_/T3C1_/I2C_/RX3_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 5.08 180)
+					(length 2.54)
+					(name "PC16/UDM/T1C4/TX4_/I2C_/RX4_/PC11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 7.62 180)
+					(length 2.54)
+					(name "PC17/UDP/TX4_/I2C_/RX4_/T1ET/PC10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 10.16 180)
+					(length 2.54)
+					(name "PC14/CC1/T1C3_/T2C2_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 12.7 180)
+					(length 2.54)
+					(name "PC15/CC2/T2C3_/T1ET_"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -7562,6 +8058,176 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:CH32X035F8U6_C42442062")
+		(at -67.945 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0252441f-00e4-4013-a3a2-ceac3b096894")
+		(property "Reference" "U4"
+			(at -67.945 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CH32X035F8U6_C42442062"
+			(at -67.945 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:WQFN-20_L3.0-W3.0-P0.40-TL-EP1.7"
+			(at -67.183 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C42442062.pdf"
+			(at -67.183 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at -67.945 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "WCH(南京沁恒)"
+			(at -67.183 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CH32X035F8U6"
+			(at -67.183 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C42442062"
+			(at -67.183 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "b0bb7cde-e8b4-4ff5-8076-d0e8e69a36c2")
+		)
+		(pin "12"
+			(uuid "b34d3a23-9bde-48e5-95b6-7a4a2fba5eef")
+		)
+		(pin "15"
+			(uuid "8c108bdf-b075-46e8-89d4-31ec61005ee1")
+		)
+		(pin "19"
+			(uuid "1795b4fd-4288-4e14-a8af-18ba7ad42f95")
+		)
+		(pin "7"
+			(uuid "62f8aa2f-6b0c-4ed2-abf5-07f57cdfc07a")
+		)
+		(pin "9"
+			(uuid "8cca4aba-d248-45b7-9839-b9bbcbdfa069")
+		)
+		(pin "11"
+			(uuid "12796400-6bd2-4f98-8140-84a20b72220b")
+		)
+		(pin "4"
+			(uuid "8bb79113-9535-4986-995d-eb7073bf21f3")
+		)
+		(pin "14"
+			(uuid "05ddd92e-16c6-4cb0-8631-9898cd30d72d")
+		)
+		(pin "10"
+			(uuid "9839d954-549e-41de-a15f-ddfc2b14cc3e")
+		)
+		(pin "20"
+			(uuid "30b637db-e270-48eb-8b7f-c45f5858ff9c")
+		)
+		(pin "1"
+			(uuid "9a7ee4db-f528-4e3e-ae92-04839389efd3")
+		)
+		(pin "8"
+			(uuid "d3c7f500-1766-496f-a312-d1bcee89886c")
+		)
+		(pin "2"
+			(uuid "2fff0bf3-7005-4c45-b31c-82ac7172edd7")
+		)
+		(pin "13"
+			(uuid "2945bd31-68c7-4f3d-8e34-9c8bb8d5fe81")
+		)
+		(pin "16"
+			(uuid "4a7c7ed3-5aa9-46d2-8485-423d7fb89b20")
+		)
+		(pin "3"
+			(uuid "06413504-20f2-4f16-aab8-e8cc62620e19")
+		)
+		(pin "5"
+			(uuid "99931bd8-efe2-4eb5-be13-28538bf968ad")
+		)
+		(pin "17"
+			(uuid "dca12cad-fd87-4b92-ab34-867fcb2905fc")
+		)
+		(pin "18"
+			(uuid "c0c955f6-05ee-4d08-8c78-368c99b4a0a7")
+		)
+		(pin "21"
+			(uuid "ad81c6af-4a09-459d-b485-337f99c00db9")
+		)
+		(instances
+			(project "Burnwing"
+				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
+					(reference "U4")
+					(unit 1)
+				)
 			)
 		)
 	)
