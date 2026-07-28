@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.6,
-          "width": 0.8
+          "height": 1.45,
+          "width": 1.175
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -606,6 +606,10 @@
       {
         "netclass": "GND",
         "pattern": "Q1-G"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "EN"
       }
     ]
   },
@@ -787,6 +791,96 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Contact Current",
+          "name": "Contact Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Actuator/Cap Color",
+          "name": "Actuator/Cap Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Style",
+          "name": "Mounting Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Strike Gundam",
+          "name": "Strike Gundam",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Height",
+          "name": "Switch Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Length",
+          "name": "Switch Length",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Switch Width",
+          "name": "Switch Width",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating (Dc)",
+          "name": "Voltage Rating (Dc)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "With Lamp",
+          "name": "With Lamp",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Actuator Style",
+          "name": "Actuator Style",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Circuit",
+          "name": "Circuit",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Force",
+          "name": "Operating Force",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mechanical Life",
+          "name": "Mechanical Life",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -845,7 +939,7 @@
         "uuid": "668c3a07-3236-4b27-b3a6-03c249258f7f"
       }
     ],
-    "used_designators": "U4,J5",
+    "used_designators": "U4,J3,J5,R4-5",
     "variants": []
   },
   "sheets": [
