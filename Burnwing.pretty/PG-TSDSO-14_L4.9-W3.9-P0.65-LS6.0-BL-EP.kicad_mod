@@ -1,0 +1,298 @@
+(footprint "PG-TSDSO-14_L4.9-W3.9-P0.65-LS6.0-BL-EP"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.0618 -0.0152 90)
+		(layer "F.SilkS")
+		(uuid "3714be46-cca4-499f-9926-989970bfcafe")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "BTS7030-2EPA"
+		(at -0.183486 5.26 180)
+		(layer "F.Fab")
+		(uuid "65b57c8e-e51f-455e-b9f2-fa6f80f8c2c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/PMIC-Power-Distribution-Switches_Infineon-Technologies-BTS7030-2EPA_C534836.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41729b61-45c0-4e42-9849-47d0944b164a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "163d567e-7fea-421e-b749-2a73137a632c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part" "C534836"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76ddce1e-25a5-423c-8752-b7b94dae0595")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "Burnwing.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.52 -1.95)
+		(end -2.38 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d66f9f32-e877-4f47-bdb7-51e6be095606")
+	)
+	(fp_line
+		(start -2.52 -0.69)
+		(end -2.52 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "68b92864-279f-4ca2-8c25-f698bbe6fc52")
+	)
+	(fp_line
+		(start -2.52 1.95)
+		(end -2.52 0.68)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2f936ace-8953-4a8d-b023-a7be5786e9fc")
+	)
+	(fp_line
+		(start -2.52 1.95)
+		(end -2.38 1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09465fb5-d224-4007-9f4f-19d9b864e58c")
+	)
+	(fp_line
+		(start 2.38 -1.95)
+		(end 2.5 -1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "564e2af4-f785-46d0-b91e-953f3e11b544")
+	)
+	(fp_line
+		(start 2.38 1.95)
+		(end 2.5 1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2aa0336-9e28-41ae-8fad-bc910c077189")
+	)
+	(fp_line
+		(start 2.5 -1.95)
+		(end 2.5 1.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2b8e2f3-3efc-4cb3-ace4-fddbfb1ac740")
+	)
+	(fp_arc
+		(start -2.519821 -0.679802)
+		(mid -2.257627 0.000133)
+		(end -2.52 0.68)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cba2260b-5429-44fc-b874-8917f7312c37")
+	)
+	(fp_circle
+		(center -2.52 3.82)
+		(end -2.27 3.82)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "1b863481-8611-4fd7-a5b2-dd3222ffb39a")
+	)
+	(fp_circle
+		(center -1.95 2.9)
+		(end -1.8 2.9)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "2400718f-8d1d-4e90-a8ed-a33ea641bacf")
+	)
+	(fp_circle
+		(center -2.45 3)
+		(end -2.42 3)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "761411ba-c9fb-46b7-80d0-c1b6eb4ebbe6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "5c865c5c-8bb1-47fd-b8eb-ddf0a555732d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.95 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_width 0.4)
+		(thermal_gap 0.4)
+		(uuid "9d651322-7496-4e0d-a877-4d2e201de2cb")
+	)
+	(pad "2" smd rect
+		(at -1.3 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "96765407-ced5-43fe-b0d6-bee5b494d069")
+	)
+	(pad "3" smd rect
+		(at -0.65 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2226b006-67f0-4528-b601-05fac804b8a2")
+	)
+	(pad "4" smd rect
+		(at 0 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "df108b1f-8278-4d68-8bfa-a04e821084a8")
+	)
+	(pad "5" smd rect
+		(at 0.65 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f5fcf9e-4557-48e3-a350-6aa6d9d99f4f")
+	)
+	(pad "6" smd rect
+		(at 1.3 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b8500573-4c00-4523-97ae-224e684e4120")
+	)
+	(pad "7" smd rect
+		(at 1.95 2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "516e705c-8ad4-44c9-8dfb-395b7385679d")
+	)
+	(pad "8" smd rect
+		(at 1.95 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d247dbd3-5bc8-4dc0-88d3-efa59cf1d7cb")
+	)
+	(pad "9" smd rect
+		(at 1.3 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a92e521f-a758-4c85-ba9f-4db6781ef419")
+	)
+	(pad "10" smd rect
+		(at 0.65 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8af1a7b6-ffeb-4116-8a85-683c70449f84")
+	)
+	(pad "11" smd rect
+		(at 0 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "24a7a3e4-da75-4475-bb7a-2d9ee42ba4eb")
+	)
+	(pad "12" smd rect
+		(at -0.65 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "251e389a-f688-471c-9083-45fa1369b5d0")
+	)
+	(pad "13" smd rect
+		(at -1.3 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "19df97ca-1c9a-40af-96cf-55cf1f137257")
+	)
+	(pad "14" smd rect
+		(at -1.95 -2.8 90)
+		(size 1.4 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "1b57de3e-9abb-47c3-a2ca-3e6922282d2d")
+	)
+	(pad "15" smd rect
+		(at 0 0 180)
+		(size 4 2.65)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f53f739d-e2b1-4274-9c82-5184b36d2c29")
+	)
+	(embedded_fonts no)
+	(model "kicad-embed://TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.wrl"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 270)
+		)
+	)
+)
