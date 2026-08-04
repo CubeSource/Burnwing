@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.7,
-          "height": 1.0,
-          "width": 1.0
+          "drill": 0.0,
+          "height": 1.2,
+          "width": 1.2
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -78,28 +78,20 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|88852804|94640400|f2dfa19d-1567-4f17-8fd2-b1fbe39f09d6|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|99415600|86542800|12e932ee-48eb-47e1-8732-0a85fe527ef0|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "unconnected_items|100630600|84298400|F.Cu|4|614141c7-55e7-4b55-aa20-5b9254e78d10|f401767a-ee1f-4823-ac17-d695ed7cf124",
+          "unconnected_items|103859893|82278400|F.Cu|4|f401767a-ee1f-4823-ac17-d695ed7cf124|60765c7c-97f1-453e-9cb1-8e8e484af537",
           "Internally Connected"
         ],
         [
-          "unconnected_items|103876385|92447185|F.Cu|4|6c5aacfe-81dd-4ff7-ab38-71fca9b9a484|61aae397-01de-4ccb-8229-990ec99eed12",
+          "unconnected_items|103860600|90745385|F.Cu|4|bf83ae8f-33fb-4c74-b46b-0c5b8addb568|69063aa2-1834-4f85-a44f-9885f8ba8d11",
           "Internally Connected"
         ],
         [
-          "unconnected_items|104775000|94792800|F.Cu|4|4e374262-9363-47b0-bb78-acd9f2b954b4|adc26273-279c-4840-87cf-96fb042a80a0",
+          "unconnected_items|103876385|92447185|F.Cu|4|4345762b-1949-4e66-ac29-da50b5d8ae33|8415e32d-55b8-44d4-8e21-db1199d5985f",
           "Internally Connected"
         ],
         [
-          "unconnected_items|108482600|88798400|F.Cu|4|69063aa2-1834-4f85-a44f-9885f8ba8d11|7c4d7fe1-5ccf-42d8-826b-7334cc958be7",
-          ""
+          "unconnected_items|104775000|94742000|F.Cu|4|fcdcdfc8-7eaf-46d2-ac30-291cff41c020|adc26273-279c-4840-87cf-96fb042a80a0",
+          "Internally Connected"
         ]
       ],
       "meta": {
@@ -512,7 +504,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -997,7 +989,7 @@
         "uuid": "668c3a07-3236-4b27-b3a6-03c249258f7f"
       }
     ],
-    "used_designators": "TP1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
