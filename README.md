@@ -11,7 +11,13 @@ Burnwing is a burnwire development PCB.
 
 ## Renders
 
-![PCB Render Top](docs/Render_Top.png)
+### Top
+
+![Burnwing Rev 3.0 — top](Render-Top.jpg)
+
+### Bottom
+
+![Burnwing Rev 3.0 — bottom](Bot-Render.jpg)
 
 ## Additional Resources
 

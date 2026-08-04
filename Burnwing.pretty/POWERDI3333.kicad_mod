@@ -4,10 +4,10 @@
 	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -0.2522 -1.7174 270)
+		(at -0.2014 -1.9714 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "bcd360f5-7a52-409c-9dba-1f5b93c29e57")
+		(uuid "beef6f2b-f841-423f-8e5d-aa048e60921e")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "011fb2d9-3e8a-4b59-b6b8-cab8d174167e")
+		(uuid "337936e4-3066-4515-851b-5877c82917f1")
 		(effects
 			(font
 				(size 0.951626 0.951626)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "de19e5ba-3776-439b-b7f2-a54a1381b3ef")
+		(uuid "b8461c58-f1d5-4cb8-8c7c-23fc524bd455")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "167574d0-b2f5-402a-8408-61acd0f9aafa")
+		(uuid "ae57f446-716b-4227-8126-dcb1f978b4ff")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(at 0 0 270)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "0c37c22c-1f0d-43af-9e33-383086e6d66c")
+		(uuid "4a3fb27c-0548-4ea7-ad81-9f0ea8e412af")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5d5c8810-4071-4113-b378-623185f5e66c")
+		(uuid "c03cfb04-cd25-4d01-a51a-5dd58f3919d5")
 	)
 	(fp_line
 		(start -1.421 1.675)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e0ccf318-ed03-441d-8207-cc4bb41a09de")
+		(uuid "13939ea6-8e54-463c-a4cb-040c70e12273")
 	)
 	(fp_line
 		(start 1.929 -1.675)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "644efbc4-bc8a-4dcc-ab55-78abbdc9856e")
+		(uuid "2fee49d4-0c4f-4a08-962f-b62e14676d0c")
 	)
 	(fp_line
 		(start 1.929 1.675)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "475b9dc8-f75b-43fa-8cc9-2a116fd4bd88")
+		(uuid "c4f2ba7c-8ea8-49d6-a8d7-ff4f0a0fb833")
 	)
 	(fp_circle
 		(center -1.4224 -1.651)
@@ -119,7 +119,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "914e1217-5458-4177-a1cd-d5c13c4b2712")
+		(uuid "790a4133-b209-41c0-b8dc-7a326d5943e1")
 	)
 	(fp_poly
 		(pts
@@ -131,7 +131,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "dc2acee6-92c6-4679-b425-52ea7cd53ade")
+		(uuid "8fcb76a8-722f-4ece-b680-e21c6cdc44cd")
 	)
 	(fp_poly
 		(pts
@@ -143,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "75119613-65ec-4ca4-b412-1940075180ab")
+		(uuid "eed1984d-8cc4-4bdf-aa1b-b4c60edfcc22")
 	)
 	(fp_poly
 		(pts
@@ -155,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "ba3d4db7-e4d7-4bb9-87fa-bfb47600b255")
+		(uuid "328ac550-5b88-44b7-b585-0a4def7683c9")
 	)
 	(fp_poly
 		(pts
@@ -167,7 +167,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "0acb5665-6556-4067-b3e4-291da1f18d7a")
+		(uuid "9b0fd7c8-df35-4e62-b8f9-40166debe380")
 	)
 	(pad "1" smd rect
 		(at -1.446 -0.975)
@@ -176,7 +176,7 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "6de314da-8c6a-4b3d-a8c3-a0ef70c96b18")
+		(uuid "a71fa23e-d81f-4315-91ef-5b959f706201")
 	)
 	(pad "2" smd rect
 		(at -1.446 -0.325)
@@ -185,7 +185,7 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "daf37ad8-1faf-44ff-a633-f4180e0bbd04")
+		(uuid "b0dbfb95-3d78-46eb-aee2-245b4a62cfd2")
 	)
 	(pad "3" smd rect
 		(at -1.446 0.325)
@@ -194,7 +194,7 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "d814b5c9-d493-4d1c-aeef-d45fb9f2270b")
+		(uuid "67adbc4c-017c-4cc4-a701-b646186ac958")
 	)
 	(pad "4" smd rect
 		(at -1.446 0.975)
@@ -203,7 +203,7 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "3c449e3a-ee71-40ad-bb96-cb814b5ec766")
+		(uuid "4412c3cd-4879-4ba5-aea3-0df98e1d0934")
 	)
 	(pad "5678" smd rect
 		(at 1.004 0 270)
@@ -212,7 +212,7 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "0443f337-26ed-4180-a038-ef9c35b29f16")
+		(uuid "67ef9bb5-6a0e-48bc-840d-953e428146d8")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://VSON-8_3.3x3.3mm_P0.65mm_NexFET.wrl"

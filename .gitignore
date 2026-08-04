@@ -1,3 +1,6 @@
+# Internal design review reports (not published)
+PCB-Review-*.md
+
 # New Additions
 *-backups
 *auto_saved_files*
@@ -34,3 +37,4 @@ fp-info-cache
 
 # VSCode Local History extension
 .history/
+.history_trim/
