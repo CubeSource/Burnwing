@@ -11,13 +11,19 @@ Burnwing is a burnwire development PCB.
 
 ## Renders
 
+Rendered from `Burnwing.kicad_pcb` with [pcb2blender](https://github.com/30350n/pcb2blender) and Blender (Cycles).
+
 ### Top
 
-![Burnwing Rev 3.0 — top](<img width="1656" height="984" alt="Top-Render" src="https://github.com/user-attachments/assets/44578739-2cce-4fba-87a2-5dc1c881fcf4" />)
+![Burnwing Rev 3.0 — top](Top-Render.png)
 
 ### Bottom
 
-![Burnwing Rev 3.0 — bottom](<img width="1656" height="984" alt="Bot-Render" src="https://github.com/user-attachments/assets/92c8ea5a-b294-40ae-a831-4762f52ca5f1" />)
+![Burnwing Rev 3.0 — bottom](Bot-Render.png)
+
+### Isometric
+
+![Burnwing Rev 3.0 — isometric](ISO-Render.png)
 
 ## Additional Resources
 
