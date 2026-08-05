@@ -12844,7 +12844,7 @@
 		(dnp no)
 		(uuid "afad5943-0e25-4827-b426-c5e4ae48badf")
 		(property "Reference" "Burn2"
-			(at 26.67 179.705 0)
+			(at 26.67 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12863,7 +12863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:KEY-SMD_4P-L6.0-W6.0-P4.50-LS10.0"
+		(property "Footprint" "Burnwing:KEY-SMD_4P-L6.0-W6.0-P4.50-LS10.0"
 			(at 26.67 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -13183,7 +13183,7 @@
 		(dnp no)
 		(uuid "b4a808d2-b43f-43f9-953a-653ca80222ef")
 		(property "Reference" "Burn1"
-			(at 26.67 153.035 0)
+			(at 26.67 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13202,7 +13202,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:KEY-SMD_4P-L6.0-W6.0-P4.50-LS10.0"
+		(property "Footprint" "Burnwing:KEY-SMD_4P-L6.0-W6.0-P4.50-LS10.0"
 			(at 26.67 167.64 0)
 			(hide yes)
 			(show_name no)
