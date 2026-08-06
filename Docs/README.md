@@ -11,6 +11,10 @@ Burnwing is a burnwire development PCB.
 
 ## Renders
 
+### Isometric
+
+![Burnwing Rev 3.0 — isometric](ISO-Render.png)
+
 ### Top
 
 ![Burnwing Rev 3.0 — top](Top-Render.png)
@@ -18,10 +22,6 @@ Burnwing is a burnwire development PCB.
 ### Bottom
 
 ![Burnwing Rev 3.0 — bottom](Bot-Render.png)
-
-### Isometric
-
-![Burnwing Rev 3.0 — isometric](ISO-Render.png)
 
 ## Additional Resources
 
