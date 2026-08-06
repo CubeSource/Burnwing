@@ -1,13 +1,10 @@
 # Burnwing
-
-Burnwing is a burnwire development PCB.
+A dual-purpose engineering/flight model designed to assist in the development of thermal knife release mechanisms and testing of satellite deployables.
 
 ## Features
-
-* Dual-purpose engineering model/flight model to assist in the development of thermal knife release mechanisms and testing of deployables.
-    * Optionally, snap off the dev kit portion.
-* Powered by USB C with selectable current and voltage limits for easy testing or by picoblade/picolock connectors.
-* Default 5V, 1A 
+* The dev kit (engineering model) portion includes mouse bites, allowing it to be fully separated from the flight model.
+* USB C PD Powered with selectable current and voltage limits for easy testing. Default 5V, 1A
+* Integrated ESD, Over Temperature, Over Current and Reverse Polarity Protection.
 
 ## Renders
 
