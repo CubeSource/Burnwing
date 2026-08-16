@@ -7,7 +7,7 @@
 		(at -1.8524 -1.1332 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "4509227b-8e04-4728-81b6-92aba905ae2d")
+		(uuid "5f34698f-a4fe-4a41-aafc-06312bf67d9d")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cbdd132a-7e4b-4a28-8abd-a0ac51d93d8e")
+		(uuid "40df633e-29f7-458f-a3f3-04ca8c2505c7")
 		(effects
 			(font
 				(size 0.951626 0.951626)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b50995b8-c99b-412d-931b-5e7a5f81114b")
+		(uuid "69ab5e28-76c1-49fb-92dc-477dd7ef2426")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "c42feb1c-5376-476e-bb15-64bcb5ba9087")
+		(uuid "3dc93b25-2c42-4af8-994f-d09dac90ca20")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(at 0 0 270)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "61c500e8-e447-4df7-9ac2-9cffecd21cff")
+		(uuid "eee90d4d-e1fb-481c-9261-57a551b68db7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fc291e9a-0d92-4cc8-abe9-61c95554251f")
+		(uuid "9a16ce4c-1e6d-4654-9164-2ed3b2b889bd")
 	)
 	(fp_line
 		(start -1.421 1.675)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "12a0fd1c-5902-4d4f-b98a-73f4504253ef")
+		(uuid "f57d6e07-7806-4cbf-84e5-33df6f54efe4")
 	)
 	(fp_line
 		(start 1.929 -1.675)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "67e2c937-44e6-4337-bd01-e4496ee4225f")
+		(uuid "1ec04f73-e306-4b9c-918f-f31e1a93581a")
 	)
 	(fp_line
 		(start 1.929 1.675)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "165bff84-88f5-4bae-abff-48f565cb915d")
+		(uuid "79538d1b-d91e-4749-9d4c-705eb35da3df")
 	)
 	(fp_circle
 		(center -1.4224 -1.651)
@@ -119,7 +119,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "72492bc9-dc22-4b27-a6e2-b39f5bc95fe8")
+		(uuid "17e98c4a-ac3a-47e0-9978-46fd8ef22a99")
 	)
 	(fp_poly
 		(pts
@@ -131,7 +131,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "d02937a8-6e37-4423-89be-0e34e7b88c0e")
+		(uuid "c380c52b-c6bf-4320-9319-aca10841e4a5")
 	)
 	(fp_poly
 		(pts
@@ -143,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "6351c44a-00ae-4395-aa0d-122e30ad932e")
+		(uuid "d5c91802-1b5b-44f5-b327-a20d22d5c6ee")
 	)
 	(fp_poly
 		(pts
@@ -155,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "8fbb0667-3ea1-42a7-b7d8-7b0715137382")
+		(uuid "8908c91e-dc1d-40a4-84b1-1a9037f5ee9a")
 	)
 	(fp_poly
 		(pts
@@ -167,7 +167,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "47a86bc5-2759-4256-8588-fafe31e526c9")
+		(uuid "24c9c686-96cc-4c05-8b3a-5907b231f9ba")
 	)
 	(pad "1" smd rect
 		(at -1.446 -0.975)
@@ -187,7 +187,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "05460ad4-3021-4dd7-a1fb-ed99ae3255a7")
+		(uuid "7a4eb414-9867-474c-919c-d0a27eaba858")
 	)
 	(pad "2" smd rect
 		(at -1.446 -0.325)
@@ -207,7 +207,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "acebe723-654e-402e-ae90-ca36aab2814a")
+		(uuid "37984a9a-ba5e-4cd7-8e96-d3c24fae4e00")
 	)
 	(pad "3" smd rect
 		(at -1.446 0.325)
@@ -227,7 +227,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "cc5c77f4-c07b-46ab-9d28-4bbba1e30507")
+		(uuid "3e173119-a85c-4de2-8aeb-5d37a4e6021b")
 	)
 	(pad "4" smd rect
 		(at -1.446 0.975)
@@ -247,7 +247,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b7214e69-3c53-4f5c-9b87-390e86f40467")
+		(uuid "f98a7dd3-3d03-4ed2-822e-72a5223c72a4")
 	)
 	(pad "5678" smd rect
 		(at 1.004 0 270)
@@ -266,10 +266,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d71ae3ce-6066-4103-baa1-fc7ace61645a")
+		(uuid "028f4899-3907-48ce-8291-890e71bbba65")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
+	(model "kicad-embed://VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
 		(offset
 			(xyz 0 0 0)
 		)

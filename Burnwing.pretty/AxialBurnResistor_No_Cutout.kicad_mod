@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "426f6b4f-d9eb-4e82-8c9e-e959d7b9e631")
+		(uuid "6b5336fc-9823-43e2-8d12-09006febb107")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(at 0 -2.5 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6ec188d9-de3c-4489-8138-f12f483c6fc0")
+		(uuid "1293c146-5cb7-4f42-90f1-65fe9ed53abf")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9d714676-9aa5-4002-ae94-6b5a9748a6ac")
+		(uuid "20283e5e-e839-4bf4-970b-3de0a74154af")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b80485dc-9639-45c9-8d90-bb35d1e53861")
+		(uuid "6c6296d2-35b8-45c7-beb2-0908a4795812")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "6b0c5d06-1803-414b-bf4b-aca406f0b977")
+		(uuid "2f3f7057-942e-4cd5-a3db-2ddf9079e4d4")
 	)
 	(fp_line
 		(start -7.4 1.85)
@@ -76,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "0f6fc831-ca9c-47be-8745-ed8091ebf7fc")
+		(uuid "2f5a5cd1-aacc-4997-8a1b-9e86ef113715")
 	)
 	(fp_line
 		(start 7.4 -1.85)
@@ -86,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "51fe2e81-3904-4a17-a85f-a1743c2e8c29")
+		(uuid "76db13dd-8664-44ca-9bff-249227429c5b")
 	)
 	(fp_line
 		(start 7.4 1.85)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "90a04778-8f06-4fec-9b69-6d52333a04fa")
+		(uuid "8801fd02-1ef5-4590-b6e3-e953bfe6e9e8")
 	)
 	(fp_line
 		(start -6.35 0)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "c4683832-5b83-48df-808a-9b7d5ac83da9")
+		(uuid "b9b82126-61a5-4fb7-8daf-43531d1f18db")
 	)
 	(fp_line
 		(start 4.5 0)
@@ -116,7 +116,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "13f4dc96-bc56-4977-805a-f516f16a0c97")
+		(uuid "6d90230b-c7ca-4cc0-8527-4ae7cf9955b3")
 	)
 	(fp_line
 		(start 6.35 0)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "91c1c3c8-eca8-4115-9684-54f4e75c28ae")
+		(uuid "194e063f-af26-4ce3-be84-a604b8e4a2cc")
 	)
 	(pad "1" thru_hole circle
 		(at -6.35 0)
@@ -146,7 +146,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1bd5724a-58ac-420c-a94e-c17e7efb63ae")
+		(uuid "693e5a00-4db6-47d8-8a82-8c1c2a8259e2")
 	)
 	(pad "1" thru_hole circle
 		(at -4.5 0)
@@ -166,7 +166,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "288fe459-4536-47d0-a8a1-1e870ff20d97")
+		(uuid "5da32ab9-0e3c-445a-92f6-ac192066123f")
 	)
 	(pad "2" thru_hole circle
 		(at 4.5 0)
@@ -186,7 +186,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "287d8130-ad71-40d5-8aa1-8ca910b3fe53")
+		(uuid "9d264666-97f7-49d3-8773-a0d430351dc5")
 	)
 	(pad "2" thru_hole circle
 		(at 6.35 0)
@@ -206,10 +206,10 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "5ea2f1f0-afa4-4704-9da1-3f20e1d7f5ad")
+		(uuid "35a53db9-21af-469c-a4d0-5d029791aa3d")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/packages3D/R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
+	(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"
 		(offset
 			(xyz -3.81 0 0)
 		)
