@@ -76,7 +76,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|115680800|82543700|67d9b129-c414-4b77-b7f2-0cefd6026511|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|115699500|100361200|4858c2fc-5eff-4c9b-bad4-3a44e9b7070e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|123620000|91458741|8459077b-588f-40d8-864d-83546f7f69b6|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -249,6 +262,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": true
@@ -659,7 +676,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BurnwingV2.step",
+      "step": "G:/My Drive/CubeSource/R&D/BurnWire/Burnwing Rev3/BurnwingV3.step",
       "svg": "",
       "vrml": ""
     },
