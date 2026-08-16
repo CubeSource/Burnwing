@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.25,
-          "width": 2.35
+          "height": 0.95,
+          "width": 0.975
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,18 +52,18 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 1.0,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|103859893|82278400|F.Cu|4|f401767a-ee1f-4823-ac17-d695ed7cf124|79896735-7aed-46dd-b435-d2db6d57282b",
-          "Internally Connected"
-        ],
-        [
-          "unconnected_items|103860600|90745385|F.Cu|4|bf83ae8f-33fb-4c74-b46b-0c5b8addb568|69063aa2-1834-4f85-a44f-9885f8ba8d11",
-          "Internally Connected"
-        ],
-        [
-          "unconnected_items|103876385|92447185|F.Cu|4|4345762b-1949-4e66-ac29-da50b5d8ae33|8415e32d-55b8-44d4-8e21-db1199d5985f",
-          "Internally Connected"
-        ],
-        [
-          "unconnected_items|104775000|94742000|F.Cu|4|cd9211cf-56db-41ae-9be3-1580b8f1bb2b|adc26273-279c-4840-87cf-96fb042a80a0",
-          "Internally Connected"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -994,7 +977,7 @@
         "uuid": "668c3a07-3236-4b27-b3a6-03c249258f7f"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R32-34,#PWR38,#PWR49",
     "variants": []
   },
   "sheets": [

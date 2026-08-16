@@ -9,7 +9,7 @@
 		(at -2.233985 0.0008 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "e4fdf050-4432-4a1d-b7dc-1edd95ebc4a0")
+		(uuid "8831be7b-dafb-4269-b1ca-b47c4ac4986e")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -18,9 +18,9 @@
 		)
 	)
 	(property "Value" "PWR"
-		(at -3.159107 0 180)
+		(at -3.159107 -0.0176 180)
 		(layer "F.SilkS")
-		(uuid "3fe26bf1-f40f-431e-8e3c-dea4c3eca9ad")
+		(uuid "d60aa368-1754-496c-a118-11dd6046465a")
 		(effects
 			(font
 				(size 0.75 0.75)
@@ -32,7 +32,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "56a5da79-a90e-4f50-9b8d-ed1647610b3d")
+		(uuid "62e265fc-b027-4e3c-bcfc-2a4698c4f65d")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5f7e652f-57ec-443d-9393-f9c8d483eec5")
+		(uuid "80dbdb24-c565-4a98-930e-ff58d10837c4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "586a7155-8c6a-4434-84b3-bc871676a669")
+		(uuid "25b66870-88f1-4d5a-a072-0a5d67ad359a")
 		(effects
 			(font
 				(size 1 1)
@@ -67,7 +67,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dfa2d825-fd88-4599-9bfc-f06506f9258f")
+		(uuid "23a71892-4c00-499d-ab76-ddc96dfdee7c")
 		(effects
 			(font
 				(size 1 1)
@@ -80,7 +80,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93b28380-5d6d-430d-be60-de195bb65e4f")
+		(uuid "3664bed6-3515-441e-ada6-bb64ca79ee5e")
 		(effects
 			(font
 				(size 1 1)
@@ -101,7 +101,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "68222284-e4ed-48a6-8481-4efd6ef670ab")
+		(uuid "f1e9ff03-bdf6-48e4-9bea-5e9727d61781")
 	)
 	(fp_line
 		(start -1.66 0.735)
@@ -111,7 +111,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "42b147c9-80ed-4d2b-94f5-666456411d66")
+		(uuid "4a9d13ed-effe-4292-a567-ba48cd84dab7")
 	)
 	(fp_line
 		(start 0.8 -0.735)
@@ -121,7 +121,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "694af875-1ff7-4c78-bcdf-e41c6447d031")
+		(uuid "e0fbf454-cce8-49d0-8bd7-51a63d35de40")
 	)
 	(fp_rect
 		(start -1.65 -0.73)
@@ -132,7 +132,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "2ff8a68a-b0bb-4f49-9a88-99064fca9e83")
+		(uuid "ea056f9c-9939-40f8-8048-90708265e0e6")
 	)
 	(fp_line
 		(start -0.8 -0.1)
@@ -142,7 +142,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6dc76e36-61b1-43bd-92b4-8732f0be3812")
+		(uuid "2f75a720-82bb-4944-a66e-9d9faa897209")
 	)
 	(fp_line
 		(start -0.8 0.4)
@@ -152,7 +152,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "597a8edf-9b9b-4f7a-a3e5-539b9ad0abcf")
+		(uuid "23a2c6eb-37ff-4abe-9f1e-1e4220f37d72")
 	)
 	(fp_line
 		(start -0.5 -0.4)
@@ -162,7 +162,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "749b8d13-997d-4eb0-8c58-b664eed45fc0")
+		(uuid "e5a8b5ad-bebc-492e-a42d-6c0b60094247")
 	)
 	(fp_line
 		(start 0.8 -0.4)
@@ -172,7 +172,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3630ae67-c1cf-4a8e-9bea-b90e9d71130c")
+		(uuid "c6717de7-626a-4dd8-9a6f-c98cdd773a81")
 	)
 	(fp_line
 		(start 0.8 0.4)
@@ -182,12 +182,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "269037de-3de5-4a79-bc5a-345ffa68aee9")
+		(uuid "627ec9d2-30a2-424a-b57a-7fda8a61a72c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
 		(layer "F.Fab")
-		(uuid "20bf9f6a-4a13-4f0f-8b12-29d2c8f4707e")
+		(uuid "8200822e-d7ef-40d5-a729-2997c9f74e29")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -200,14 +200,36 @@
 		(size 1.05 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "e02b74dc-2bc6-42b3-b6ba-fa4fa8b981e0")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "f3d9ceec-34f3-43d8-9e82-a0fcfb0380f3")
 	)
 	(pad "2" smd roundrect
 		(at 0.875 0)
 		(size 1.05 0.95)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "a16adadc-3f25-4648-9344-303bd32c1875")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "58fc6412-3623-4338-9f0f-55083a1105fc")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://LED_0603_1608Metric.step"

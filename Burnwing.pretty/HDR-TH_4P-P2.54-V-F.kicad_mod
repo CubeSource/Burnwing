@@ -7,7 +7,7 @@
 		(at -0.843141 3.782248 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3c533983-4acc-4b03-a2a6-6a197a9d153a")
+		(uuid "6d544e10-7e7e-4521-a678-dd23c000fe4e")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -18,7 +18,7 @@
 	(property "Value" "Conn_01x04_Socket"
 		(at 0 10.39 180)
 		(layer "F.Fab")
-		(uuid "5d96ab20-0ae8-415f-8aa3-5d02b9907db7")
+		(uuid "5613771b-2196-4f89-8b28-892e47b3dbc3")
 		(effects
 			(font
 				(size 1 1)
@@ -30,7 +30,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f430ee83-b284-4404-999f-38e5f3b5ca06")
+		(uuid "360d92f5-b868-4f97-8546-0977df906633")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a34a033c-34ba-42a5-ac7a-7e5e644de99e")
+		(uuid "8438fc26-5e31-4fa2-9e31-8a606f3dd2c1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,7 +52,7 @@
 		(at 0 0 180)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9481d1b7-4eff-447b-a22d-9ba2cfd8f564")
+		(uuid "dc65a4a5-838e-4e6e-ac94-bd5554a427e5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,7 +64,7 @@
 		(at 0 0 180)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "1ce487da-3c8a-41b9-aa68-51db957aa26e")
+		(uuid "e60b0f49-bbb1-4b30-8bcc-536852e9813e")
 		(effects
 			(font
 				(size 1 1)
@@ -86,7 +86,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "79dfc332-5870-4c43-bc00-196f289b55a0")
+		(uuid "e7969409-d55c-4bc8-a081-c278811dd6b8")
 	)
 	(fp_line
 		(start -5.25 -1.25)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f436e473-97c0-41b9-af19-00191083eb23")
+		(uuid "5caf8e21-4503-4ee0-966a-5c53be081cf2")
 	)
 	(fp_line
 		(start -5.25 1.25)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "7173f3e4-dd62-4c91-a8e3-a84eaef81476")
+		(uuid "409cf149-20d2-460f-b376-aceadd1ca152")
 	)
 	(fp_line
 		(start 5.25 -1.25)
@@ -116,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "64cb38c0-a769-4b2d-928f-a57da7e56024")
+		(uuid "c06dfdb5-ab26-4197-850d-d0a07e7ec9f4")
 	)
 	(fp_line
 		(start 5.25 1.25)
@@ -126,12 +126,12 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "df5484fc-79fe-413e-bebc-4ce5191edca0")
+		(uuid "18422126-348f-40fd-9773-b01100312572")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.81 90)
 		(layer "F.Fab")
-		(uuid "63e62789-4cc6-4b79-ad5f-9c007bb784a2")
+		(uuid "3b0bb976-1a46-4d3c-be58-1dc1c2161056")
 		(effects
 			(font
 				(size 1 1)
@@ -145,7 +145,18 @@
 		(drill 1.100024)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "60e879b4-05ff-4365-a99e-6913a3c3eb5a")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "73a91fad-0a85-4a9c-bcc6-74da1d51d21e")
 	)
 	(pad "2" thru_hole circle
 		(at -1.27 0)
@@ -153,7 +164,18 @@
 		(drill 1.100024)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "cdf967b3-1a34-4ee8-9cf8-5960a7c66a8c")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "1a89f7f1-bd5a-4085-973b-d0ef456dbf0f")
 	)
 	(pad "3" thru_hole circle
 		(at 1.27 0)
@@ -161,7 +183,18 @@
 		(drill 1.100024)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "57c5fbd0-af25-4795-803c-1b819ba0a429")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "420cdeb2-e521-459f-bcbf-f9702660a083")
 	)
 	(pad "4" thru_hole circle
 		(at 3.81 0)
@@ -170,7 +203,18 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(zone_connect 2)
-		(uuid "d94568a8-6476-47ad-acf1-99915b92afa8")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c8116717-1ebb-4f08-8d6a-6bc4befb8a3e")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://HDR-TH_4P-P2.54-V-F.wrl"

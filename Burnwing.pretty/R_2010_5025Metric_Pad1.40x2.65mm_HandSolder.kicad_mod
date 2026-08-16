@@ -2,13 +2,14 @@
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
+	(locked yes)
 	(layer "F.Cu")
 	(descr "Resistor SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 	(tags "resistor handsolder")
 	(property "Reference" "REF**"
-		(at 0.004309 2.338 0)
+		(at 0.002109 2.3126 0)
 		(layer "F.SilkS")
-		(uuid "ca61d3b7-5430-46c5-b075-32bc4fe83e85")
+		(uuid "93c4724c-ed63-4218-aabf-08f435110365")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +21,7 @@
 	(property "Value" "R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 		(at -0.378891 0.0266 0)
 		(layer "F.Fab")
-		(uuid "33e6f660-91c3-4194-9040-6995753dea0a")
+		(uuid "2a99b6ce-1fef-489a-8b2e-6eae85d3fef2")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1f255157-32f1-47c4-99e5-cedc8a547455")
+		(uuid "4160f77e-4d73-4c4c-9982-658e9b762d11")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "2c724c0e-0be9-4f16-b30c-c50dd98ab213")
+		(uuid "070b77f7-b7dc-4545-acdc-826172dca755")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "7437aca0-6ab3-4bbc-8c0c-f3d4ff5f6573")
+		(uuid "b4a92875-36e9-4109-a861-bc814731a06a")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "30a5ff6e-24ea-4f7c-bba1-f0a2da5ced33")
+		(uuid "a08752a4-6e3e-44f8-b83e-e90823b59ae2")
 	)
 	(fp_line
 		(start -1.527064 1.36)
@@ -82,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "a2cbad02-796d-44f0-816d-e6eabd2a9f08")
+		(uuid "4f7110ff-7266-4e74-89fb-cdc74fab3dea")
 	)
 	(fp_rect
 		(start -3.35 -1.58)
@@ -93,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "4208abb7-b264-4fb2-b533-27b96a9e908c")
+		(uuid "b82e5d5d-6acf-4c6a-9eb6-a7f8338e5b64")
 	)
 	(fp_rect
 		(start -2.5 -1.25)
@@ -104,12 +105,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "786f5ae2-794a-442c-8718-6ac98c1a5456")
+		(uuid "7a4901d6-cb0d-45d7-9700-f72f7aaf92c5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "0c1e4e39-35ed-453f-89c2-9ccae8967367")
+		(uuid "e3ff8be4-d8fb-41b3-899b-4809ca890b25")
 		(effects
 			(font
 				(size 1 1)
@@ -122,14 +123,36 @@
 		(size 1.4 2.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.178571)
-		(uuid "62627eed-f7e1-4dd4-8adf-92b40be5c136")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "c43bab3a-3bd7-4ded-95cf-df4fef9af960")
 	)
 	(pad "2" smd roundrect
 		(at 2.4 0)
 		(size 1.4 2.65)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.178571)
-		(uuid "04003953-b528-4107-a687-f28be2dac93e")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "18718452-1659-45dc-9cb0-824ec3a9b601")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://R_2010_5025Metric.step"

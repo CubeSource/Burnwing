@@ -1,4 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "Burnwing") (type "KiCad") (uri "${KICAD_3RD_PARTY}/Burnwing.pretty") (options "") (descr ""))
+	(lib (name "Burnwing") (type "KiCad") (uri "${KIPRJMOD}/Burnwing.pretty") (options "") (descr "Burnwing project footprints (non-standard parts)"))
 )

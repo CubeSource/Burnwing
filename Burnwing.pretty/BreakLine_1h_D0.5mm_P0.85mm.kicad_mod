@@ -1,0 +1,88 @@
+(footprint "BreakLine_1h_D0.5mm_P0.85mm"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Break line, 1 hole/ 0.85mm")
+	(tags "mousebite break line edge stamp")
+	(property "Reference" "REF**"
+		(at 0 -0.5 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "17e14448-fb87-4358-8dce-f2615adbc791")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BreakLine_1h_D0.5mm_P0.85mm"
+		(at 0 0.5 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6559d862-db29-40ef-8d50-af1c23364120")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0412268b-3f4c-48b8-9676-437b366be7fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f82d3c7d-6e2e-4d9f-b7c7-adf232350b7d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom dnp)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.425 -0.35)
+		(end 0.425 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "937aa8e0-85ea-4583-965f-4e86d32f581c")
+	)
+	(fp_rect
+		(start -0.425 -0.35)
+		(end 0.425 0.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ef2ef718-fb5b-4478-868a-ddc2c7f830cb")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.5 0.5)
+		(drill 0.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a6b17d94-6dd0-40ca-a0aa-d2cbb5c87a5f")
+	)
+	(embedded_fonts no)
+)

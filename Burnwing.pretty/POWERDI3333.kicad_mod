@@ -7,7 +7,7 @@
 		(at -1.8524 -1.1332 270)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "471e446c-6be3-462c-8686-7f7195ba7da7")
+		(uuid "4509227b-8e04-4728-81b6-92aba905ae2d")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -22,7 +22,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ed0995c-3c79-4685-afa5-6b72ef6d55c6")
+		(uuid "cbdd132a-7e4b-4a28-8abd-a0ac51d93d8e")
 		(effects
 			(font
 				(size 0.951626 0.951626)
@@ -35,7 +35,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d5c59434-3f64-4eb3-9ca9-c97e73eee52a")
+		(uuid "b50995b8-c99b-412d-931b-5e7a5f81114b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -47,7 +47,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "e3c8e3e5-ba11-4272-aef4-6439138bd94b")
+		(uuid "c42feb1c-5376-476e-bb15-64bcb5ba9087")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(at 0 0 270)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "498bdcca-cfbb-44c8-879b-333485911b68")
+		(uuid "61c500e8-e447-4df7-9ac2-9cffecd21cff")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -78,7 +78,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d795cacf-9703-4ce1-acfa-40fdee10755e")
+		(uuid "fc291e9a-0d92-4cc8-abe9-61c95554251f")
 	)
 	(fp_line
 		(start -1.421 1.675)
@@ -88,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "05762895-6eb1-4aa8-aaaf-99e61a8abc63")
+		(uuid "12a0fd1c-5902-4d4f-b98a-73f4504253ef")
 	)
 	(fp_line
 		(start 1.929 -1.675)
@@ -98,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "ba504c5f-6115-4e1a-bcd4-608c68a5def0")
+		(uuid "67e2c937-44e6-4337-bd01-e4496ee4225f")
 	)
 	(fp_line
 		(start 1.929 1.675)
@@ -108,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b792e778-790e-4a39-a903-795142e82908")
+		(uuid "165bff84-88f5-4bae-abff-48f565cb915d")
 	)
 	(fp_circle
 		(center -1.4224 -1.651)
@@ -119,7 +119,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "93d53ed5-175f-49f3-ac14-14ad341df259")
+		(uuid "72492bc9-dc22-4b27-a6e2-b39f5bc95fe8")
 	)
 	(fp_poly
 		(pts
@@ -131,7 +131,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "87fe712d-602e-498f-a58a-5f086dc3264b")
+		(uuid "d02937a8-6e37-4423-89be-0e34e7b88c0e")
 	)
 	(fp_poly
 		(pts
@@ -143,7 +143,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "6012409c-8c77-4e63-9359-b679c6cc3a81")
+		(uuid "6351c44a-00ae-4395-aa0d-122e30ad932e")
 	)
 	(fp_poly
 		(pts
@@ -155,7 +155,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "516a5da7-513b-471f-9c5c-0dc8dacbe26c")
+		(uuid "8fbb0667-3ea1-42a7-b7d8-7b0715137382")
 	)
 	(fp_poly
 		(pts
@@ -167,7 +167,7 @@
 		)
 		(fill yes)
 		(layer "F.Paste")
-		(uuid "c5648bf6-66d1-4ca7-bfac-fc49ca4cf865")
+		(uuid "47a86bc5-2759-4256-8588-fafe31e526c9")
 	)
 	(pad "1" smd rect
 		(at -1.446 -0.975)
@@ -176,7 +176,18 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "8580d0e1-02cb-463d-895e-47986bf8c94d")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "05460ad4-3021-4dd7-a1fb-ed99ae3255a7")
 	)
 	(pad "2" smd rect
 		(at -1.446 -0.325)
@@ -185,7 +196,18 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "ab21b9e5-e8c5-4eea-a0b8-44e7dd57dd05")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "acebe723-654e-402e-ae90-ca36aab2814a")
 	)
 	(pad "3" smd rect
 		(at -1.446 0.325)
@@ -194,7 +216,18 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "53cade37-12c6-41b2-ab48-e46a0fb82229")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "cc5c77f4-c07b-46ab-9d28-4bbba1e30507")
 	)
 	(pad "4" smd rect
 		(at -1.446 0.975)
@@ -203,19 +236,40 @@
 		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "ef1899ca-2f97-4918-8592-23873ffbc859")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "b7214e69-3c53-4f5c-9b87-390e86f40467")
 	)
 	(pad "5678" smd rect
 		(at 1.004 0 270)
 		(size 2.35 2.25)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(solder_mask_margin 0.0508)
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
-		(uuid "3e4aa942-bdc2-4095-9e49-afe0ffdfe98e")
+		(teardrops
+			(best_length_ratio 0.5)
+			(max_length 1)
+			(best_width_ratio 1)
+			(max_width 2)
+			(curved_edges no)
+			(filter_ratio 0.9)
+			(enabled yes)
+			(allow_two_segments yes)
+			(prefer_zone_connections yes)
+		)
+		(uuid "d71ae3ce-6066-4103-baa1-fc7ace61645a")
 	)
 	(embedded_fonts no)
-	(model "kicad-embed://VSON-8_3.3x3.3mm_P0.65mm_NexFET.wrl"
+	(model "${KIPRJMOD}/packages3D/VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
 		(offset
 			(xyz 0 0 0)
 		)
