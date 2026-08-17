@@ -10,15 +10,15 @@ A dual-purpose engineering/flight model designed to assist in the development of
 
 ### Isometric
 
-![Burnwing Rev 3.0 — isometric](ISO-Render.png)
+![Burnwing Rev 3.0 — isometric](0-ISO-Render.png)
 
 ### Top
 
-![Burnwing Rev 3.0 — top](Top-Render.png)
+![Burnwing Rev 3.0 — top](1-Top-Render.png)
 
 ### Bottom
 
-![Burnwing Rev 3.0 — bottom](Bot-Render.png)
+![Burnwing Rev 3.0 — bottom](2-Bot-Render.png)
 
 ## Additional Resources
 

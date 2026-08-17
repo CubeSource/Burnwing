@@ -5743,6 +5743,12 @@
 		(uuid "5be49d77-75c4-4416-ac8b-5b1a561b23e2")
 	)
 	(junction
+		(at 223.52 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6154e566-16b0-468f-867f-a164c66a3c65")
+	)
+	(junction
 		(at 127 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8986,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps709.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv709.pdf?ts=1786928765631"
 			(at 38.1 127 0)
 			(hide yes)
 			(show_name no)
@@ -12622,6 +12628,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 223.52 148.59 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "984ac480-9050-489c-b339-2e3f2fb04a80")
+		(property "Reference" "#FLG03"
+			(at 225.425 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 227.33 148.844 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 223.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30597522-8cf2-4b54-b366-c2fbe102fcc6")
+		)
+		(instances
+			(project "Burnwing"
+				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 50.8 0)
 		(unit 1)
@@ -13399,7 +13483,7 @@
 		(dnp no)
 		(uuid "b1cf39aa-569a-4509-a619-4fa26e9664fd")
 		(property "Reference" "U2"
-			(at 226.695 147.32 0)
+			(at 228.6 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15439,9 +15523,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc65f533-8580-44d9-a196-2909fde1614d")
@@ -15628,7 +15712,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://cdn-learn.adafruit.com/assets/assets/000/125/150/original/husb238_datasheet_full.pdf"
+		(property "Datasheet" "https://en.hynetek.com/uploadfiles/site/219/news/b038530d-67c0-4ba0-9269-de0e666cb35b.pdf"
 			(at 87.63 58.42 0)
 			(hide yes)
 			(show_name no)

@@ -981,7 +981,7 @@
         "uuid": "668c3a07-3236-4b27-b3a6-03c249258f7f"
       }
     ],
-    "used_designators": "R32-34,#PWR38,#PWR49",
+    "used_designators": "R32-34,#FLG3,#PWR38,#PWR49",
     "variants": []
   },
   "sheets": [
