@@ -8307,10 +8307,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "06226b14-a6e2-41a3-872f-22367a59e4b5")
 		(property "Reference" "R28"
 			(at 190.754 152.4 90)
@@ -8322,7 +8322,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 195.58 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8356,6 +8356,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 193.04 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C31850"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8401,7 +8412,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k5"
 			(at 86.36 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8444,7 +8455,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22808"
+		(property "LCSC" "C22843"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9469,7 +9480,7 @@
 				)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k5"
 			(at 68.58 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9512,7 +9523,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22808"
+		(property "LCSC" "C22843"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10543,10 +10554,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "51cd0f93-2dfb-4857-ab72-ffa2b397156e")
 		(property "Reference" "R27"
 			(at 183.134 152.4 90)
@@ -10558,7 +10569,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "22k"
 			(at 187.96 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10592,6 +10603,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 185.42 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C31850"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10686,7 +10708,11 @@
 		(pin "2"
 			(uuid "7f09c7bd-8ce3-4d83-afff-a84c9546ea94")
 		)
-		(instances
+		    (property "LCSC" "C23182"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "R32")
@@ -10774,7 +10800,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C94868"
+		(property "LCSC" "C2286"
 			(at 59.69 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -10888,7 +10914,11 @@
 		(pin "2"
 			(uuid "0590100c-f71e-4d97-95dc-12836c197431")
 		)
-		(instances
+		    (property "LCSC" "C563981"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "J5")
@@ -11550,7 +11580,11 @@
 		(pin "2"
 			(uuid "384b2057-3f36-4393-b23f-db43674990fa")
 		)
-		(instances
+		    (property "LCSC" "C98220"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "R23")
@@ -13008,7 +13042,11 @@
 		(pin "2"
 			(uuid "4ca3c517-8277-4cca-90f1-e2991057197e")
 		)
-		(instances
+		    (property "LCSC" "C98220"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "R26")
@@ -13117,7 +13155,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 82.55 182.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13151,6 +13189,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23138"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14319,7 +14368,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C94868"
+		(property "LCSC" "C2286"
 			(at 71.12 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15094,7 +15143,11 @@
 		(pin "2"
 			(uuid "de039c8d-7cdd-4657-9c1e-4459e27bcd85")
 		)
-		(instances
+		    (property "LCSC" "C563981"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "J6")
@@ -16144,7 +16197,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "330"
 			(at 82.55 190.5 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16178,6 +16231,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 82.55 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23138"
+			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16277,7 +16341,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C94868"
+		(property "LCSC" "C2286"
 			(at 88.9 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16456,7 +16520,11 @@
 		(pin "3"
 			(uuid "d8fce664-8e65-400d-b0ab-8b167d1d98cc")
 		)
-		(instances
+		    (property "LCSC" "C7430304"
+      (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (hide yes))
+    )
+    (instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "SW1")
@@ -16642,7 +16710,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "1k5"
 			(at 57.15 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16686,7 +16754,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C22808"
+		(property "LCSC" "C22843"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
