@@ -5548,7 +5548,7 @@
 		)
 		(uuid "5a4cd91e-7945-424e-9751-de8864e47a2d")
 	)
-	(text "Voltage (2-3)\n12V Off\n5V On"
+	(text "Voltage (1-4)\n12V Off\n5V On"
 		(exclude_from_sim no)
 		(at 151.13 59.69 0)
 		(effects
@@ -5590,7 +5590,7 @@
 		)
 		(uuid "7f85c249-3e88-474d-b450-88b5a0e45015")
 	)
-	(text "Current (1-4)\n2Amp Off\n1Amp On"
+	(text "Current (2-3)\n2Amp Off\n1Amp On"
 		(exclude_from_sim no)
 		(at 151.13 69.85 0)
 		(effects
@@ -5683,10 +5683,10 @@
 		(uuid "2409a245-6ce3-4d33-b07f-1f5d7e81dd48")
 	)
 	(junction
-		(at 142.24 66.04)
+		(at 127 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ba850f5-3a8a-400b-bbf6-4fbf85a50ca4")
+		(uuid "262f616b-a5f5-4d23-93c4-b2361a0b87ed")
 	)
 	(junction
 		(at 139.7 40.64)
@@ -5713,6 +5713,12 @@
 		(uuid "406fa44c-d5be-43fa-b4c9-8d9e2b67acab")
 	)
 	(junction
+		(at 142.24 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f459346-3dab-46fe-b7ef-1e5ed91a7c5e")
+	)
+	(junction
 		(at 17.78 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5737,6 +5743,12 @@
 		(uuid "5be49d77-75c4-4416-ac8b-5b1a561b23e2")
 	)
 	(junction
+		(at 127 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6731a26e-8661-4763-8ff8-11f753e8604c")
+	)
+	(junction
 		(at 26.67 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5753,6 +5765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84ef34ec-286a-4541-a681-b1899b759e5e")
+	)
+	(junction
+		(at 142.24 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c871440-15f9-4734-bf3e-62dfaa8a96d2")
 	)
 	(junction
 		(at 142.24 73.66)
@@ -5791,12 +5809,6 @@
 		(uuid "b7dea79c-7e57-4bf2-a8c7-f18a1d2cf53c")
 	)
 	(junction
-		(at 127 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b7fdbc10-7331-486c-9637-63dd76ec32de")
-	)
-	(junction
 		(at 17.78 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5833,12 +5845,6 @@
 		(uuid "cd4bad75-f26c-41a4-974c-6b6b6ad86dc9")
 	)
 	(junction
-		(at 142.24 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddecb9b9-577c-4f8b-86b1-6cb508e12982")
-	)
-	(junction
 		(at 31.75 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5855,12 +5861,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee89dd71-648f-465c-9642-dd6609ac68ab")
-	)
-	(junction
-		(at 127 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef129624-2efc-4adf-b264-914d95133748")
 	)
 	(junction
 		(at 68.58 45.72)
@@ -6585,6 +6585,16 @@
 			(type default)
 		)
 		(uuid "663e274f-73a0-40fc-8d80-f02dbd3bc6a3")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 142.24 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fa7713-be30-45da-93dc-87ddf4fa9c7a")
 	)
 	(wire
 		(pts
@@ -7448,6 +7458,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 63.5) (xy 142.24 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e29ba811-20ce-4740-b78e-04b66e721a80")
+	)
+	(wire
+		(pts
 			(xy 57.15 29.21) (xy 101.6 29.21)
 		)
 		(stroke
@@ -7455,16 +7475,6 @@
 			(type default)
 		)
 		(uuid "e3695eca-0446-4974-aa56-61bd7e2bef07")
-	)
-	(wire
-		(pts
-			(xy 142.24 63.5) (xy 142.24 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e634e78e-ca60-4cc4-9f0c-0b02e23e05ea")
 	)
 	(wire
 		(pts
@@ -7545,16 +7555,6 @@
 			(type default)
 		)
 		(uuid "f0ec1895-147d-4d09-a518-bc5a347c1516")
-	)
-	(wire
-		(pts
-			(xy 142.24 66.04) (xy 142.24 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f188be51-c283-40c4-84b3-69da35e33730")
 	)
 	(wire
 		(pts
@@ -16298,8 +16298,7 @@
 	)
 	(symbol
 		(lib_id "Burnwing:SW_DIP_x02")
-		(at 134.62 63.5 0)
-		(mirror x)
+		(at 134.62 66.04 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16309,7 +16308,7 @@
 		(dnp no)
 		(uuid "f9befdf6-97ed-4763-89ed-5d1684899416")
 		(property "Reference" "SW1"
-			(at 134.62 58.928 0)
+			(at 134.62 70.612 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16319,7 +16318,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x02"
-			(at 134.62 70.358 0)
+			(at 134.62 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16329,7 +16328,7 @@
 			)
 		)
 		(property "Footprint" "Burnwing:2_Dipswitch"
-			(at 134.62 63.5 0)
+			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16340,7 +16339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 63.5 0)
+			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16351,7 +16350,7 @@
 			)
 		)
 		(property "Description" "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"
-			(at 134.62 63.5 0)
+			(at 134.62 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
