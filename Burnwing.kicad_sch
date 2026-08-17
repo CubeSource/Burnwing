@@ -8701,7 +8701,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C881244"
+		(property "LCSC" "C125893"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -9853,7 +9853,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C100044"
+		(property "LCSC" "C141796"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -10198,7 +10198,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C100044"
+		(property "LCSC" "C141796"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -11580,7 +11580,7 @@
 		(pin "2"
 			(uuid "384b2057-3f36-4393-b23f-db43674990fa")
 		)
-		    (property "LCSC" "C98220"
+		    (property "LCSC" "C116677"
       (at 0 0 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
@@ -12313,7 +12313,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C100044"
+		(property "LCSC" "C141796"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -13042,7 +13042,7 @@
 		(pin "2"
 			(uuid "4ca3c517-8277-4cca-90f1-e2991057197e")
 		)
-		    (property "LCSC" "C98220"
+		    (property "LCSC" "C116677"
       (at 0 0 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
@@ -14848,7 +14848,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C100044"
+		(property "LCSC" "C141796"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
@@ -14938,7 +14938,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C881244"
+		(property "LCSC" "C125893"
 			(at 0 0 0)
 			(hide yes)
 			(show_name no)
