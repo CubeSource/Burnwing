@@ -1,6 +1,14 @@
 # Internal design review reports (not published)
 PCB-Review-*.md
 
+# Two-model review workspace (not published)
+.review/
+.gemini/
+
+# kicad-cli report artifacts
+*-erc.rpt
+*-drc.rpt
+
 # New Additions
 *-backups
 *auto_saved_files*
