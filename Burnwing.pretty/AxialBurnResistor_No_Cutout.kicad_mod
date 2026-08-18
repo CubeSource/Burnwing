@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "6b5336fc-9823-43e2-8d12-09006febb107")
+		(uuid "6e3c03b9-ca2f-41c4-9b7a-a63bf7faa818")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 		(at 0 -2.5 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1293c146-5cb7-4f42-90f1-65fe9ed53abf")
+		(uuid "54df8298-1747-4663-9162-50e10fda45fe")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "20283e5e-e839-4bf4-970b-3de0a74154af")
+		(uuid "3a2cfc6d-3b22-4fe7-bffe-0e1ec410afa5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "6c6296d2-35b8-45c7-beb2-0908a4795812")
+		(uuid "c6598755-9bc5-45ac-ad43-86ef505b8567")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,7 +66,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2f3f7057-942e-4cd5-a3db-2ddf9079e4d4")
+		(uuid "f162cf1d-ea19-41a6-8f24-a70f96b24521")
 	)
 	(fp_line
 		(start -7.4 1.85)
@@ -76,7 +76,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "2f5a5cd1-aacc-4997-8a1b-9e86ef113715")
+		(uuid "b06f7e3b-edbd-4b7c-abe4-a353d54c3716")
 	)
 	(fp_line
 		(start 7.4 -1.85)
@@ -86,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "76db13dd-8664-44ca-9bff-249227429c5b")
+		(uuid "f68ed330-ec8a-4cbc-b2de-bc6e4731eaa9")
 	)
 	(fp_line
 		(start 7.4 1.85)
@@ -96,7 +96,7 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "8801fd02-1ef5-4590-b6e3-e953bfe6e9e8")
+		(uuid "e5fcc785-9237-469e-87e3-4ea6b33a7a80")
 	)
 	(fp_line
 		(start -6.35 0)
@@ -106,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "b9b82126-61a5-4fb7-8daf-43531d1f18db")
+		(uuid "acbbba3f-f979-47a3-ac2f-ca164641ed92")
 	)
 	(fp_line
 		(start 4.5 0)
@@ -116,7 +116,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "6d90230b-c7ca-4cc0-8527-4ae7cf9955b3")
+		(uuid "b99a4226-fdac-4d09-bf1f-69f140c62c00")
 	)
 	(fp_line
 		(start 6.35 0)
@@ -126,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "194e063f-af26-4ce3-be84-a604b8e4a2cc")
+		(uuid "794136b5-30cd-457b-bb67-e26024f93f47")
 	)
 	(pad "1" thru_hole circle
 		(at -6.35 0)
@@ -146,7 +146,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "693e5a00-4db6-47d8-8a82-8c1c2a8259e2")
+		(uuid "cd9886b7-8017-45be-9128-789804de2857")
 	)
 	(pad "1" thru_hole circle
 		(at -4.5 0)
@@ -166,7 +166,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "5da32ab9-0e3c-445a-92f6-ac192066123f")
+		(uuid "e2da5cf5-3fdc-4faa-b330-e51ffc09e42e")
 	)
 	(pad "2" thru_hole circle
 		(at 4.5 0)
@@ -186,7 +186,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "9d264666-97f7-49d3-8773-a0d430351dc5")
+		(uuid "304596c9-7829-4ef4-a9fc-656d4551c618")
 	)
 	(pad "2" thru_hole circle
 		(at 6.35 0)
@@ -206,7 +206,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "35a53db9-21af-469c-a4d0-5d029791aa3d")
+		(uuid "6022f517-afb4-4fb2-8200-45ab115fa1c7")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal.step"

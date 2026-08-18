@@ -40,7 +40,7 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.4,
+          "height": 1.24,
           "width": 0.6
         },
         "silk_line_width": 0.1,
@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -691,7 +691,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -733,7 +733,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
@@ -823,10 +823,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -981,7 +981,7 @@
         "uuid": "668c3a07-3236-4b27-b3a6-03c249258f7f"
       }
     ],
-    "used_designators": "R32-34,#FLG3,#PWR38,#PWR49",
+    "used_designators": "R32-34,#FLG3,#PWR38,#PWR49,U4",
     "variants": []
   },
   "sheets": [

@@ -460,8 +460,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 20.32 0)
+			(property "Reference" "U2"
+				(at 5.08 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -471,7 +471,7 @@
 				)
 			)
 			(property "Value" "BTS7030-2EPA"
-				(at 7.874 11.43 0)
+				(at 8.128 11.684 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -515,6 +515,17 @@
 			)
 			(property "LCSC Part" "C534836"
 				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C534836"
+				(at -223.52 135.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -647,7 +658,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -5.08 -12.7 90)
+					(at -7.62 -12.7 90)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -719,7 +730,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -2.54 -12.7 90)
+					(at -5.08 -12.7 90)
 					(length 2.54)
 					(name "NC"
 						(effects
@@ -3611,14 +3622,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Burnwing:USB_C_CUSB31-CFM2AX-01-X"
+		(symbol "Burnwing:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "X1"
-				(at -1.29 17.78 0)
+			(property "Reference" "J2"
+				(at -1.27 17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3628,7 +3639,7 @@
 				)
 			)
 			(property "Value" "USB Type C"
-				(at -1.29 15.24 0)
+				(at -1.27 15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3637,7 +3648,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Burnwing:USB_C_CUSB31-CFM2AX-01-X"
+			(property "Footprint" "Burnwing:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 				(at 0.762 21.844 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3670,7 +3681,29 @@
 					)
 				)
 			)
-			(symbol "USB_C_CUSB31-CFM2AX-01-X_1_0"
+			(property "LCSC" "C2988369"
+				(at -4.826 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "GT-USB-7010ASV"
+				(at -20.32 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USB-C-SMD_G-SWITCH_GT-USB-7010ASV_1_0"
 				(polyline
 					(pts
 						(xy -8.92 5.156) (xy -8.12 5.956)
@@ -4147,23 +4180,23 @@
 				(pin passive line
 					(at -1.27 -15.24 90)
 					(length 2.54)
-					(name "MountPoint"
+					(name "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "MP"
+					(number "[1-4]"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
 				)
 			)
-			(symbol "USB_C_CUSB31-CFM2AX-01-X_1_1"
+			(symbol "USB-C-SMD_G-SWITCH_GT-USB-7010ASV_1_1"
 				(rectangle
 					(start -10.16 12.7)
 					(end 7.62 -12.7)
@@ -6094,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 49.53) (xy 40.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e66e604-2a36-47e3-ac88-4be9acf11fd6")
+	)
+	(wire
+		(pts
 			(xy 130.81 55.88) (xy 127 55.88)
 		)
 		(stroke
@@ -6111,16 +6154,6 @@
 			(type solid)
 		)
 		(uuid "216f8284-d25b-46e6-b925-3f2ab802c6a8")
-	)
-	(wire
-		(pts
-			(xy 39.37 49.53) (xy 39.37 50.8)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "21f8f488-bdaa-439e-9ca3-ac781717503d")
 	)
 	(wire
 		(pts
@@ -7114,6 +7147,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 49.53) (xy 40.64 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acd58f09-2f6b-4686-94a8-4963475bed2d")
+	)
+	(wire
+		(pts
 			(xy 181.61 135.89) (xy 193.04 135.89)
 		)
 		(stroke
@@ -7421,16 +7464,6 @@
 			(type default)
 		)
 		(uuid "dd47c461-3175-401c-bcb8-aa9fff6e9ac6")
-	)
-	(wire
-		(pts
-			(xy 36.83 49.53) (xy 39.37 49.53)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "de69cb25-18c5-4622-baf1-f337cbf176db")
 	)
 	(wire
 		(pts
@@ -8178,7 +8211,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Burnwing:USB_C_CUSB31-CFM2AX-01-X")
+		(lib_id "Burnwing:USB-C-SMD_G-SWITCH_GT-USB-7010ASV")
 		(at 26.67 39.37 0)
 		(unit 1)
 		(body_style 1)
@@ -8209,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Burnwing:USB_C_CUSB31-CFM2AX-01-X"
+		(property "Footprint" "Burnwing:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 			(at 27.432 17.526 0)
 			(hide yes)
 			(show_name no)
@@ -8243,7 +8276,18 @@
 			)
 		)
 		(property "LCSC" "C2988369"
-			(at 26.67 39.37 0)
+			(at 21.844 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "GT-USB-7010ASV"
+			(at 6.35 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8289,7 +8333,7 @@
 		(pin "B7"
 			(uuid "34263c66-1464-4590-a28a-8a32d222b809")
 		)
-		(pin "MP"
+		(pin "[1-4]"
 			(uuid "51711d89-238e-4584-84a9-67a8a4aa7233")
 		)
 		(instances
@@ -9152,7 +9196,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 50.8 0)
+		(at 40.64 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9162,7 +9206,7 @@
 		(dnp no)
 		(uuid "1d18a15a-e64e-4e4e-b6db-da227ea21222")
 		(property "Reference" "#PWR04"
-			(at 39.37 57.15 0)
+			(at 40.64 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,7 +9217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 54.864 0)
+			(at 40.64 63.754 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9183,7 +9227,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 50.8 0)
+			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9194,7 +9238,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 50.8 0)
+			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9249,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 50.8 0)
+			(at 40.64 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9715,7 +9759,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "391658c7-ac8f-4bc5-9767-04c1eb68116b")
 		(property "Reference" "H4"
@@ -9887,7 +9931,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "3d560f65-f8a7-42a3-a780-ab3558ca0159")
 		(property "Reference" "H8"
@@ -10702,17 +10746,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C144656"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1737b56d-1bbb-49b7-8d1f-d46a4747530e")
 		)
 		(pin "2"
 			(uuid "7f09c7bd-8ce3-4d83-afff-a84c9546ea94")
 		)
-		    (property "LCSC" "C144656"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "R32")
@@ -10893,6 +10944,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C563981"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "MP"
 			(uuid "8123df3c-e6d2-473c-8c8f-7c56ab1283fe")
 		)
@@ -10914,11 +10976,7 @@
 		(pin "2"
 			(uuid "0590100c-f71e-4d97-95dc-12836c197431")
 		)
-		    (property "LCSC" "C563981"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "J5")
@@ -11437,9 +11495,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "66ffc63a-9c27-4403-803a-4deae8bb52c4")
 		(property "Reference" "R13"
@@ -11574,17 +11632,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C116677"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "6a5fb6fc-cc5a-425a-9775-52aedeb0e98e")
 		)
 		(pin "2"
 			(uuid "384b2057-3f36-4393-b23f-db43674990fa")
 		)
-		    (property "LCSC" "C116677"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "R23")
@@ -11927,7 +11992,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7d7cbf87-7ac0-40f7-addc-facda913021f")
 		(property "Reference" "H1"
@@ -12006,7 +12071,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7e3ff1a9-654f-42de-adb7-10f912f738ae")
 		(property "Reference" "H5"
@@ -12347,7 +12412,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "87476062-12e1-4a11-86f5-43245d903cec")
 		(property "Reference" "H3"
@@ -13036,17 +13101,24 @@
 				)
 			)
 		)
+		(property "LCSC" "C116677"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b21a1534-3a96-4226-976e-93292e5c225a")
 		)
 		(pin "2"
 			(uuid "4ca3c517-8277-4cca-90f1-e2991057197e")
 		)
-		    (property "LCSC" "C116677"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "R26")
@@ -13063,7 +13135,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "a9b31911-860f-4f1b-bf00-fbd3420aa5fb")
 		(property "Reference" "H7"
@@ -13983,7 +14055,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b68cec5f-16c5-4bbe-a60c-5ca8ba08c8d1")
 		(property "Reference" "H2"
@@ -14060,9 +14132,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "b78c9fff-cd41-400f-a916-7374b186c2b5")
 		(property "Reference" "R12"
@@ -14222,7 +14294,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "bb0a8edc-706e-4eb6-bddd-19b43c5ce1bf")
 		(property "Reference" "H6"
@@ -15122,6 +15194,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C563981"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "MP"
 			(uuid "1907f326-f07a-4fb8-b6b8-32316d5f1ce3")
 		)
@@ -15143,11 +15226,7 @@
 		(pin "2"
 			(uuid "de039c8d-7cdd-4657-9c1e-4459e27bcd85")
 		)
-		    (property "LCSC" "C563981"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "J6")
@@ -16508,6 +16587,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7430304"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ff8a6a57-978b-4b53-bb94-f51723dc9b24")
 		)
@@ -16520,11 +16610,7 @@
 		(pin "3"
 			(uuid "d8fce664-8e65-400d-b0ab-8b167d1d98cc")
 		)
-		    (property "LCSC" "C7430304"
-      (at 0 0 0)
-      (effects (font (size 1.27 1.27)) (hide yes))
-    )
-    (instances
+		(instances
 			(project "Burnwing"
 				(path "/668c3a07-3236-4b27-b3a6-03c249258f7f"
 					(reference "SW1")

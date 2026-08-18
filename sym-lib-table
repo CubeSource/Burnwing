@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "Burnwing")(type "KiCad")(uri "${KIPRJMOD}/Burnwing.kicad_sym")(options "")(descr "Burnwing project symbols (non-standard parts)"))
+	(version 7)
+	(lib (name "Burnwing") (type "KiCad") (uri "${KIPRJMOD}/Burnwing.kicad_sym") (options "") (descr ""))
 )

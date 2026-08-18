@@ -9,7 +9,7 @@
 	(property "Reference" "REF**"
 		(at 0.002109 2.3126 0)
 		(layer "F.SilkS")
-		(uuid "9b21aedc-e639-4731-a91c-166f2eb0d127")
+		(uuid "25f49807-9853-4a69-8e3b-6fb49d836d48")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 	(property "Value" "R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
 		(at -0.378891 0.0266 0)
 		(layer "F.Fab")
-		(uuid "23e4b285-3a6c-4494-9b06-ed9444eed8e2")
+		(uuid "ec2c457e-d887-4973-a221-1b2ac3d2228f")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "be3af113-2458-403b-af64-2656ab4062e3")
+		(uuid "95f9cd6a-93c2-4de9-bf90-973c638273f5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "68314818-2d84-42b2-a4c3-a782f40c53c4")
+		(uuid "0afbebde-9c8c-4043-a088-a56acb35d2f7")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "8d2e4597-4e21-406e-8e65-9cb16901e884")
+		(uuid "15590fcb-6cf8-4de6-828c-0ec4d3103d39")
 		(effects
 			(font
 				(size 1 1)
@@ -73,7 +73,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "1b43a950-6618-462c-8acd-b68cf4daaa77")
+		(uuid "5e2813e4-2efa-4277-8ad9-c674df6eb16a")
 	)
 	(fp_line
 		(start -1.527064 1.36)
@@ -83,7 +83,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "df61e911-b9bc-4107-ae59-0fe07b111f66")
+		(uuid "a686b0fe-0a2a-44e2-a508-dcb5cf0df9c4")
 	)
 	(fp_rect
 		(start -3.35 -1.58)
@@ -94,7 +94,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "41f9ea04-bd22-416e-869b-657ce8821014")
+		(uuid "52d2fc6f-5c9a-4786-970e-f853aeae9611")
 	)
 	(fp_rect
 		(start -2.5 -1.25)
@@ -105,12 +105,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "92c9e373-8ba7-49ad-8680-c6dfac659e49")
+		(uuid "d16e5ef2-6539-4275-b7da-35e1f5d8f840")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "4f59a2b3-a0c6-4edc-89d2-923153169bb8")
+		(uuid "3b9023f4-fb64-43c9-b63c-3bd326115fe8")
 		(effects
 			(font
 				(size 1 1)
@@ -134,7 +134,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "3f6f630f-2978-4783-be01-0a7340d26dc4")
+		(uuid "070838c1-e0de-4690-b756-b84b635a52f1")
 	)
 	(pad "2" smd roundrect
 		(at 2.4 0)
@@ -152,7 +152,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "6a80baf2-dc1a-43ac-9535-5cf4a6a10768")
+		(uuid "e1796636-38af-49ce-a5af-02ea1b5fb1cb")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://R_2010_5025Metric.step"

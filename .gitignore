@@ -49,3 +49,6 @@ fp-info-cache
 # VSCode Local History extension
 .history/
 .history_trim/
+
+# Fab output package (generated)
+jlcpcb/
