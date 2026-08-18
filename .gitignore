@@ -4,6 +4,9 @@ PCB-Review-*.md
 # Two-model review workspace (not published)
 .review/
 .gemini/
+.agents/
+MORNING.md
+DUAL_MODEL_WORKFLOW_REVIEW.md
 
 # kicad-cli report artifacts
 *-erc.rpt
