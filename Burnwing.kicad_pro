@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.24,
-          "width": 0.6
+          "height": 0.4,
+          "width": 1.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,7 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 1.0,
+          "corner_radius": 0.6,
           "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -540,7 +540,7 @@
       {
         "name": "+3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgb(254, 0, 0)",
         "tuning_profile": "",
         "wire_width": 8
@@ -552,7 +552,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.6,
         "tuning_profile": "",
@@ -561,13 +561,21 @@
         "wire_width": 16
       },
       {
+        "name": "U2GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 0, 0)",
+        "tuning_profile": "",
+        "wire_width": 8
+      },
+      {
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "VBUS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgb(249, 0, 0)",
         "track_width": 0.8,
         "tuning_profile": "",
@@ -582,7 +590,7 @@
         "microvia_drill": 0.1,
         "name": "VDC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 1,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.8,
         "tuning_profile": "",
@@ -593,7 +601,7 @@
       {
         "name": "VIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(254, 0, 0)",
         "tuning_profile": "",
         "wire_width": 12
@@ -604,6 +612,9 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/U2GND": [
+        "U2GND"
+      ],
       "/VIN": [
         "VBUS"
       ]
@@ -981,7 +992,7 @@
         "uuid": "668c3a07-3236-4b27-b3a6-03c249258f7f"
       }
     ],
-    "used_designators": "R32-34,#FLG3,#PWR38,#PWR49,U4",
+    "used_designators": "R12-13,R32-34,#FLG3,#PWR11,#PWR18,#PWR38,#PWR49-50,U4,C7-12",
     "variants": []
   },
   "sheets": [
