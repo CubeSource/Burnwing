@@ -252,7 +252,7 @@
 	(pad "5678" smd rect
 		(at 1.004 0 270)
 		(size 2.35 2.25)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(solder_paste_margin 0)
 		(thermal_bridge_angle 0)
 		(teardrops
@@ -267,6 +267,34 @@
 			(prefer_zone_connections yes)
 		)
 		(uuid "f043de3a-2090-4f3e-b0f7-1335c1767094")
+	)
+	(pad "" smd roundrect
+		(at 0.379 -0.625 270)
+		(size 0.9 0.95)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e3b794c5-9fc9-5eff-af94-35e9768eb103")
+	)
+	(pad "" smd roundrect
+		(at 0.379 0.625 270)
+		(size 0.9 0.95)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0a9ff7ea-e89a-5a92-b84d-59ea5ce82c74")
+	)
+	(pad "" smd roundrect
+		(at 1.629 -0.625 270)
+		(size 0.9 0.95)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "df7e3281-6b00-5fcc-b363-2edb758cc1e2")
+	)
+	(pad "" smd roundrect
+		(at 1.629 0.625 270)
+		(size 0.9 0.95)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a7c1bcbb-1dfc-5bb5-96e7-4f78b5b41679")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://VSON-8_3.3x3.3mm_P0.65mm_NexFET.step"
