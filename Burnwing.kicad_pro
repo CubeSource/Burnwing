@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.4,
-          "width": 1.4
+          "height": 0.64,
+          "width": 0.715
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -76,12 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "net_conflict|142381600|91438741|266bec82-877b-40b6-9e96-8421aa7098e9|00000000-0000-0000-0000-000000000000",
-          "Should be internally unconnected."
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },

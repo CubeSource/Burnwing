@@ -461,7 +461,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U2"
-				(at 0 2.286 0)
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -473,7 +473,7 @@
 				)
 			)
 			(property "Value" "BTS7030-2EPA"
-				(at 0.254 -0.254 0)
+				(at 0.254 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -559,14 +559,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -577,14 +577,14 @@
 					(name "IN0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -595,14 +595,14 @@
 					(name "DEN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -613,14 +613,14 @@
 					(name "IS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -631,14 +631,14 @@
 					(name "DSEL"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -649,32 +649,32 @@
 					(name "IN1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at -11.43 -8.89 0)
 					(length 2.54)
 					(name "NC"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -685,14 +685,14 @@
 					(name "OUT1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -703,14 +703,14 @@
 					(name "OUT1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -721,14 +721,14 @@
 					(name "OUT1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -740,14 +740,14 @@
 					(name "NC"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 0.635 0.635)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -758,14 +758,14 @@
 					(name "OUT0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -776,14 +776,14 @@
 					(name "OUT0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -794,14 +794,14 @@
 					(name "OUT0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -812,14 +812,14 @@
 					(name "VS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -5460,7 +5460,7 @@
 	)
 	(text "FM Board\nPower + Trigger Signals"
 		(exclude_from_sim no)
-		(at 137.16 123.19 0)
+		(at 137.16 121.92 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -5566,7 +5566,7 @@
 	)
 	(text "Molex Picoblade\nor \nPico-Lock Connector\n"
 		(exclude_from_sim no)
-		(at 137.16 130.81 0)
+		(at 137.16 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7639,6 +7639,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 138.43) (xy 203.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b928b452-bd32-46e2-bbff-7be2858b99f2")
+	)
+	(wire
+		(pts
 			(xy 214.63 144.78) (xy 214.63 146.05)
 		)
 		(stroke
@@ -8649,16 +8659,7 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 203.2 138.43) (xy 203.2 140.97000000000003)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b928b452-bd32-46e2-bbff-7be2858b99f2")
-	)(symbol
+	(symbol
 		(lib_id "Burnwing:R")
 		(at 182.88 44.45 0)
 		(unit 1)
@@ -10549,9 +10550,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "3ea555d0-4b0c-4ecf-8e49-1c05d14836c4")
 		(property "Reference" "R31"
@@ -10644,7 +10645,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "3ec72167-58c8-478c-b9b3-3327c5c514ad")
 		(property "Reference" "J3"
@@ -12776,7 +12777,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C194427"
 			(at 259.08 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -13308,7 +13309,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "92bf90ef-76bd-4e4a-a2b6-9e9a69d406ed")
 		(property "Reference" "J1"
@@ -14186,7 +14187,7 @@
 		(dnp no)
 		(uuid "b1cf39aa-569a-4509-a619-4fa26e9664fd")
 		(property "Reference" "U2"
-			(at 214.63 129.794 0)
+			(at 214.63 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14198,7 +14199,7 @@
 			)
 		)
 		(property "Value" "BTS7030-2EPA"
-			(at 214.884 132.334 0)
+			(at 214.884 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14801,7 +14802,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "b7fbfaeb-43cd-4285-9188-c02dd922dc0a")
 		(property "Reference" "J4"
@@ -15195,7 +15196,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C368599"
 			(at 227.33 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -15779,7 +15780,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C95204"
+		(property "LCSC" "C116677"
 			(at 134.62 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -16794,13 +16795,13 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "e3cf16d7-04a6-4937-bc7e-e5363efa4dd7")
 		(property "Reference" "R20"
-			(at 24.765 107.95 90)
+			(at 24.13 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17021,7 +17022,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C85858"
 			(at 241.3 153.67 0)
 			(hide yes)
 			(show_name no)
