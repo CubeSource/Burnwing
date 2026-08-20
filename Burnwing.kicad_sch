@@ -5808,6 +5808,12 @@
 		(uuid "262f616b-a5f5-4d23-93c4-b2361a0b87ed")
 	)
 	(junction
+		(at 181.61 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2acbc91f-6149-4165-977b-6cc858dba355")
+	)
+	(junction
 		(at 139.7 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5848,12 +5854,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f1feb7-c709-4760-8fcf-09e70bc7daed")
-	)
-	(junction
-		(at 181.61 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a34bf78-1d76-4300-a4c0-0e14a7b8b951")
 	)
 	(junction
 		(at 214.63 146.05)
@@ -5902,6 +5902,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ef5f7b6-6819-4c46-8043-9b6dc8f34178")
+	)
+	(junction
+		(at 186.69 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f822b25-74ee-4c7d-88e5-493335232b7f")
 	)
 	(junction
 		(at 259.08 138.43)
@@ -6004,12 +6010,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf622c1-83a8-4b32-9a24-c80caeaa32ac")
-	)
-	(junction
-		(at 186.69 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2e56203-07e3-46c6-9c27-8baed8625c68")
 	)
 	(junction
 		(at 227.33 110.49)
@@ -8336,6 +8336,16 @@
 			(justify right bottom)
 		)
 		(uuid "d259282d-fc68-4eb2-b41a-54edeace870b")
+	)
+	(label "Net-(U2-IN1)"
+		(at 203.2 140.97 270)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify right bottom)
+		)
+		(uuid "e516967c-a84a-4d98-914b-0761e7e904f2")
 	)
 	(label "VIN"
 		(at 74.93 45.72 0)

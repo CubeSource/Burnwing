@@ -9,7 +9,7 @@
 		(at 0 -3.15 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b017ee5a-90e9-4268-a453-239fa77ddfbe")
+		(uuid "d13e3473-4ffa-4354-8215-3b7c669282d5")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -20,7 +20,7 @@
 	(property "Value" "MountingHole_Pad"
 		(at -0.059 4.1752 0)
 		(layer "F.Fab")
-		(uuid "6f2fa193-8fef-4154-a712-28446e487230")
+		(uuid "ffd3c2e4-6cac-438c-8e22-c5c67d480ebb")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5ba1e054-7cfc-41a0-bf8a-e09d92a0fa78")
+		(uuid "ea1bcbe1-5b45-40fa-950e-c706561dde86")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5944c7b1-f485-4d9c-a0a6-d248d566c8d8")
+		(uuid "44d3eae6-7131-440c-ba8e-42ef497c8e33")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,7 +54,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "81fdc63f-4d02-4850-a274-71b309ee1e76")
+		(uuid "706e886e-86f7-45d0-807d-66ed315bc91a")
 		(effects
 			(font
 				(size 1 1)
@@ -65,7 +65,7 @@
 	(property ki_fp_filters "MountingHole*Pad*")
 	(sheetname "/")
 	(sheetfile "Burnwing.kicad_sch")
-	(attr exclude_from_bom)
+	(attr exclude_from_pos_files exclude_from_bom)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
@@ -76,7 +76,7 @@
 		)
 		(fill no)
 		(layer "Cmts.User")
-		(uuid "d903aef5-0e4b-47d1-8add-bf176b0ed089")
+		(uuid "6981d321-c410-4cbd-bb5b-6fbbc21e5415")
 	)
 	(fp_circle
 		(center 0 0)
@@ -87,12 +87,12 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "698f61a8-d16b-40e6-9b6e-3a2b20aaad1b")
+		(uuid "03b06604-e595-4265-9d04-5e19558d085e")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "9c0712ae-3e2a-4beb-9db6-97199e4f2aa2")
+		(uuid "4d6c303f-5692-4f76-b778-46de47c2beb0")
 		(effects
 			(font
 				(size 1 1)
@@ -118,7 +118,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "1da6fc56-c0e6-4419-9940-7569809b84fe")
+		(uuid "ec9b543c-6b5d-4bd9-bc99-011f753c50a2")
 	)
 	(embedded_fonts no)
 )

@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -2.0047 -0.016585 0)
 		(layer "F.SilkS")
-		(uuid "8a579a32-7a93-427d-baf1-dbaac801b9e8")
+		(uuid "2d7d04ec-65f1-46e3-a708-5d91bc10da10")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -19,7 +19,7 @@
 	(property "Value" "1k5"
 		(at 0 1.43 0)
 		(layer "F.Fab")
-		(uuid "53ce6403-38a2-40b9-bae2-2ca606841cc3")
+		(uuid "4315284b-1a33-42a0-a7d3-4413aa7c3c66")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7a7d43ce-8818-4d29-8745-c55898305943")
+		(uuid "8dc973c2-63cc-4c01-9982-a02b4e88d460")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "996acb98-8de7-48b9-ab01-da5a69155be1")
+		(uuid "50b48628-a4e7-4827-a04f-b421fbd65c9e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,7 +53,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "96479050-6207-465b-9105-b66b5ea17e64")
+		(uuid "9d508e2d-51f5-4644-9fac-a128a15c2068")
 		(effects
 			(font
 				(size 1 1)
@@ -66,7 +66,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "21109780-dc0d-449a-8790-03aa180364d7")
+		(uuid "11d040ee-0d15-4b7a-ab79-cd6ec3e579df")
 		(effects
 			(font
 				(size 1 1)
@@ -87,7 +87,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b6eb8678-5eec-46ef-96e9-8da12ded7af3")
+		(uuid "69b3f49f-1876-4f44-bec2-95339000dea0")
 	)
 	(fp_line
 		(start -0.254724 0.5225)
@@ -97,7 +97,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6c942e89-eed7-4af8-bea9-020548800815")
+		(uuid "1ffdcaca-cf0a-4d9a-bcd8-69d399052a64")
 	)
 	(fp_rect
 		(start -1.65 -0.73)
@@ -108,7 +108,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "11e6a23a-7812-4d46-b0e6-5c990b6b2f0f")
+		(uuid "6987e3e7-419a-44ab-ba04-a7420e541ab4")
 	)
 	(fp_rect
 		(start -0.8 -0.4125)
@@ -119,12 +119,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "15750776-2c56-45d5-9644-3db65c0b75b6")
+		(uuid "bb4dad3a-c55c-441a-a2ff-145279201d3f")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "9ad27ca0-0f09-4c5b-bd2e-a026c3feb290")
+		(uuid "bb45c375-8f2b-4d66-bfcb-cf282def329b")
 		(effects
 			(font
 				(size 0.4 0.4)
@@ -148,7 +148,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "7610074a-8dc6-4ec6-a303-6ed573fba88a")
+		(uuid "afd6fb78-5fa5-47ea-bb12-fba6477c38c1")
 	)
 	(pad "2" smd roundrect
 		(at 0.9125 0)
@@ -166,7 +166,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "d7fe817e-b956-4057-87a1-d8c10d2ccf20")
+		(uuid "8dc903c3-70e8-4f93-af7d-7aaf35205678")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://R_0603_1608Metric.step"

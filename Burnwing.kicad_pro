@@ -76,7 +76,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "net_conflict|142381600|91438741|266bec82-877b-40b6-9e96-8421aa7098e9|00000000-0000-0000-0000-000000000000",
+          "Should be internally unconnected."
+        ]
+      ],
       "meta": {
         "version": 2
       },
