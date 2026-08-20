@@ -446,7 +446,7 @@
 	(pad "15" smd rect
 		(at 0 0 180)
 		(size 4 2.65)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(teardrops
 			(best_length_ratio 0.5)
 			(max_length 1)
@@ -459,6 +459,48 @@
 			(prefer_zone_connections yes)
 		)
 		(uuid "6c51a220-61e0-4964-9824-1a9491922c4e")
+	)
+	(pad "" smd roundrect
+		(at -1.425 -0.75 180)
+		(size 1.05 1.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "45bdba70-d526-5223-8e80-24bad54bd7b0")
+	)
+	(pad "" smd roundrect
+		(at -1.425 0.75 180)
+		(size 1.05 1.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "062fe2b9-6686-5783-b463-bc4629500c0b")
+	)
+	(pad "" smd roundrect
+		(at 0 -0.75 180)
+		(size 1.05 1.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "1f9ad1c9-0110-5ad4-b1cd-477727e9b311")
+	)
+	(pad "" smd roundrect
+		(at 0 0.75 180)
+		(size 1.05 1.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "31a83abd-2f35-51a7-900f-06666c96c033")
+	)
+	(pad "" smd roundrect
+		(at 1.425 -0.75 180)
+		(size 1.05 1.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e44a0130-f624-54c1-8f52-362cdc70bd9c")
+	)
+	(pad "" smd roundrect
+		(at 1.425 0.75 180)
+		(size 1.05 1.1)
+		(layers "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f2937ed1-cea5-5d05-9197-e00a8f2a977f")
 	)
 	(embedded_fonts no)
 	(model "kicad-embed://TSSOP-14_L5.0-W4.4-H1.0-LS6.4-P0.65.step"
