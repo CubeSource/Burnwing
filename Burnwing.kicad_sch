@@ -8337,16 +8337,6 @@
 		)
 		(uuid "d259282d-fc68-4eb2-b41a-54edeace870b")
 	)
-	(label "Net-(U2-IN1)"
-		(at 203.2 140.97 270)
-		(effects
-			(font
-				(size 0.6 0.6)
-			)
-			(justify right bottom)
-		)
-		(uuid "e516967c-a84a-4d98-914b-0761e7e904f2")
-	)
 	(label "VIN"
 		(at 74.93 45.72 0)
 		(fields_autoplaced yes)
@@ -8659,7 +8649,16 @@
 			)
 		)
 	)
-	(symbol
+	(wire
+		(pts
+			(xy 203.2 138.43) (xy 203.2 140.97000000000003)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b928b452-bd32-46e2-bbff-7be2858b99f2")
+	)(symbol
 		(lib_id "Burnwing:R")
 		(at 182.88 44.45 0)
 		(unit 1)
