@@ -52,3 +52,6 @@ fp-info-cache
 
 # Fab output package (generated)
 jlcpcb/
+
+# Tagged production output is tracked, overriding the *.csv rule above
+!release/**
