@@ -1,4 +1,4 @@
-# Burnwing Rev 3.0 — production files, rev3.3
+# Burnwing Rev 3.0 production files
 
 Fabrication and assembly output for the Burnwing Rev 3.0 board, generated from
 commit `caff272`.
