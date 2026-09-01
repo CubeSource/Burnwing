@@ -1,4 +1,4 @@
-# Burnwing Rev 3.0 — As-Built Production Files
+# Burnwing Rev 3.0 - As-Built Production Files
 
 The fabrication and assembly package used to build the Rev 3.0 boards. Five units were ordered on
 2026-08-24; the Gerber, BOM and placement files below are byte-for-byte the ones uploaded for that
@@ -6,7 +6,7 @@ build, so what is published here is what was manufactured.
 
 ![Burnwing Rev 3.0, as received](Burnwing-Rev3-as-built.jpg)
 
-*Received boards — bottom side above, populated top side below. The Engineering Model and Flight
+*Received boards - bottom side above, populated top side below. The Engineering Model and Flight
 Model sections are still joined by the mouse bites.*
 
 ---
@@ -36,9 +36,9 @@ Model (FM)** and a break-away **Engineering Model (EM)** test fixture.
 
 | File | Description |
 |---|---|
-| `GERBER-Burnwing-rev3.zip` | 9 Gerber layers, PTH/NPTH Excellon drill files and drill maps — 13 files |
-| `BOM-Burnwing-rev3.csv` | Assembly bill of materials — 27 line items, 25 distinct parts, 48 placements |
-| `CPL-Burnwing-rev3.csv` | Component placement list — 48 placements |
+| `GERBER-Burnwing-rev3.zip` | 9 Gerber layers, PTH/NPTH Excellon drill files and drill maps - 13 files |
+| `BOM-Burnwing-rev3.csv` | Assembly bill of materials - 27 line items, 25 distinct parts, 48 placements |
+| `CPL-Burnwing-rev3.csv` | Component placement list - 48 placements |
 | `Burnwing-Schematic-rev3.pdf` | Complete circuit schematic |
 | `Burnwing-rev3.step` | 3D CAD assembly model (do-not-populate parts excluded) |
 | `Burnwing-Rev3-as-built.jpg` | Photograph of the received boards |
@@ -62,8 +62,8 @@ under-supplies it.
 ## Read before reordering
 
 **The placement file carries orientation corrections and must be used as supplied.** Several parts
-sit at a different angle or offset in this file than in the raw board geometry — most importantly
-`U3`, which is rotated 90° — so that they match the assembler's part orientations. `J2`, `J5`, `J6`
+sit at a different angle or offset in this file than in the raw board geometry - most importantly
+`U3`, which is rotated 90° - so that they match the assembler's part orientations. `J2`, `J5`, `J6`
 and `Q1` carry smaller offsets for the same reason. Regenerating a plain position file from the
 board will mis-place all five.
 
@@ -96,7 +96,7 @@ filter match.
 
 ### As-built notes
 
-All six 0 Ω jumpers — `R14`, `R17`, `R18`, `R19`, `R21`, `R22` — were fitted with `C141796`, as
+All six 0 Ω jumpers - `R14`, `R17`, `R18`, `R19`, `R21`, `R22` - were fitted with `C141796`, as
 listed in the BOM above. The board's own LCSC field for `R14` and `R19` still reads `C100044`. Both
 are 0 Ω 0603 parts and the hardware is unaffected, but the field should be brought in line with the
 BOM before the next order.
